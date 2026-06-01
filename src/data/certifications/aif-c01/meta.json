@@ -1,0 +1,43 @@
+{
+    "id": "aif-c01",
+    "name": "AWS Certified AI Practitioner",
+    "code": "AIF-C01",
+    "description": "Chứng chỉ nền tảng về AI/ML và GenAI trên AWS",
+    "passingScore": 700,
+    "totalQuestions": 65,
+    "scoredQuestions": 50,
+    "unscoredQuestions": 15,
+    "duration": 90,
+    "domains": [
+        {
+            "id": 1,
+            "name": "Fundamentals of AI and ML",
+            "nameVi": "Kiến thức nền tảng về AI và ML",
+            "weight": 20
+        },
+        {
+            "id": 2,
+            "name": "Fundamentals of GenAI",
+            "nameVi": "Kiến thức nền tảng về GenAI",
+            "weight": 24
+        },
+        {
+            "id": 3,
+            "name": "Applications of Foundation Models",
+            "nameVi": "Ứng dụng của Foundation Models",
+            "weight": 28
+        },
+        {
+            "id": 4,
+            "name": "Guidelines for Responsible AI",
+            "nameVi": "Hướng dẫn AI có trách nhiệm",
+            "weight": 14
+        },
+        {
+            "id": 5,
+            "name": "Security, Compliance, and Governance for AI Solutions",
+            "nameVi": "Bảo mật, Tuân thủ và Quản trị cho Giải pháp AI",
+            "weight": 14
+        }
+    ]
+}

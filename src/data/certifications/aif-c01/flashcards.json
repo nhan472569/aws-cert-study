@@ -1,0 +1,1101 @@
+[
+    {
+        "id": "fc-001",
+        "domain": 1,
+        "front": {
+            "en": "What is Machine Learning (ML)?",
+            "vi": "Machine Learning (ML) là gì?"
+        },
+        "back": {
+            "en": "A subset of AI where systems learn from data to make predictions or decisions without being explicitly programmed. Types: supervised, unsupervised, reinforcement learning.",
+            "vi": "Một nhánh của AI trong đó hệ thống học từ dữ liệu để đưa ra dự đoán hoặc quyết định mà không cần lập trình rõ ràng. Các loại: học có giám sát, học không giám sát, học tăng cường."
+        },
+        "tags": [
+            "ML",
+            "AI",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-002",
+        "domain": 1,
+        "front": {
+            "en": "What is a Large Language Model (LLM)?",
+            "vi": "Mô hình ngôn ngữ lớn (LLM) là gì?"
+        },
+        "back": {
+            "en": "A type of AI model trained on massive text datasets to understand and generate human language. Examples: Claude, GPT-4, Amazon Titan.",
+            "vi": "Loại mô hình AI được huấn luyện trên tập dữ liệu văn bản khổng lồ để hiểu và tạo ra ngôn ngữ tự nhiên. Ví dụ: Claude, GPT-4, Amazon Titan."
+        },
+        "tags": [
+            "LLM",
+            "GenAI",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-003",
+        "domain": 1,
+        "front": {
+            "en": "What is supervised learning?",
+            "vi": "Học có giám sát là gì?"
+        },
+        "back": {
+            "en": "A type of ML where the model is trained on labeled data (input-output pairs). Examples: classification (spam detection), regression (price prediction).",
+            "vi": "Loại ML trong đó mô hình được huấn luyện trên dữ liệu có nhãn (cặp đầu vào-đầu ra). Ví dụ: phân loại (phát hiện spam), hồi quy (dự đoán giá)."
+        },
+        "tags": [
+            "supervised-learning",
+            "ML"
+        ]
+    },
+    {
+        "id": "fc-004",
+        "domain": 1,
+        "front": {
+            "en": "What is unsupervised learning?",
+            "vi": "Học không giám sát là gì?"
+        },
+        "back": {
+            "en": "A type of ML where the model finds hidden patterns in unlabeled data. Examples: clustering (customer segmentation), dimensionality reduction.",
+            "vi": "Loại ML trong đó mô hình tìm kiếm các mẫu ẩn trong dữ liệu không có nhãn. Ví dụ: phân cụm (phân khúc khách hàng), giảm chiều dữ liệu."
+        },
+        "tags": [
+            "unsupervised-learning",
+            "ML"
+        ]
+    },
+    {
+        "id": "fc-005",
+        "domain": 1,
+        "front": {
+            "en": "What is Amazon SageMaker AI?",
+            "vi": "Amazon SageMaker AI là gì?"
+        },
+        "back": {
+            "en": "AWS's fully managed ML platform covering the entire ML lifecycle: data labeling (Ground Truth), model training, tuning, deployment, and monitoring.",
+            "vi": "Nền tảng ML được quản lý hoàn toàn của AWS, bao phủ toàn bộ vòng đời ML: gán nhãn dữ liệu (Ground Truth), huấn luyện, điều chỉnh, triển khai và giám sát mô hình."
+        },
+        "tags": [
+            "SageMaker",
+            "AWS-service"
+        ]
+    },
+    {
+        "id": "fc-006",
+        "domain": 1,
+        "front": {
+            "en": "What is overfitting in ML?",
+            "vi": "Overfitting trong ML là gì?"
+        },
+        "back": {
+            "en": "When a model learns training data too well, including noise, causing poor generalization to new data. Solutions: regularization, cross-validation, more data, dropout.",
+            "vi": "Khi mô hình học quá kỹ dữ liệu huấn luyện kể cả nhiễu, dẫn đến khái quát kém với dữ liệu mới. Giải pháp: regularization, cross-validation, thêm dữ liệu, dropout."
+        },
+        "tags": [
+            "overfitting",
+            "ML",
+            "model-training"
+        ]
+    },
+    {
+        "id": "fc-007",
+        "domain": 1,
+        "front": {
+            "en": "What is a neural network?",
+            "vi": "Mạng nơ-ron là gì?"
+        },
+        "back": {
+            "en": "A computational model inspired by the brain, consisting of layers of interconnected nodes (neurons). Deep neural networks (DNNs) have many layers and power modern AI.",
+            "vi": "Mô hình tính toán lấy cảm hứng từ não bộ, gồm các lớp nút (nơ-ron) kết nối với nhau. Mạng nơ-ron sâu (DNN) có nhiều lớp và là nền tảng của AI hiện đại."
+        },
+        "tags": [
+            "neural-network",
+            "deep-learning"
+        ]
+    },
+    {
+        "id": "fc-008",
+        "domain": 1,
+        "front": {
+            "en": "What is Amazon Rekognition?",
+            "vi": "Amazon Rekognition là gì?"
+        },
+        "back": {
+            "en": "AWS service for image and video analysis using deep learning. Features: object detection, face recognition, text extraction from images, content moderation.",
+            "vi": "Dịch vụ AWS phân tích hình ảnh và video bằng deep learning. Tính năng: phát hiện đối tượng, nhận diện khuôn mặt, trích xuất văn bản từ hình ảnh, kiểm duyệt nội dung."
+        },
+        "tags": [
+            "Rekognition",
+            "AWS-service",
+            "computer-vision"
+        ]
+    },
+    {
+        "id": "fc-009",
+        "domain": 1,
+        "front": {
+            "en": "What is Amazon Comprehend?",
+            "vi": "Amazon Comprehend là gì?"
+        },
+        "back": {
+            "en": "AWS NLP service that uses ML to find insights in text. Features: sentiment analysis, entity recognition, key phrase extraction, language detection, topic modeling.",
+            "vi": "Dịch vụ NLP của AWS dùng ML để tìm insights trong văn bản. Tính năng: phân tích cảm xúc, nhận dạng thực thể, trích xuất cụm từ khóa, phát hiện ngôn ngữ, mô hình hóa chủ đề."
+        },
+        "tags": [
+            "Comprehend",
+            "AWS-service",
+            "NLP"
+        ]
+    },
+    {
+        "id": "fc-010",
+        "domain": 1,
+        "front": {
+            "en": "What is Amazon Textract?",
+            "vi": "Amazon Textract là gì?"
+        },
+        "back": {
+            "en": "AWS service that automatically extracts text and data from scanned documents. Goes beyond OCR to understand document structure: forms, tables, key-value pairs.",
+            "vi": "Dịch vụ AWS tự động trích xuất văn bản và dữ liệu từ tài liệu được quét. Vượt ra ngoài OCR để hiểu cấu trúc tài liệu: biểu mẫu, bảng, cặp khóa-giá trị."
+        },
+        "tags": [
+            "Textract",
+            "AWS-service",
+            "document-processing"
+        ]
+    },
+    {
+        "id": "fc-011",
+        "domain": 1,
+        "front": {
+            "en": "What is Amazon Transcribe?",
+            "vi": "Amazon Transcribe là gì?"
+        },
+        "back": {
+            "en": "AWS automatic speech recognition (ASR) service. Converts speech to text. Features: speaker identification, custom vocabulary, real-time transcription.",
+            "vi": "Dịch vụ nhận dạng giọng nói tự động (ASR) của AWS. Chuyển đổi giọng nói thành văn bản. Tính năng: nhận dạng người nói, từ vựng tùy chỉnh, phiên âm thời gian thực."
+        },
+        "tags": [
+            "Transcribe",
+            "AWS-service",
+            "speech-to-text"
+        ]
+    },
+    {
+        "id": "fc-012",
+        "domain": 1,
+        "front": {
+            "en": "What is Amazon Translate?",
+            "vi": "Amazon Translate là gì?"
+        },
+        "back": {
+            "en": "AWS neural machine translation service providing fast, high-quality language translation. Supports 75+ languages, custom terminology, real-time and batch translation.",
+            "vi": "Dịch vụ dịch máy thần kinh của AWS cung cấp bản dịch ngôn ngữ nhanh chóng, chất lượng cao. Hỗ trợ 75+ ngôn ngữ, thuật ngữ tùy chỉnh, dịch thời gian thực và theo lô."
+        },
+        "tags": [
+            "Translate",
+            "AWS-service",
+            "NLP"
+        ]
+    },
+    {
+        "id": "fc-013",
+        "domain": 2,
+        "front": {
+            "en": "What is Generative AI (GenAI)?",
+            "vi": "AI tạo sinh (GenAI) là gì?"
+        },
+        "back": {
+            "en": "A type of AI that can generate new content (text, images, audio, code) based on patterns learned from training data. Powered by foundation models like LLMs and diffusion models.",
+            "vi": "Loại AI có thể tạo ra nội dung mới (văn bản, hình ảnh, âm thanh, code) dựa trên các mẫu học từ dữ liệu huấn luyện. Được hỗ trợ bởi các foundation model như LLM và diffusion model."
+        },
+        "tags": [
+            "GenAI",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-014",
+        "domain": 2,
+        "front": {
+            "en": "What is a Foundation Model (FM)?",
+            "vi": "Foundation Model (FM) là gì?"
+        },
+        "back": {
+            "en": "Large AI models pre-trained on broad data at scale, adaptable to many downstream tasks via fine-tuning or prompting. Examples: Amazon Titan, Claude, Llama, Stable Diffusion.",
+            "vi": "Các mô hình AI lớn được tiền huấn luyện trên dữ liệu rộng lớn, có thể thích nghi với nhiều tác vụ khác nhau thông qua fine-tuning hoặc prompting. Ví dụ: Amazon Titan, Claude, Llama, Stable Diffusion."
+        },
+        "tags": [
+            "foundation-model",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-015",
+        "domain": 2,
+        "front": {
+            "en": "What is Amazon Bedrock?",
+            "vi": "Amazon Bedrock là gì?"
+        },
+        "back": {
+            "en": "Fully managed AWS service to build GenAI applications using foundation models from AWS and third parties (Anthropic, Meta, Mistral, Cohere) via a single API. No infrastructure management needed.",
+            "vi": "Dịch vụ AWS được quản lý hoàn toàn để xây dựng ứng dụng GenAI sử dụng các foundation model từ AWS và bên thứ ba (Anthropic, Meta, Mistral, Cohere) qua một API duy nhất. Không cần quản lý cơ sở hạ tầng."
+        },
+        "tags": [
+            "Bedrock",
+            "AWS-service",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-016",
+        "domain": 2,
+        "front": {
+            "en": "What is prompt engineering?",
+            "vi": "Prompt engineering là gì?"
+        },
+        "back": {
+            "en": "The practice of designing and refining input prompts to guide AI models to produce desired outputs. Techniques: zero-shot, few-shot, chain-of-thought, role prompting.",
+            "vi": "Thực hành thiết kế và tinh chỉnh các prompt đầu vào để hướng dẫn mô hình AI tạo ra đầu ra mong muốn. Kỹ thuật: zero-shot, few-shot, chain-of-thought, role prompting."
+        },
+        "tags": [
+            "prompt-engineering",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-017",
+        "domain": 2,
+        "front": {
+            "en": "What is RAG (Retrieval-Augmented Generation)?",
+            "vi": "RAG (Retrieval-Augmented Generation) là gì?"
+        },
+        "back": {
+            "en": "A technique that enhances LLM responses by retrieving relevant documents from a knowledge base and including them in the prompt context. Reduces hallucinations and keeps data current.",
+            "vi": "Kỹ thuật tăng cường phản hồi LLM bằng cách truy xuất các tài liệu liên quan từ knowledge base và đưa vào context của prompt. Giảm ảo giác và giữ dữ liệu luôn cập nhật."
+        },
+        "tags": [
+            "RAG",
+            "GenAI",
+            "Bedrock"
+        ]
+    },
+    {
+        "id": "fc-018",
+        "domain": 2,
+        "front": {
+            "en": "What is fine-tuning in the context of LLMs?",
+            "vi": "Fine-tuning trong bối cảnh LLM là gì?"
+        },
+        "back": {
+            "en": "Training a pre-trained foundation model on a smaller domain-specific dataset to adapt it for specific tasks. In Amazon Bedrock, Continued Pre-training and Fine-tuning are supported.",
+            "vi": "Huấn luyện một foundation model đã được tiền huấn luyện trên tập dữ liệu nhỏ hơn, đặc thù cho lĩnh vực cụ thể để thích nghi với các tác vụ cụ thể. Trong Amazon Bedrock, hỗ trợ Continued Pre-training và Fine-tuning."
+        },
+        "tags": [
+            "fine-tuning",
+            "GenAI",
+            "LLM"
+        ]
+    },
+    {
+        "id": "fc-019",
+        "domain": 2,
+        "front": {
+            "en": "What are tokens in LLMs?",
+            "vi": "Tokens trong LLM là gì?"
+        },
+        "back": {
+            "en": "The basic units of text that LLMs process. A token can be a word, part of a word, or punctuation. Context window = maximum tokens a model can process at once. Affects cost and capability.",
+            "vi": "Các đơn vị văn bản cơ bản mà LLM xử lý. Một token có thể là một từ, một phần của từ, hoặc dấu câu. Context window = số tokens tối đa mô hình có thể xử lý cùng lúc. Ảnh hưởng đến chi phí và khả năng."
+        },
+        "tags": [
+            "tokens",
+            "LLM",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-020",
+        "domain": 2,
+        "front": {
+            "en": "What is Amazon Titan?",
+            "vi": "Amazon Titan là gì?"
+        },
+        "back": {
+            "en": "AWS's own family of foundation models available through Amazon Bedrock. Includes Titan Text (text generation), Titan Embeddings (vector embeddings), and Titan Image Generator.",
+            "vi": "Gia đình foundation model của AWS có sẵn qua Amazon Bedrock. Gồm Titan Text (tạo văn bản), Titan Embeddings (vector embeddings), và Titan Image Generator."
+        },
+        "tags": [
+            "Titan",
+            "AWS-service",
+            "foundation-model"
+        ]
+    },
+    {
+        "id": "fc-021",
+        "domain": 2,
+        "front": {
+            "en": "What is hallucination in GenAI?",
+            "vi": "Ảo giác (hallucination) trong GenAI là gì?"
+        },
+        "back": {
+            "en": "When an AI model generates confident but factually incorrect or made-up information. Mitigation: RAG, grounding, prompt engineering, human review (Amazon A2I).",
+            "vi": "Khi mô hình AI tạo ra thông tin tự tin nhưng thực tế sai hoặc bịa đặt. Giảm thiểu: RAG, grounding, prompt engineering, đánh giá con người (Amazon A2I)."
+        },
+        "tags": [
+            "hallucination",
+            "GenAI",
+            "responsible-AI"
+        ]
+    },
+    {
+        "id": "fc-022",
+        "domain": 2,
+        "front": {
+            "en": "What is Amazon Polly?",
+            "vi": "Amazon Polly là gì?"
+        },
+        "back": {
+            "en": "AWS text-to-speech (TTS) service that converts text into lifelike speech. Supports multiple languages and voices. Uses neural TTS for natural-sounding output.",
+            "vi": "Dịch vụ chuyển văn bản thành giọng nói (TTS) của AWS, chuyển đổi văn bản thành giọng nói như thật. Hỗ trợ nhiều ngôn ngữ và giọng nói. Sử dụng neural TTS cho đầu ra tự nhiên."
+        },
+        "tags": [
+            "Polly",
+            "AWS-service",
+            "text-to-speech"
+        ]
+    },
+    {
+        "id": "fc-023",
+        "domain": 2,
+        "front": {
+            "en": "What is Amazon Lex?",
+            "vi": "Amazon Lex là gì?"
+        },
+        "back": {
+            "en": "AWS service for building conversational interfaces (chatbots) using voice and text. Uses the same deep learning as Alexa. Handles NLU, dialog management, and slot filling.",
+            "vi": "Dịch vụ AWS để xây dựng giao diện hội thoại (chatbot) bằng giọng nói và văn bản. Sử dụng deep learning giống Alexa. Xử lý NLU, quản lý hội thoại và slot filling."
+        },
+        "tags": [
+            "Lex",
+            "AWS-service",
+            "chatbot",
+            "NLU"
+        ]
+    },
+    {
+        "id": "fc-024",
+        "domain": 2,
+        "front": {
+            "en": "What is temperature in GenAI models?",
+            "vi": "Temperature trong các mô hình GenAI là gì?"
+        },
+        "back": {
+            "en": "A parameter controlling randomness/creativity of AI outputs. Low temperature (0-0.3) = deterministic, focused. High temperature (0.7-1.0) = creative, varied. Adjust based on use case.",
+            "vi": "Tham số kiểm soát tính ngẫu nhiên/sáng tạo của đầu ra AI. Temperature thấp (0-0.3) = xác định, tập trung. Temperature cao (0.7-1.0) = sáng tạo, đa dạng. Điều chỉnh theo trường hợp sử dụng."
+        },
+        "tags": [
+            "temperature",
+            "GenAI",
+            "inference-parameters"
+        ]
+    },
+    {
+        "id": "fc-025",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Bedrock Knowledge Bases?",
+            "vi": "Amazon Bedrock Knowledge Bases là gì?"
+        },
+        "back": {
+            "en": "A managed RAG feature in Bedrock that connects FMs to your data sources (S3, Confluence, etc.), automatically handles chunking, embedding, and vector storage for retrieval.",
+            "vi": "Tính năng RAG được quản lý trong Bedrock, kết nối các FM với nguồn dữ liệu của bạn (S3, Confluence, v.v.), tự động xử lý chunking, embedding và lưu trữ vector để truy xuất."
+        },
+        "tags": [
+            "Bedrock",
+            "knowledge-bases",
+            "RAG"
+        ]
+    },
+    {
+        "id": "fc-026",
+        "domain": 3,
+        "front": {
+            "en": "What are Amazon Bedrock Agents?",
+            "vi": "Amazon Bedrock Agents là gì?"
+        },
+        "back": {
+            "en": "Fully managed agents that use FMs to plan and execute multi-step tasks by calling APIs and using knowledge bases. Enable autonomous AI workflows with action groups.",
+            "vi": "Các agent được quản lý hoàn toàn sử dụng FM để lập kế hoạch và thực thi các tác vụ nhiều bước bằng cách gọi API và sử dụng knowledge base. Cho phép các quy trình làm việc AI tự động với các nhóm hành động."
+        },
+        "tags": [
+            "Bedrock",
+            "agents",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-027",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Kendra?",
+            "vi": "Amazon Kendra là gì?"
+        },
+        "back": {
+            "en": "AWS intelligent enterprise search service powered by ML. Provides natural language search across various data sources (S3, SharePoint, Salesforce). Used in RAG architectures.",
+            "vi": "Dịch vụ tìm kiếm doanh nghiệp thông minh của AWS được hỗ trợ bởi ML. Cung cấp tìm kiếm ngôn ngữ tự nhiên trên nhiều nguồn dữ liệu (S3, SharePoint, Salesforce). Được dùng trong kiến trúc RAG."
+        },
+        "tags": [
+            "Kendra",
+            "AWS-service",
+            "search",
+            "RAG"
+        ]
+    },
+    {
+        "id": "fc-028",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Personalize?",
+            "vi": "Amazon Personalize là gì?"
+        },
+        "back": {
+            "en": "AWS ML service for real-time personalization and recommendations. Same technology as Amazon.com. Use cases: product recommendations, content personalization, re-ranking.",
+            "vi": "Dịch vụ ML của AWS cho cá nhân hóa và gợi ý theo thời gian thực. Cùng công nghệ với Amazon.com. Trường hợp sử dụng: gợi ý sản phẩm, cá nhân hóa nội dung, xếp hạng lại."
+        },
+        "tags": [
+            "Personalize",
+            "AWS-service",
+            "recommendations"
+        ]
+    },
+    {
+        "id": "fc-029",
+        "domain": 3,
+        "front": {
+            "en": "What is vector embedding?",
+            "vi": "Vector embedding là gì?"
+        },
+        "back": {
+            "en": "A numerical representation (array of numbers) of data (text, images) in a high-dimensional space that captures semantic meaning. Similar items have similar vectors. Essential for RAG and semantic search.",
+            "vi": "Biểu diễn số (mảng số) của dữ liệu (văn bản, hình ảnh) trong không gian nhiều chiều, nắm bắt ý nghĩa ngữ nghĩa. Các mục tương tự có vector tương tự. Thiết yếu cho RAG và tìm kiếm ngữ nghĩa."
+        },
+        "tags": [
+            "embeddings",
+            "vector-search",
+            "RAG"
+        ]
+    },
+    {
+        "id": "fc-030",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Q?",
+            "vi": "Amazon Q là gì?"
+        },
+        "back": {
+            "en": "AWS's generative AI-powered assistant. Amazon Q Business: enterprise assistant for employees. Amazon Q Developer: coding assistant for developers (formerly CodeWhisperer).",
+            "vi": "Trợ lý AI tạo sinh được hỗ trợ bởi GenAI của AWS. Amazon Q Business: trợ lý doanh nghiệp cho nhân viên. Amazon Q Developer: trợ lý lập trình cho developers (trước đây là CodeWhisperer)."
+        },
+        "tags": [
+            "Amazon-Q",
+            "AWS-service",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-031",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Bedrock Guardrails?",
+            "vi": "Amazon Bedrock Guardrails là gì?"
+        },
+        "back": {
+            "en": "A Bedrock feature to implement safety policies for GenAI applications. Controls: content filtering, denied topics, word filters, PII redaction, grounding checks.",
+            "vi": "Tính năng Bedrock để triển khai chính sách an toàn cho ứng dụng GenAI. Kiểm soát: lọc nội dung, chủ đề bị từ chối, bộ lọc từ, che giấu PII, kiểm tra grounding."
+        },
+        "tags": [
+            "Bedrock",
+            "guardrails",
+            "responsible-AI"
+        ]
+    },
+    {
+        "id": "fc-032",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon A2I (Augmented AI)?",
+            "vi": "Amazon A2I (Augmented AI) là gì?"
+        },
+        "back": {
+            "en": "AWS service for building human review workflows into ML predictions. Used when confidence is low or for sensitive content requiring human validation. Integrates with Textract, Rekognition, and custom workflows.",
+            "vi": "Dịch vụ AWS để tích hợp quy trình đánh giá của con người vào các dự đoán ML. Dùng khi độ tin cậy thấp hoặc nội dung nhạy cảm cần xác nhận của con người. Tích hợp với Textract, Rekognition và quy trình tùy chỉnh."
+        },
+        "tags": [
+            "A2I",
+            "AWS-service",
+            "human-in-the-loop"
+        ]
+    },
+    {
+        "id": "fc-033",
+        "domain": 3,
+        "front": {
+            "en": "What is SageMaker JumpStart?",
+            "vi": "SageMaker JumpStart là gì?"
+        },
+        "back": {
+            "en": "A hub within SageMaker providing pre-built ML solutions, foundation models, and algorithms. Allows one-click deployment of models from Hugging Face, Meta, and others.",
+            "vi": "Trung tâm trong SageMaker cung cấp các giải pháp ML dựng sẵn, foundation model và thuật toán. Cho phép triển khai một cú nhấp chuột các mô hình từ Hugging Face, Meta và các nguồn khác."
+        },
+        "tags": [
+            "SageMaker",
+            "JumpStart",
+            "foundation-model"
+        ]
+    },
+    {
+        "id": "fc-034",
+        "domain": 3,
+        "front": {
+            "en": "What is model inference in GenAI?",
+            "vi": "Model inference trong GenAI là gì?"
+        },
+        "back": {
+            "en": "The process of using a trained model to generate outputs for new inputs. Key parameters: temperature, top-p (nucleus sampling), top-k, max tokens, stop sequences.",
+            "vi": "Quá trình sử dụng mô hình đã huấn luyện để tạo ra đầu ra cho đầu vào mới. Các tham số chính: temperature, top-p (nucleus sampling), top-k, max tokens, stop sequences."
+        },
+        "tags": [
+            "inference",
+            "GenAI",
+            "model-parameters"
+        ]
+    },
+    {
+        "id": "fc-035",
+        "domain": 3,
+        "front": {
+            "en": "What is a prompt template?",
+            "vi": "Prompt template là gì?"
+        },
+        "back": {
+            "en": "A reusable prompt structure with placeholders for dynamic content. In Bedrock, prompt management allows versioning and sharing of prompt templates across teams.",
+            "vi": "Cấu trúc prompt có thể tái sử dụng với các placeholder cho nội dung động. Trong Bedrock, quản lý prompt cho phép versioning và chia sẻ prompt template giữa các nhóm."
+        },
+        "tags": [
+            "prompt-template",
+            "GenAI",
+            "Bedrock"
+        ]
+    },
+    {
+        "id": "fc-036",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Bedrock Model Evaluation?",
+            "vi": "Amazon Bedrock Model Evaluation là gì?"
+        },
+        "back": {
+            "en": "A Bedrock feature to evaluate and compare FM performance on custom datasets. Supports automatic metrics (accuracy, toxicity) and human evaluation. Helps select the right model.",
+            "vi": "Tính năng Bedrock để đánh giá và so sánh hiệu suất FM trên tập dữ liệu tùy chỉnh. Hỗ trợ các metrics tự động (độ chính xác, độc tính) và đánh giá của con người. Giúp chọn mô hình phù hợp."
+        },
+        "tags": [
+            "Bedrock",
+            "model-evaluation",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-037",
+        "domain": 4,
+        "front": {
+            "en": "What is responsible AI?",
+            "vi": "AI có trách nhiệm là gì?"
+        },
+        "back": {
+            "en": "An approach ensuring AI systems are fair, explainable, privacy-preserving, safe, secure, transparent, and controllable. AWS's responsible AI pillars: fairness, explainability, privacy, robustness, governance, transparency.",
+            "vi": "Phương pháp đảm bảo hệ thống AI công bằng, có thể giải thích, bảo vệ quyền riêng tư, an toàn, bảo mật, minh bạch và có thể kiểm soát. Các trụ cột AI có trách nhiệm của AWS: công bằng, khả năng giải thích, quyền riêng tư, tính mạnh mẽ, quản trị, minh bạch."
+        },
+        "tags": [
+            "responsible-AI",
+            "ethics"
+        ]
+    },
+    {
+        "id": "fc-038",
+        "domain": 4,
+        "front": {
+            "en": "What is AI bias?",
+            "vi": "Thiên kiến AI (AI bias) là gì?"
+        },
+        "back": {
+            "en": "Systematic errors in AI outputs that create unfair outcomes for certain groups. Sources: biased training data, flawed algorithm design. Tool: Amazon SageMaker Clarify detects bias in data and models.",
+            "vi": "Lỗi hệ thống trong đầu ra AI tạo ra kết quả không công bằng cho một số nhóm nhất định. Nguồn gốc: dữ liệu huấn luyện có thiên kiến, thiết kế thuật toán sai sót. Công cụ: Amazon SageMaker Clarify phát hiện thiên kiến trong dữ liệu và mô hình."
+        },
+        "tags": [
+            "bias",
+            "responsible-AI",
+            "SageMaker-Clarify"
+        ]
+    },
+    {
+        "id": "fc-039",
+        "domain": 4,
+        "front": {
+            "en": "What is model explainability?",
+            "vi": "Khả năng giải thích mô hình (model explainability) là gì?"
+        },
+        "back": {
+            "en": "The ability to understand and explain why an AI model made a specific prediction. Tools: Amazon SageMaker Clarify (feature importance, SHAP values), SageMaker Model Cards.",
+            "vi": "Khả năng hiểu và giải thích tại sao mô hình AI đưa ra dự đoán cụ thể. Công cụ: Amazon SageMaker Clarify (tầm quan trọng của đặc trưng, giá trị SHAP), SageMaker Model Cards."
+        },
+        "tags": [
+            "explainability",
+            "responsible-AI",
+            "SageMaker"
+        ]
+    },
+    {
+        "id": "fc-040",
+        "domain": 4,
+        "front": {
+            "en": "What are the AWS AI service cards?",
+            "vi": "AWS AI Service Cards là gì?"
+        },
+        "back": {
+            "en": "Transparency documentation for AWS AI services that describe intended uses, limitations, responsible AI design choices, and performance across demographic groups.",
+            "vi": "Tài liệu minh bạch cho các dịch vụ AWS AI mô tả các trường hợp sử dụng dự kiến, hạn chế, các lựa chọn thiết kế AI có trách nhiệm và hiệu suất trên các nhóm nhân khẩu học."
+        },
+        "tags": [
+            "AI-service-cards",
+            "transparency",
+            "responsible-AI"
+        ]
+    },
+    {
+        "id": "fc-041",
+        "domain": 4,
+        "front": {
+            "en": "What is the EU AI Act and why does it matter for AWS customers?",
+            "vi": "EU AI Act là gì và tại sao nó quan trọng với khách hàng AWS?"
+        },
+        "back": {
+            "en": "EU regulation classifying AI systems by risk level (unacceptable, high, limited, minimal). AWS helps customers with compliance through governance tools, documentation, and responsible AI practices.",
+            "vi": "Quy định EU phân loại hệ thống AI theo mức độ rủi ro (không thể chấp nhận, cao, hạn chế, tối thiểu). AWS giúp khách hàng tuân thủ thông qua các công cụ quản trị, tài liệu và các thực hành AI có trách nhiệm."
+        },
+        "tags": [
+            "EU-AI-Act",
+            "compliance",
+            "responsible-AI"
+        ]
+    },
+    {
+        "id": "fc-042",
+        "domain": 4,
+        "front": {
+            "en": "What is data privacy in AI?",
+            "vi": "Quyền riêng tư dữ liệu trong AI là gì?"
+        },
+        "back": {
+            "en": "Protecting personal data used in AI training and inference. Techniques: differential privacy, federated learning, data anonymization. Amazon Macie: discovers and protects sensitive data in S3.",
+            "vi": "Bảo vệ dữ liệu cá nhân được sử dụng trong huấn luyện và suy luận AI. Kỹ thuật: differential privacy, federated learning, ẩn danh hóa dữ liệu. Amazon Macie: khám phá và bảo vệ dữ liệu nhạy cảm trong S3."
+        },
+        "tags": [
+            "privacy",
+            "Macie",
+            "responsible-AI"
+        ]
+    },
+    {
+        "id": "fc-043",
+        "domain": 4,
+        "front": {
+            "en": "What is adversarial AI / prompt injection?",
+            "vi": "Adversarial AI / prompt injection là gì?"
+        },
+        "back": {
+            "en": "Attacks designed to manipulate AI models: adversarial examples trick vision models; prompt injection inserts malicious instructions in user input to hijack LLM behavior. Mitigated by Bedrock Guardrails.",
+            "vi": "Các cuộc tấn công được thiết kế để thao túng mô hình AI: ví dụ adversarial đánh lừa mô hình thị giác; prompt injection chèn hướng dẫn độc hại vào đầu vào người dùng để chiếm quyền điều khiển LLM. Được giảm thiểu bởi Bedrock Guardrails."
+        },
+        "tags": [
+            "adversarial-AI",
+            "prompt-injection",
+            "security"
+        ]
+    },
+    {
+        "id": "fc-044",
+        "domain": 4,
+        "front": {
+            "en": "What is the human-in-the-loop approach?",
+            "vi": "Phương pháp human-in-the-loop là gì?"
+        },
+        "back": {
+            "en": "Incorporating human judgment at critical points in AI workflows, especially for high-stakes decisions or low-confidence predictions. AWS service: Amazon A2I (Augmented AI).",
+            "vi": "Tích hợp đánh giá của con người tại các điểm quan trọng trong quy trình AI, đặc biệt cho các quyết định quan trọng hoặc dự đoán có độ tin cậy thấp. Dịch vụ AWS: Amazon A2I (Augmented AI)."
+        },
+        "tags": [
+            "human-in-the-loop",
+            "A2I",
+            "responsible-AI"
+        ]
+    },
+    {
+        "id": "fc-045",
+        "domain": 4,
+        "front": {
+            "en": "What is SageMaker Model Cards?",
+            "vi": "SageMaker Model Cards là gì?"
+        },
+        "back": {
+            "en": "Documentation framework for ML models capturing: intended use, training details, evaluation results, ethical considerations, and limitations. Supports responsible AI governance.",
+            "vi": "Khung tài liệu cho mô hình ML ghi lại: mục đích sử dụng, chi tiết huấn luyện, kết quả đánh giá, cân nhắc đạo đức và hạn chế. Hỗ trợ quản trị AI có trách nhiệm."
+        },
+        "tags": [
+            "model-cards",
+            "SageMaker",
+            "governance"
+        ]
+    },
+    {
+        "id": "fc-046",
+        "domain": 5,
+        "front": {
+            "en": "What is AWS IAM in the context of AI security?",
+            "vi": "AWS IAM trong bối cảnh bảo mật AI là gì?"
+        },
+        "back": {
+            "en": "Identity and Access Management controls who can access AWS AI services and what actions they can perform. Use least privilege principle. Service roles allow SageMaker/Bedrock to access other AWS services.",
+            "vi": "Identity and Access Management kiểm soát ai có thể truy cập các dịch vụ AWS AI và những hành động họ có thể thực hiện. Sử dụng nguyên tắc đặc quyền tối thiểu. Service roles cho phép SageMaker/Bedrock truy cập các dịch vụ AWS khác."
+        },
+        "tags": [
+            "IAM",
+            "security",
+            "AWS"
+        ]
+    },
+    {
+        "id": "fc-047",
+        "domain": 5,
+        "front": {
+            "en": "What is Amazon Macie?",
+            "vi": "Amazon Macie là gì?"
+        },
+        "back": {
+            "en": "AWS security service using ML to automatically discover, classify, and protect sensitive data (PII, financial data) in Amazon S3. Important for AI data governance and compliance.",
+            "vi": "Dịch vụ bảo mật AWS sử dụng ML để tự động khám phá, phân loại và bảo vệ dữ liệu nhạy cảm (PII, dữ liệu tài chính) trong Amazon S3. Quan trọng cho quản trị dữ liệu AI và tuân thủ."
+        },
+        "tags": [
+            "Macie",
+            "AWS-service",
+            "data-security"
+        ]
+    },
+    {
+        "id": "fc-048",
+        "domain": 5,
+        "front": {
+            "en": "What is VPC and why use it for AI workloads?",
+            "vi": "VPC là gì và tại sao dùng nó cho workload AI?"
+        },
+        "back": {
+            "en": "Virtual Private Cloud provides network isolation for AWS resources. For AI: run SageMaker training in VPC to prevent data exfiltration, use VPC endpoints for Bedrock to keep traffic private.",
+            "vi": "Virtual Private Cloud cung cấp sự cô lập mạng cho tài nguyên AWS. Cho AI: chạy huấn luyện SageMaker trong VPC để ngăn lộ dữ liệu, dùng VPC endpoints cho Bedrock để giữ lưu lượng riêng tư."
+        },
+        "tags": [
+            "VPC",
+            "network-security",
+            "SageMaker"
+        ]
+    },
+    {
+        "id": "fc-049",
+        "domain": 5,
+        "front": {
+            "en": "What is AWS KMS in the context of AI?",
+            "vi": "AWS KMS trong bối cảnh AI là gì?"
+        },
+        "back": {
+            "en": "Key Management Service provides encryption key management. Used to encrypt: S3 training data, SageMaker model artifacts, Bedrock model customization data. Supports HIPAA, PCI-DSS compliance.",
+            "vi": "Key Management Service cung cấp quản lý khóa mã hóa. Được sử dụng để mã hóa: dữ liệu huấn luyện S3, các artifact mô hình SageMaker, dữ liệu tùy chỉnh mô hình Bedrock. Hỗ trợ tuân thủ HIPAA, PCI-DSS."
+        },
+        "tags": [
+            "KMS",
+            "encryption",
+            "compliance"
+        ]
+    },
+    {
+        "id": "fc-050",
+        "domain": 5,
+        "front": {
+            "en": "What is AWS CloudTrail for AI governance?",
+            "vi": "AWS CloudTrail cho quản trị AI là gì?"
+        },
+        "back": {
+            "en": "Records all API calls made to AWS services including Bedrock and SageMaker. Provides audit trail for who accessed models, what data was processed, enabling compliance and forensic investigation.",
+            "vi": "Ghi lại tất cả lời gọi API đến các dịch vụ AWS bao gồm Bedrock và SageMaker. Cung cấp dấu vết kiểm toán về ai đã truy cập mô hình, dữ liệu nào được xử lý, cho phép tuân thủ và điều tra pháp lý."
+        },
+        "tags": [
+            "CloudTrail",
+            "governance",
+            "audit"
+        ]
+    },
+    {
+        "id": "fc-051",
+        "domain": 5,
+        "front": {
+            "en": "What is the AWS Shared Responsibility Model for AI?",
+            "vi": "Mô hình trách nhiệm chung AWS cho AI là gì?"
+        },
+        "back": {
+            "en": "AWS secures the cloud infrastructure (hardware, software, networking). Customer secures their data, access controls, and compliance. For Bedrock: AWS secures the model; customer secures data sent to it.",
+            "vi": "AWS bảo mật cơ sở hạ tầng đám mây (phần cứng, phần mềm, mạng). Khách hàng bảo mật dữ liệu, kiểm soát truy cập và tuân thủ của họ. Với Bedrock: AWS bảo mật mô hình; khách hàng bảo mật dữ liệu gửi đến nó."
+        },
+        "tags": [
+            "shared-responsibility",
+            "security",
+            "compliance"
+        ]
+    },
+    {
+        "id": "fc-052",
+        "domain": 5,
+        "front": {
+            "en": "What is Amazon GuardDuty for AI?",
+            "vi": "Amazon GuardDuty cho AI là gì?"
+        },
+        "back": {
+            "en": "AWS threat detection service using ML to continuously monitor for malicious activity. Detects unauthorized access to SageMaker, unusual API calls to Bedrock, compromised credentials.",
+            "vi": "Dịch vụ phát hiện mối đe dọa của AWS sử dụng ML để liên tục theo dõi hoạt động độc hại. Phát hiện truy cập trái phép vào SageMaker, lời gọi API bất thường đến Bedrock, thông tin đăng nhập bị xâm phạm."
+        },
+        "tags": [
+            "GuardDuty",
+            "security",
+            "threat-detection"
+        ]
+    },
+    {
+        "id": "fc-053",
+        "domain": 1,
+        "front": {
+            "en": "What is reinforcement learning?",
+            "vi": "Học tăng cường (reinforcement learning) là gì?"
+        },
+        "back": {
+            "en": "ML type where an agent learns by trial and error through interactions with an environment, receiving rewards for good actions. RLHF (Reinforcement Learning from Human Feedback) is used to align LLMs.",
+            "vi": "Loại ML trong đó agent học qua thử nghiệm và sai sót thông qua tương tác với môi trường, nhận phần thưởng cho các hành động tốt. RLHF (Học tăng cường từ phản hồi của con người) được dùng để căn chỉnh LLM."
+        },
+        "tags": [
+            "reinforcement-learning",
+            "RLHF",
+            "ML"
+        ]
+    },
+    {
+        "id": "fc-054",
+        "domain": 2,
+        "front": {
+            "en": "What is a diffusion model?",
+            "vi": "Diffusion model là gì?"
+        },
+        "back": {
+            "en": "A generative AI model that creates images by learning to reverse a noising process. Used for image generation (Stable Diffusion, Amazon Titan Image Generator). Can generate realistic images from text prompts.",
+            "vi": "Mô hình AI tạo sinh tạo ra hình ảnh bằng cách học đảo ngược quá trình thêm nhiễu. Dùng cho tạo ảnh (Stable Diffusion, Amazon Titan Image Generator). Có thể tạo ảnh thực từ text prompt."
+        },
+        "tags": [
+            "diffusion-model",
+            "image-generation",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-055",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Bedrock Flows?",
+            "vi": "Amazon Bedrock Flows là gì?"
+        },
+        "back": {
+            "en": "A visual builder in Bedrock for creating GenAI workflows by connecting prompts, models, and data sources. Simplifies building multi-step AI pipelines without code.",
+            "vi": "Trình xây dựng trực quan trong Bedrock để tạo quy trình làm việc GenAI bằng cách kết nối các prompt, mô hình và nguồn dữ liệu. Đơn giản hóa việc xây dựng pipeline AI nhiều bước không cần code."
+        },
+        "tags": [
+            "Bedrock",
+            "flows",
+            "GenAI"
+        ]
+    },
+    {
+        "id": "fc-056",
+        "domain": 1,
+        "front": {
+            "en": "What is a confusion matrix?",
+            "vi": "Ma trận nhầm lẫn (confusion matrix) là gì?"
+        },
+        "back": {
+            "en": "A table showing model classification performance: True Positives, True Negatives, False Positives, False Negatives. Used to calculate precision, recall, F1 score, accuracy.",
+            "vi": "Bảng hiển thị hiệu suất phân loại mô hình: True Positives, True Negatives, False Positives, False Negatives. Dùng để tính precision, recall, F1 score, accuracy."
+        },
+        "tags": [
+            "confusion-matrix",
+            "ML",
+            "evaluation"
+        ]
+    },
+    {
+        "id": "fc-057",
+        "domain": 2,
+        "front": {
+            "en": "What is Amazon Bedrock Marketplace?",
+            "vi": "Amazon Bedrock Marketplace là gì?"
+        },
+        "back": {
+            "en": "A catalog within Bedrock offering 100+ models from various providers. Allows discovering, testing, and deploying third-party foundation models alongside AWS models.",
+            "vi": "Danh mục trong Bedrock cung cấp 100+ mô hình từ nhiều nhà cung cấp khác nhau. Cho phép khám phá, thử nghiệm và triển khai các foundation model bên thứ ba cùng với các mô hình AWS."
+        },
+        "tags": [
+            "Bedrock",
+            "marketplace",
+            "foundation-model"
+        ]
+    },
+    {
+        "id": "fc-058",
+        "domain": 4,
+        "front": {
+            "en": "What is content moderation in AI?",
+            "vi": "Kiểm duyệt nội dung trong AI là gì?"
+        },
+        "back": {
+            "en": "Using AI to detect and filter harmful content. AWS tools: Amazon Rekognition (content moderation for images/videos), Bedrock Guardrails (text content filtering for GenAI apps).",
+            "vi": "Sử dụng AI để phát hiện và lọc nội dung có hại. Công cụ AWS: Amazon Rekognition (kiểm duyệt nội dung cho ảnh/video), Bedrock Guardrails (lọc nội dung văn bản cho ứng dụng GenAI)."
+        },
+        "tags": [
+            "content-moderation",
+            "Rekognition",
+            "Bedrock"
+        ]
+    },
+    {
+        "id": "fc-059",
+        "domain": 5,
+        "front": {
+            "en": "What is SageMaker Role Manager?",
+            "vi": "SageMaker Role Manager là gì?"
+        },
+        "back": {
+            "en": "Simplifies creating least-privilege IAM roles for ML activities in SageMaker. Pre-built personas (data scientist, MLOps engineer) with appropriate permissions following security best practices.",
+            "vi": "Đơn giản hóa việc tạo IAM roles với đặc quyền tối thiểu cho các hoạt động ML trong SageMaker. Các personas dựng sẵn (data scientist, kỹ sư MLOps) với quyền phù hợp theo các thực hành bảo mật tốt nhất."
+        },
+        "tags": [
+            "SageMaker",
+            "IAM",
+            "security"
+        ]
+    },
+    {
+        "id": "fc-060",
+        "domain": 3,
+        "front": {
+            "en": "What is multimodal AI?",
+            "vi": "AI đa phương thức (multimodal AI) là gì?"
+        },
+        "back": {
+            "en": "AI models that can process and generate multiple types of data (text, images, audio, video) in combination. Examples: Claude 3 (vision+text), Amazon Nova (multimodal), GPT-4V.",
+            "vi": "Các mô hình AI có thể xử lý và tạo ra nhiều loại dữ liệu (văn bản, hình ảnh, âm thanh, video) kết hợp. Ví dụ: Claude 3 (vision+text), Amazon Nova (đa phương thức), GPT-4V."
+        },
+        "tags": [
+            "multimodal",
+            "GenAI",
+            "foundation-model"
+        ]
+    },
+    {
+        "id": "fc-061",
+        "domain": 1,
+        "front": {
+            "en": "What is transfer learning?",
+            "vi": "Transfer learning là gì?"
+        },
+        "back": {
+            "en": "Reusing a model trained on one task as a starting point for a related task. Foundation models are trained with transfer learning principles; fine-tuning is a form of transfer learning.",
+            "vi": "Tái sử dụng mô hình được huấn luyện trên một tác vụ làm điểm khởi đầu cho tác vụ liên quan. Foundation model được huấn luyện theo nguyên tắc transfer learning; fine-tuning là một dạng transfer learning."
+        },
+        "tags": [
+            "transfer-learning",
+            "ML",
+            "fine-tuning"
+        ]
+    },
+    {
+        "id": "fc-062",
+        "domain": 2,
+        "front": {
+            "en": "What is Amazon Nova?",
+            "vi": "Amazon Nova là gì?"
+        },
+        "back": {
+            "en": "AWS's latest family of foundation models: Nova Micro (text-only, fastest), Nova Lite (multimodal, fast), Nova Pro (multimodal, balanced), Nova Premier (most capable), Nova Canvas (image gen), Nova Reel (video gen).",
+            "vi": "Gia đình foundation model mới nhất của AWS: Nova Micro (chỉ text, nhanh nhất), Nova Lite (đa phương thức, nhanh), Nova Pro (đa phương thức, cân bằng), Nova Premier (mạnh nhất), Nova Canvas (tạo ảnh), Nova Reel (tạo video)."
+        },
+        "tags": [
+            "Amazon-Nova",
+            "AWS-service",
+            "foundation-model"
+        ]
+    },
+    {
+        "id": "fc-063",
+        "domain": 5,
+        "front": {
+            "en": "What is AWS Config for AI compliance?",
+            "vi": "AWS Config cho tuân thủ AI là gì?"
+        },
+        "back": {
+            "en": "Continuously monitors and records AWS resource configurations. Checks compliance rules (e.g., SageMaker training jobs must use VPC, S3 buckets must be encrypted). Essential for AI governance.",
+            "vi": "Liên tục theo dõi và ghi lại cấu hình tài nguyên AWS. Kiểm tra các quy tắc tuân thủ (ví dụ: training jobs SageMaker phải dùng VPC, S3 buckets phải được mã hóa). Thiết yếu cho quản trị AI."
+        },
+        "tags": [
+            "AWS-Config",
+            "compliance",
+            "governance"
+        ]
+    },
+    {
+        "id": "fc-064",
+        "domain": 4,
+        "front": {
+            "en": "What is AI transparency?",
+            "vi": "Tính minh bạch AI (AI transparency) là gì?"
+        },
+        "back": {
+            "en": "The ability to understand how AI systems work and make decisions. Includes: disclosing AI use, explaining model decisions, documenting training data and limitations. Supported by Model Cards and AI Service Cards.",
+            "vi": "Khả năng hiểu cách hệ thống AI hoạt động và đưa ra quyết định. Bao gồm: tiết lộ việc sử dụng AI, giải thích quyết định mô hình, ghi lại dữ liệu huấn luyện và hạn chế. Được hỗ trợ bởi Model Cards và AI Service Cards."
+        },
+        "tags": [
+            "transparency",
+            "responsible-AI",
+            "explainability"
+        ]
+    },
+    {
+        "id": "fc-065",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Bedrock Studio?",
+            "vi": "Amazon Bedrock Studio là gì?"
+        },
+        "back": {
+            "en": "A web-based workspace for teams to prototype and explore GenAI applications using Bedrock. Provides a collaborative environment for experimentation without infrastructure setup.",
+            "vi": "Không gian làm việc dựa trên web cho các nhóm tạo nguyên mẫu và khám phá ứng dụng GenAI bằng Bedrock. Cung cấp môi trường cộng tác để thử nghiệm mà không cần thiết lập cơ sở hạ tầng."
+        },
+        "tags": [
+            "Bedrock",
+            "studio",
+            "GenAI"
+        ]
+    }
+]

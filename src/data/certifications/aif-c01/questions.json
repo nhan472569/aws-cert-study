@@ -1,0 +1,2607 @@
+[
+    {
+        "id": "q-001",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service provides a fully managed environment for building and deploying machine learning models?",
+            "vi": "Dịch vụ AWS nào cung cấp môi trường được quản lý hoàn toàn để xây dựng và triển khai các mô hình machine learning?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Rekognition",
+                "vi": "Amazon Rekognition"
+            },
+            {
+                "id": "B",
+                "en": "Amazon SageMaker AI",
+                "vi": "Amazon SageMaker AI"
+            },
+            {
+                "id": "C",
+                "en": "AWS Lambda",
+                "vi": "AWS Lambda"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Comprehend",
+                "vi": "Amazon Comprehend"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon SageMaker AI is AWS's fully managed ML platform covering the entire ML lifecycle from data labeling to model deployment and monitoring.",
+            "vi": "Amazon SageMaker AI là nền tảng ML được quản lý hoàn toàn của AWS, bao phủ toàn bộ vòng đời ML từ gán nhãn dữ liệu đến triển khai và giám sát mô hình."
+        }
+    },
+    {
+        "id": "q-002",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "A data scientist needs to classify customer emails as spam or not spam. This is an example of which type of machine learning?",
+            "vi": "Một data scientist cần phân loại email khách hàng là spam hoặc không phải spam. Đây là ví dụ về loại machine learning nào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Unsupervised learning",
+                "vi": "Học không giám sát"
+            },
+            {
+                "id": "B",
+                "en": "Reinforcement learning",
+                "vi": "Học tăng cường"
+            },
+            {
+                "id": "C",
+                "en": "Supervised learning",
+                "vi": "Học có giám sát"
+            },
+            {
+                "id": "D",
+                "en": "Transfer learning",
+                "vi": "Transfer learning"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Spam classification is supervised learning because the model is trained on labeled examples (spam/not spam) to predict outcomes for new emails.",
+            "vi": "Phân loại spam là học có giám sát vì mô hình được huấn luyện trên các ví dụ có nhãn (spam/không spam) để dự đoán kết quả cho email mới."
+        }
+    },
+    {
+        "id": "q-003",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A company wants to group customers into segments based on purchasing behavior without predefined categories. Which ML approach should they use?",
+            "vi": "Một công ty muốn nhóm khách hàng thành các phân khúc dựa trên hành vi mua hàng mà không có danh mục xác định trước. Họ nên sử dụng phương pháp ML nào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Supervised classification",
+                "vi": "Phân loại có giám sát"
+            },
+            {
+                "id": "B",
+                "en": "Unsupervised clustering",
+                "vi": "Phân cụm không giám sát"
+            },
+            {
+                "id": "C",
+                "en": "Supervised regression",
+                "vi": "Hồi quy có giám sát"
+            },
+            {
+                "id": "D",
+                "en": "Reinforcement learning",
+                "vi": "Học tăng cường"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Customer segmentation without predefined labels is unsupervised clustering. The model discovers natural groupings in unlabeled data.",
+            "vi": "Phân khúc khách hàng không có nhãn xác định trước là phân cụm không giám sát. Mô hình khám phá các nhóm tự nhiên trong dữ liệu không có nhãn."
+        }
+    },
+    {
+        "id": "q-004",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which metric is MOST appropriate for evaluating a machine learning model that predicts whether a patient has a rare disease, where false negatives are costly?",
+            "vi": "Metric nào PHÙ HỢP NHẤT để đánh giá mô hình machine learning dự đoán bệnh nhân có mắc bệnh hiếm gặp hay không, trong đó false negatives rất tốn kém?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Accuracy",
+                "vi": "Accuracy"
+            },
+            {
+                "id": "B",
+                "en": "Precision",
+                "vi": "Precision"
+            },
+            {
+                "id": "C",
+                "en": "Recall (Sensitivity)",
+                "vi": "Recall (Sensitivity)"
+            },
+            {
+                "id": "D",
+                "en": "Specificity",
+                "vi": "Specificity"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Recall (sensitivity) measures the proportion of actual positives correctly identified. When missing a disease is costly (false negatives are expensive), maximizing recall is critical.",
+            "vi": "Recall (sensitivity) đo tỷ lệ các trường hợp dương tính thực sự được xác định chính xác. Khi bỏ sót bệnh rất tốn kém (false negatives đắt đỏ), tối đa hóa recall là điều quan trọng."
+        }
+    },
+    {
+        "id": "q-005",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A machine learning model performs very well on training data but poorly on new test data. What is this problem called?",
+            "vi": "Một mô hình machine learning hoạt động rất tốt trên dữ liệu huấn luyện nhưng kém trên dữ liệu kiểm tra mới. Vấn đề này được gọi là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Underfitting",
+                "vi": "Underfitting"
+            },
+            {
+                "id": "B",
+                "en": "Data leakage",
+                "vi": "Rò rỉ dữ liệu"
+            },
+            {
+                "id": "C",
+                "en": "Overfitting",
+                "vi": "Overfitting"
+            },
+            {
+                "id": "D",
+                "en": "Class imbalance",
+                "vi": "Mất cân bằng lớp"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Overfitting occurs when a model memorizes training data including noise, resulting in poor generalization to unseen data. Solutions include regularization, dropout, and cross-validation.",
+            "vi": "Overfitting xảy ra khi mô hình ghi nhớ dữ liệu huấn luyện kể cả nhiễu, dẫn đến khái quát kém với dữ liệu chưa thấy. Giải pháp bao gồm regularization, dropout và cross-validation."
+        }
+    },
+    {
+        "id": "q-006",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service would you use to automatically extract structured data such as forms and tables from scanned PDF documents?",
+            "vi": "Dịch vụ AWS nào bạn sẽ sử dụng để tự động trích xuất dữ liệu có cấu trúc như biểu mẫu và bảng từ tài liệu PDF được quét?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Comprehend",
+                "vi": "Amazon Comprehend"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Textract",
+                "vi": "Amazon Textract"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Rekognition",
+                "vi": "Amazon Rekognition"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Transcribe",
+                "vi": "Amazon Transcribe"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Textract goes beyond OCR to extract text, forms, and tables from documents automatically, understanding the document structure.",
+            "vi": "Amazon Textract vượt ra ngoài OCR để tự động trích xuất văn bản, biểu mẫu và bảng từ tài liệu, hiểu được cấu trúc tài liệu."
+        }
+    },
+    {
+        "id": "q-007",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "A company wants to detect whether uploaded product images contain inappropriate content before displaying them. Which AWS service is BEST suited for this?",
+            "vi": "Một công ty muốn phát hiện xem ảnh sản phẩm được tải lên có chứa nội dung không phù hợp hay không trước khi hiển thị. Dịch vụ AWS nào PHÙ HỢP NHẤT cho điều này?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Comprehend",
+                "vi": "Amazon Comprehend"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Textract",
+                "vi": "Amazon Textract"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Rekognition",
+                "vi": "Amazon Rekognition"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Macie",
+                "vi": "Amazon Macie"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Amazon Rekognition provides content moderation capabilities to detect explicit, suggestive, or violent content in images and videos.",
+            "vi": "Amazon Rekognition cung cấp khả năng kiểm duyệt nội dung để phát hiện nội dung rõ ràng, gợi ý hoặc bạo lực trong ảnh và video."
+        }
+    },
+    {
+        "id": "q-008",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which component of Amazon SageMaker AI is used for labeling training data with a human workforce?",
+            "vi": "Thành phần nào của Amazon SageMaker AI được sử dụng để gán nhãn dữ liệu huấn luyện với lực lượng lao động con người?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "SageMaker Studio",
+                "vi": "SageMaker Studio"
+            },
+            {
+                "id": "B",
+                "en": "SageMaker Pipelines",
+                "vi": "SageMaker Pipelines"
+            },
+            {
+                "id": "C",
+                "en": "SageMaker Ground Truth",
+                "vi": "SageMaker Ground Truth"
+            },
+            {
+                "id": "D",
+                "en": "SageMaker Feature Store",
+                "vi": "SageMaker Feature Store"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "SageMaker Ground Truth provides data labeling services with access to human annotators through Amazon Mechanical Turk or private workforces, plus automated labeling using ML.",
+            "vi": "SageMaker Ground Truth cung cấp dịch vụ gán nhãn dữ liệu với quyền truy cập vào người chú thích thông qua Amazon Mechanical Turk hoặc lực lượng lao động riêng, cộng thêm gán nhãn tự động bằng ML."
+        }
+    },
+    {
+        "id": "q-009",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service would a developer use to add natural language understanding to a customer service application to understand customer intents?",
+            "vi": "Dịch vụ AWS nào một developer sẽ sử dụng để thêm khả năng hiểu ngôn ngữ tự nhiên vào ứng dụng dịch vụ khách hàng để hiểu ý định của khách hàng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Polly",
+                "vi": "Amazon Polly"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Lex",
+                "vi": "Amazon Lex"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Translate",
+                "vi": "Amazon Translate"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Transcribe",
+                "vi": "Amazon Transcribe"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Lex provides NLU (Natural Language Understanding) to recognize intents and extract slots from user utterances, making it ideal for conversational interfaces.",
+            "vi": "Amazon Lex cung cấp NLU (Hiểu Ngôn ngữ Tự nhiên) để nhận dạng ý định và trích xuất slot từ câu nói của người dùng, lý tưởng cho giao diện hội thoại."
+        }
+    },
+    {
+        "id": "q-010",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What does NLP stand for in the context of AI?",
+            "vi": "NLP viết tắt của gì trong bối cảnh AI?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Neural Learning Protocol",
+                "vi": "Neural Learning Protocol"
+            },
+            {
+                "id": "B",
+                "en": "Natural Language Processing",
+                "vi": "Xử lý Ngôn ngữ Tự nhiên"
+            },
+            {
+                "id": "C",
+                "en": "Network Layer Processing",
+                "vi": "Xử lý Lớp Mạng"
+            },
+            {
+                "id": "D",
+                "en": "Non-Linear Programming",
+                "vi": "Lập trình Phi tuyến"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "NLP stands for Natural Language Processing — the field of AI focused on enabling computers to understand, interpret, and generate human language.",
+            "vi": "NLP là viết tắt của Natural Language Processing (Xử lý Ngôn ngữ Tự nhiên) — lĩnh vực AI tập trung vào việc cho phép máy tính hiểu, diễn giải và tạo ra ngôn ngữ của con người."
+        }
+    },
+    {
+        "id": "q-011",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service enables developers to build GenAI applications using foundation models from multiple providers through a single API?",
+            "vi": "Dịch vụ AWS nào cho phép developers xây dựng ứng dụng GenAI sử dụng foundation model từ nhiều nhà cung cấp qua một API duy nhất?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon SageMaker AI",
+                "vi": "Amazon SageMaker AI"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Bedrock",
+                "vi": "Amazon Bedrock"
+            },
+            {
+                "id": "C",
+                "en": "AWS Lambda",
+                "vi": "AWS Lambda"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Q",
+                "vi": "Amazon Q"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Bedrock is the fully managed service that provides access to foundation models from AWS (Titan, Nova) and third-party providers (Anthropic Claude, Meta Llama, Mistral, Cohere) via a single API.",
+            "vi": "Amazon Bedrock là dịch vụ được quản lý hoàn toàn cung cấp quyền truy cập vào các foundation model từ AWS (Titan, Nova) và nhà cung cấp bên thứ ba (Anthropic Claude, Meta Llama, Mistral, Cohere) qua một API duy nhất."
+        }
+    },
+    {
+        "id": "q-012",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A developer wants an LLM to answer only in the style of a pirate. Which prompt engineering technique should they use?",
+            "vi": "Một developer muốn LLM chỉ trả lời theo phong cách của cướp biển. Kỹ thuật prompt engineering nào họ nên sử dụng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Chain-of-thought prompting",
+                "vi": "Chain-of-thought prompting"
+            },
+            {
+                "id": "B",
+                "en": "Zero-shot prompting",
+                "vi": "Zero-shot prompting"
+            },
+            {
+                "id": "C",
+                "en": "Role prompting (system prompt)",
+                "vi": "Role prompting (system prompt)"
+            },
+            {
+                "id": "D",
+                "en": "Few-shot prompting",
+                "vi": "Few-shot prompting"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Role prompting (using a system prompt) instructs the model to adopt a specific persona or communication style. Example: 'You are a pirate captain...'",
+            "vi": "Role prompting (dùng system prompt) hướng dẫn mô hình áp dụng nhân vật hoặc phong cách giao tiếp cụ thể. Ví dụ: 'Bạn là một thuyền trưởng cướp biển...'"
+        }
+    },
+    {
+        "id": "q-013",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the purpose of setting a LOW temperature value (near 0) when calling a foundation model?",
+            "vi": "Mục đích của việc đặt giá trị temperature THẤP (gần 0) khi gọi foundation model là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "To generate more creative and varied responses",
+                "vi": "Để tạo ra các phản hồi sáng tạo và đa dạng hơn"
+            },
+            {
+                "id": "B",
+                "en": "To produce deterministic, focused, and consistent outputs",
+                "vi": "Để tạo ra các đầu ra xác định, tập trung và nhất quán"
+            },
+            {
+                "id": "C",
+                "en": "To reduce the cost of API calls",
+                "vi": "Để giảm chi phí lời gọi API"
+            },
+            {
+                "id": "D",
+                "en": "To increase the maximum token output length",
+                "vi": "Để tăng độ dài token đầu ra tối đa"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Low temperature (near 0) makes the model deterministic and focused, always choosing the most probable next token. Ideal for tasks requiring consistent, factual outputs like code generation.",
+            "vi": "Temperature thấp (gần 0) làm cho mô hình xác định và tập trung, luôn chọn token tiếp theo có xác suất cao nhất. Lý tưởng cho các tác vụ yêu cầu đầu ra nhất quán, thực tế như tạo code."
+        }
+    },
+    {
+        "id": "q-014",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "A company wants to customize an Amazon Bedrock foundation model using their proprietary documents without updating the model weights. Which approach should they use?",
+            "vi": "Một công ty muốn tùy chỉnh foundation model Amazon Bedrock bằng tài liệu độc quyền mà không cập nhật trọng số mô hình. Họ nên sử dụng phương pháp nào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Fine-tuning",
+                "vi": "Fine-tuning"
+            },
+            {
+                "id": "B",
+                "en": "Continued pre-training",
+                "vi": "Continued pre-training"
+            },
+            {
+                "id": "C",
+                "en": "Retrieval-Augmented Generation (RAG) with Knowledge Bases",
+                "vi": "Retrieval-Augmented Generation (RAG) với Knowledge Bases"
+            },
+            {
+                "id": "D",
+                "en": "Prompt caching",
+                "vi": "Prompt caching"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "RAG with Bedrock Knowledge Bases injects relevant context from your documents into the prompt at inference time without modifying model weights. Fine-tuning/pre-training updates model weights.",
+            "vi": "RAG với Bedrock Knowledge Bases đưa ngữ cảnh liên quan từ tài liệu của bạn vào prompt trong thời gian suy luận mà không sửa đổi trọng số mô hình. Fine-tuning/pre-training cập nhật trọng số mô hình."
+        }
+    },
+    {
+        "id": "q-015",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which Amazon Bedrock feature allows you to create customized versions of a foundation model for specific tasks using your own labeled data?",
+            "vi": "Tính năng Amazon Bedrock nào cho phép bạn tạo các phiên bản tùy chỉnh của foundation model cho các tác vụ cụ thể bằng dữ liệu có nhãn của riêng bạn?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Knowledge Bases",
+                "vi": "Knowledge Bases"
+            },
+            {
+                "id": "B",
+                "en": "Fine-tuning (Model Customization)",
+                "vi": "Fine-tuning (Tùy chỉnh Mô hình)"
+            },
+            {
+                "id": "C",
+                "en": "Guardrails",
+                "vi": "Guardrails"
+            },
+            {
+                "id": "D",
+                "en": "Agents",
+                "vi": "Agents"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Bedrock Model Customization (fine-tuning) allows training a copy of a foundation model on your labeled dataset, updating model weights to specialize it for your use case.",
+            "vi": "Tùy chỉnh mô hình Bedrock (fine-tuning) cho phép huấn luyện bản sao foundation model trên tập dữ liệu có nhãn của bạn, cập nhật trọng số mô hình để chuyên biệt hóa nó cho trường hợp sử dụng của bạn."
+        }
+    },
+    {
+        "id": "q-016",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Amazon Titan is AWS's own family of foundation models. Which of the following is NOT a type in the Amazon Titan family?",
+            "vi": "Amazon Titan là gia đình foundation model của AWS. Loại nào sau đây KHÔNG phải là loại trong gia đình Amazon Titan?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Titan Text",
+                "vi": "Titan Text"
+            },
+            {
+                "id": "B",
+                "en": "Titan Embeddings",
+                "vi": "Titan Embeddings"
+            },
+            {
+                "id": "C",
+                "en": "Titan Code",
+                "vi": "Titan Code"
+            },
+            {
+                "id": "D",
+                "en": "Titan Image Generator",
+                "vi": "Titan Image Generator"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Amazon Titan family includes Titan Text (text generation), Titan Embeddings (vector embeddings), and Titan Image Generator. 'Titan Code' is not a product in the Titan family.",
+            "vi": "Gia đình Amazon Titan bao gồm Titan Text (tạo văn bản), Titan Embeddings (vector embeddings) và Titan Image Generator. 'Titan Code' không phải sản phẩm trong gia đình Titan."
+        }
+    },
+    {
+        "id": "q-017",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is a 'hallucination' in the context of generative AI?",
+            "vi": "Trong bối cảnh AI tạo sinh, 'hallucination' (ảo giác) là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "When the model generates images instead of text",
+                "vi": "Khi mô hình tạo ảnh thay vì văn bản"
+            },
+            {
+                "id": "B",
+                "en": "When the model generates confident but factually incorrect information",
+                "vi": "Khi mô hình tạo ra thông tin tự tin nhưng thực tế sai"
+            },
+            {
+                "id": "C",
+                "en": "When the model's response is too long",
+                "vi": "Khi phản hồi của mô hình quá dài"
+            },
+            {
+                "id": "D",
+                "en": "When the model refuses to answer",
+                "vi": "Khi mô hình từ chối trả lời"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Hallucination in GenAI is when the model produces plausible-sounding but false or made-up information with apparent confidence. Mitigated by RAG, grounding, and human review.",
+            "vi": "Hallucination trong GenAI là khi mô hình tạo ra thông tin nghe có vẻ hợp lý nhưng sai hoặc bịa đặt với vẻ tự tin. Giảm thiểu bởi RAG, grounding và đánh giá của con người."
+        }
+    },
+    {
+        "id": "q-018",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service converts text into lifelike speech using neural text-to-speech technology?",
+            "vi": "Dịch vụ AWS nào chuyển đổi văn bản thành giọng nói như thật bằng công nghệ chuyển văn bản thành giọng nói thần kinh?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Transcribe",
+                "vi": "Amazon Transcribe"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Lex",
+                "vi": "Amazon Lex"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Polly",
+                "vi": "Amazon Polly"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Translate",
+                "vi": "Amazon Translate"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Amazon Polly is AWS's text-to-speech service that converts written text into natural-sounding speech using advanced deep learning technologies.",
+            "vi": "Amazon Polly là dịch vụ chuyển văn bản thành giọng nói của AWS, chuyển đổi văn bản viết thành giọng nói tự nhiên bằng các công nghệ deep learning tiên tiến."
+        }
+    },
+    {
+        "id": "q-019",
+        "domain": 2,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are valid techniques to reduce hallucinations in LLM responses? (Select TWO)",
+            "vi": "Kỹ thuật nào sau đây là hợp lệ để giảm hallucination trong phản hồi LLM? (Chọn HAI)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Increase the temperature parameter to maximum",
+                "vi": "Tăng tham số temperature lên tối đa"
+            },
+            {
+                "id": "B",
+                "en": "Use Retrieval-Augmented Generation (RAG)",
+                "vi": "Sử dụng Retrieval-Augmented Generation (RAG)"
+            },
+            {
+                "id": "C",
+                "en": "Implement human review with Amazon A2I",
+                "vi": "Triển khai đánh giá con người với Amazon A2I"
+            },
+            {
+                "id": "D",
+                "en": "Reduce the maximum token length",
+                "vi": "Giảm độ dài token tối đa"
+            }
+        ],
+        "correctAnswers": [
+            "B",
+            "C"
+        ],
+        "explanation": {
+            "en": "RAG grounds LLM responses in retrieved facts from trusted sources, reducing hallucinations. Amazon A2I adds human review for low-confidence or sensitive outputs. Increasing temperature increases randomness and hallucinations.",
+            "vi": "RAG gắn kết phản hồi LLM với các sự thật được truy xuất từ nguồn đáng tin cậy, giảm hallucination. Amazon A2I thêm đánh giá của con người cho các đầu ra có độ tin cậy thấp hoặc nhạy cảm. Tăng temperature làm tăng tính ngẫu nhiên và hallucination."
+        }
+    },
+    {
+        "id": "q-020",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A developer provides 3 example input-output pairs in their prompt before the actual question. This is called:",
+            "vi": "Một developer cung cấp 3 cặp đầu vào-đầu ra ví dụ trong prompt của họ trước câu hỏi thực tế. Điều này được gọi là:"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Zero-shot prompting",
+                "vi": "Zero-shot prompting"
+            },
+            {
+                "id": "B",
+                "en": "Chain-of-thought prompting",
+                "vi": "Chain-of-thought prompting"
+            },
+            {
+                "id": "C",
+                "en": "Few-shot prompting",
+                "vi": "Few-shot prompting"
+            },
+            {
+                "id": "D",
+                "en": "Continued pre-training",
+                "vi": "Continued pre-training"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Few-shot prompting provides a small number of examples (shots) in the prompt to guide the model's response format and behavior without updating model weights.",
+            "vi": "Few-shot prompting cung cấp một số ít ví dụ (shots) trong prompt để hướng dẫn định dạng và hành vi phản hồi của mô hình mà không cập nhật trọng số mô hình."
+        }
+    },
+    {
+        "id": "q-021",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A company wants to build a GenAI chatbot that answers questions about their internal product documentation stored in S3. Which Amazon Bedrock feature should they use?",
+            "vi": "Một công ty muốn xây dựng chatbot GenAI trả lời câu hỏi về tài liệu sản phẩm nội bộ của họ được lưu trữ trong S3. Tính năng Amazon Bedrock nào họ nên sử dụng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Bedrock Agents",
+                "vi": "Bedrock Agents"
+            },
+            {
+                "id": "B",
+                "en": "Bedrock Guardrails",
+                "vi": "Bedrock Guardrails"
+            },
+            {
+                "id": "C",
+                "en": "Bedrock Knowledge Bases",
+                "vi": "Bedrock Knowledge Bases"
+            },
+            {
+                "id": "D",
+                "en": "Bedrock Model Evaluation",
+                "vi": "Bedrock Model Evaluation"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Bedrock Knowledge Bases automatically ingests documents from S3, creates embeddings, stores them in a vector database, and enables RAG queries against the FM — perfect for document Q&A.",
+            "vi": "Bedrock Knowledge Bases tự động nhập tài liệu từ S3, tạo embeddings, lưu trữ trong cơ sở dữ liệu vector và cho phép truy vấn RAG với FM — hoàn hảo cho Q&A tài liệu."
+        }
+    },
+    {
+        "id": "q-022",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which Amazon Bedrock feature allows an AI to autonomously execute multi-step tasks by calling external APIs and using tools?",
+            "vi": "Tính năng Amazon Bedrock nào cho phép AI tự động thực thi các tác vụ nhiều bước bằng cách gọi API bên ngoài và sử dụng công cụ?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Bedrock Knowledge Bases",
+                "vi": "Bedrock Knowledge Bases"
+            },
+            {
+                "id": "B",
+                "en": "Bedrock Agents",
+                "vi": "Bedrock Agents"
+            },
+            {
+                "id": "C",
+                "en": "Bedrock Flows",
+                "vi": "Bedrock Flows"
+            },
+            {
+                "id": "D",
+                "en": "Bedrock Guardrails",
+                "vi": "Bedrock Guardrails"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Bedrock Agents can reason, plan, and execute multi-step tasks by calling external APIs (action groups) and querying knowledge bases autonomously to complete complex workflows.",
+            "vi": "Bedrock Agents có thể lý luận, lập kế hoạch và thực thi các tác vụ nhiều bước bằng cách gọi API bên ngoài (action groups) và truy vấn knowledge base tự động để hoàn thành quy trình phức tạp."
+        }
+    },
+    {
+        "id": "q-023",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service provides intelligent enterprise search across multiple data sources using ML-powered natural language understanding?",
+            "vi": "Dịch vụ AWS nào cung cấp tìm kiếm doanh nghiệp thông minh trên nhiều nguồn dữ liệu bằng NLU được hỗ trợ bởi ML?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon OpenSearch Service",
+                "vi": "Amazon OpenSearch Service"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Kendra",
+                "vi": "Amazon Kendra"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Comprehend",
+                "vi": "Amazon Comprehend"
+            },
+            {
+                "id": "D",
+                "en": "AWS CloudSearch",
+                "vi": "AWS CloudSearch"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Kendra is an intelligent enterprise search service that uses ML to deliver highly accurate natural language search results across multiple content repositories.",
+            "vi": "Amazon Kendra là dịch vụ tìm kiếm doanh nghiệp thông minh sử dụng ML để cung cấp kết quả tìm kiếm ngôn ngữ tự nhiên chính xác cao trên nhiều kho nội dung."
+        }
+    },
+    {
+        "id": "q-024",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A streaming service wants to provide personalized movie recommendations for each user. Which AWS service should they use?",
+            "vi": "Một dịch vụ streaming muốn cung cấp gợi ý phim cá nhân hóa cho từng người dùng. Dịch vụ AWS nào họ nên sử dụng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Comprehend",
+                "vi": "Amazon Comprehend"
+            },
+            {
+                "id": "B",
+                "en": "Amazon SageMaker AI",
+                "vi": "Amazon SageMaker AI"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Personalize",
+                "vi": "Amazon Personalize"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Kendra",
+                "vi": "Amazon Kendra"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Amazon Personalize is purpose-built for real-time personalization and recommendations, using the same ML technology as Amazon.com. It requires no ML expertise.",
+            "vi": "Amazon Personalize được xây dựng đặc biệt cho cá nhân hóa và gợi ý thời gian thực, sử dụng cùng công nghệ ML với Amazon.com. Không yêu cầu kiến thức ML."
+        }
+    },
+    {
+        "id": "q-025",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is Amazon Q Developer primarily used for?",
+            "vi": "Amazon Q Developer chủ yếu được dùng để làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Managing AWS billing and costs",
+                "vi": "Quản lý thanh toán và chi phí AWS"
+            },
+            {
+                "id": "B",
+                "en": "AI-powered coding assistance and software development",
+                "vi": "Hỗ trợ lập trình và phát triển phần mềm bằng AI"
+            },
+            {
+                "id": "C",
+                "en": "Employee HR management",
+                "vi": "Quản lý HR nhân viên"
+            },
+            {
+                "id": "D",
+                "en": "Database query optimization",
+                "vi": "Tối ưu hóa truy vấn cơ sở dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Q Developer (formerly CodeWhisperer) provides AI-powered coding assistance including code generation, code explanations, security scanning, and unit test generation.",
+            "vi": "Amazon Q Developer (trước đây là CodeWhisperer) cung cấp hỗ trợ lập trình bằng AI bao gồm tạo code, giải thích code, quét bảo mật và tạo unit test."
+        }
+    },
+    {
+        "id": "q-026",
+        "domain": 3,
+        "type": "multiple-response",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "A company is building a GenAI application on Amazon Bedrock. Which TWO approaches can they use to keep the FM's responses grounded in their company's data?",
+            "vi": "Một công ty đang xây dựng ứng dụng GenAI trên Amazon Bedrock. Hai phương pháp nào họ có thể sử dụng để giữ phản hồi FM gắn kết với dữ liệu của công ty?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Increase max tokens parameter",
+                "vi": "Tăng tham số max tokens"
+            },
+            {
+                "id": "B",
+                "en": "Use Bedrock Knowledge Bases for RAG",
+                "vi": "Sử dụng Bedrock Knowledge Bases cho RAG"
+            },
+            {
+                "id": "C",
+                "en": "Fine-tune the foundation model on company data",
+                "vi": "Fine-tune foundation model trên dữ liệu công ty"
+            },
+            {
+                "id": "D",
+                "en": "Use a lower temperature setting",
+                "vi": "Sử dụng cài đặt temperature thấp hơn"
+            }
+        ],
+        "correctAnswers": [
+            "B",
+            "C"
+        ],
+        "explanation": {
+            "en": "RAG (Knowledge Bases) provides real-time context from company data without changing the model. Fine-tuning adapts model weights to company-specific language and patterns. Both ground the FM in company data.",
+            "vi": "RAG (Knowledge Bases) cung cấp ngữ cảnh thời gian thực từ dữ liệu công ty mà không thay đổi mô hình. Fine-tuning điều chỉnh trọng số mô hình theo ngôn ngữ và mẫu đặc thù của công ty. Cả hai đều gắn kết FM với dữ liệu công ty."
+        }
+    },
+    {
+        "id": "q-027",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the role of vector embeddings in a RAG architecture?",
+            "vi": "Vai trò của vector embeddings trong kiến trúc RAG là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "To encrypt documents for security",
+                "vi": "Để mã hóa tài liệu để bảo mật"
+            },
+            {
+                "id": "B",
+                "en": "To convert text into numerical representations that capture semantic meaning for similarity search",
+                "vi": "Để chuyển đổi văn bản thành biểu diễn số nắm bắt ý nghĩa ngữ nghĩa cho tìm kiếm tương đồng"
+            },
+            {
+                "id": "C",
+                "en": "To compress documents to reduce storage costs",
+                "vi": "Để nén tài liệu giảm chi phí lưu trữ"
+            },
+            {
+                "id": "D",
+                "en": "To translate documents between languages",
+                "vi": "Để dịch tài liệu giữa các ngôn ngữ"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Vector embeddings convert text to numerical vectors in high-dimensional space where semantically similar content is close together. This enables finding relevant documents through similarity search.",
+            "vi": "Vector embeddings chuyển đổi văn bản thành vector số trong không gian nhiều chiều, nơi nội dung tương đồng về ngữ nghĩa gần nhau. Điều này cho phép tìm tài liệu liên quan qua tìm kiếm tương đồng."
+        }
+    },
+    {
+        "id": "q-028",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A company needs to evaluate and compare the performance of multiple foundation models on their custom dataset before choosing one. Which Bedrock feature should they use?",
+            "vi": "Một công ty cần đánh giá và so sánh hiệu suất của nhiều foundation model trên tập dữ liệu tùy chỉnh trước khi chọn một cái. Tính năng Bedrock nào họ nên sử dụng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Bedrock Guardrails",
+                "vi": "Bedrock Guardrails"
+            },
+            {
+                "id": "B",
+                "en": "Bedrock Knowledge Bases",
+                "vi": "Bedrock Knowledge Bases"
+            },
+            {
+                "id": "C",
+                "en": "Bedrock Model Evaluation",
+                "vi": "Bedrock Model Evaluation"
+            },
+            {
+                "id": "D",
+                "en": "Bedrock Marketplace",
+                "vi": "Bedrock Marketplace"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Bedrock Model Evaluation allows running automated benchmarks and human evaluations to compare FM performance on custom prompts/datasets, helping select the best model for your use case.",
+            "vi": "Bedrock Model Evaluation cho phép chạy các benchmark tự động và đánh giá của con người để so sánh hiệu suất FM trên prompt/tập dữ liệu tùy chỉnh, giúp chọn mô hình tốt nhất cho trường hợp sử dụng của bạn."
+        }
+    },
+    {
+        "id": "q-029",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "When using Amazon Bedrock Agents, what is an 'action group'?",
+            "vi": "Khi sử dụng Amazon Bedrock Agents, 'action group' là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "A set of permissions for the agent's IAM role",
+                "vi": "Tập hợp quyền cho IAM role của agent"
+            },
+            {
+                "id": "B",
+                "en": "A collection of API operations defined by an OpenAPI schema that the agent can call",
+                "vi": "Tập hợp các hoạt động API được định nghĩa bởi schema OpenAPI mà agent có thể gọi"
+            },
+            {
+                "id": "C",
+                "en": "A group of foundation models the agent can switch between",
+                "vi": "Nhóm foundation model mà agent có thể chuyển đổi giữa"
+            },
+            {
+                "id": "D",
+                "en": "A set of guardrails applied to agent outputs",
+                "vi": "Tập hợp guardrails áp dụng cho đầu ra của agent"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "An action group defines a set of API operations (via OpenAPI schema) that a Bedrock Agent can call to interact with external systems, enabling real-world actions like database queries or service calls.",
+            "vi": "Action group định nghĩa một tập hợp hoạt động API (qua schema OpenAPI) mà Bedrock Agent có thể gọi để tương tác với hệ thống bên ngoài, cho phép các hành động thực tế như truy vấn cơ sở dữ liệu hoặc gọi dịch vụ."
+        }
+    },
+    {
+        "id": "q-030",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "SageMaker JumpStart is best described as:",
+            "vi": "SageMaker JumpStart được mô tả tốt nhất là:"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "A serverless inference service for SageMaker models",
+                "vi": "Dịch vụ suy luận serverless cho mô hình SageMaker"
+            },
+            {
+                "id": "B",
+                "en": "A hub providing pre-built ML solutions, algorithms, and foundation models for one-click deployment",
+                "vi": "Trung tâm cung cấp các giải pháp ML dựng sẵn, thuật toán và foundation model để triển khai một cú nhấp chuột"
+            },
+            {
+                "id": "C",
+                "en": "A monitoring service for production ML models",
+                "vi": "Dịch vụ giám sát cho mô hình ML sản xuất"
+            },
+            {
+                "id": "D",
+                "en": "An automated ML (AutoML) service",
+                "vi": "Dịch vụ ML tự động (AutoML)"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "SageMaker JumpStart is a model hub that provides one-click access to 300+ pre-trained models from AWS, Hugging Face, Meta, and others, plus ML solution templates.",
+            "vi": "SageMaker JumpStart là model hub cung cấp quyền truy cập một cú nhấp chuột vào 300+ mô hình được huấn luyện sẵn từ AWS, Hugging Face, Meta và các nguồn khác, cộng thêm các mẫu giải pháp ML."
+        }
+    },
+    {
+        "id": "q-031",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A hiring algorithm consistently ranks female candidates lower than male candidates with equivalent qualifications. This is an example of:",
+            "vi": "Một thuật toán tuyển dụng liên tục xếp hạng ứng viên nữ thấp hơn ứng viên nam có trình độ tương đương. Đây là ví dụ về:"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Model overfitting",
+                "vi": "Model overfitting"
+            },
+            {
+                "id": "B",
+                "en": "AI bias",
+                "vi": "Thiên kiến AI"
+            },
+            {
+                "id": "C",
+                "en": "Model drift",
+                "vi": "Model drift"
+            },
+            {
+                "id": "D",
+                "en": "Data leakage",
+                "vi": "Rò rỉ dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "This is AI bias — a systematic error creating unfair outcomes for a protected group. The model likely learned bias from historical hiring data that reflected human bias.",
+            "vi": "Đây là thiên kiến AI — lỗi hệ thống tạo ra kết quả không công bằng cho nhóm được bảo vệ. Mô hình có thể đã học thiên kiến từ dữ liệu tuyển dụng lịch sử phản ánh thiên kiến của con người."
+        }
+    },
+    {
+        "id": "q-032",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service uses ML to detect bias in machine learning datasets and models?",
+            "vi": "Dịch vụ AWS nào sử dụng ML để phát hiện thiên kiến trong các tập dữ liệu và mô hình machine learning?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Macie",
+                "vi": "Amazon Macie"
+            },
+            {
+                "id": "B",
+                "en": "SageMaker Clarify",
+                "vi": "SageMaker Clarify"
+            },
+            {
+                "id": "C",
+                "en": "Amazon GuardDuty",
+                "vi": "Amazon GuardDuty"
+            },
+            {
+                "id": "D",
+                "en": "AWS Config",
+                "vi": "AWS Config"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "SageMaker Clarify detects potential bias in training data and trained models, and provides feature importance explanations using SHAP values for model explainability.",
+            "vi": "SageMaker Clarify phát hiện thiên kiến tiềm ẩn trong dữ liệu huấn luyện và mô hình đã huấn luyện, đồng thời cung cấp giải thích tầm quan trọng đặc trưng bằng giá trị SHAP cho khả năng giải thích mô hình."
+        }
+    },
+    {
+        "id": "q-033",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Amazon Bedrock Guardrails can be used to prevent which of the following? (Select the BEST answer)",
+            "vi": "Amazon Bedrock Guardrails có thể được sử dụng để ngăn chặn điều nào sau đây? (Chọn câu trả lời TỐT NHẤT)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "High API costs from excessive usage",
+                "vi": "Chi phí API cao do sử dụng quá mức"
+            },
+            {
+                "id": "B",
+                "en": "Slow response times from the model",
+                "vi": "Thời gian phản hồi chậm từ mô hình"
+            },
+            {
+                "id": "C",
+                "en": "Generation of harmful content and responses on denied topics",
+                "vi": "Tạo nội dung có hại và phản hồi về các chủ đề bị từ chối"
+            },
+            {
+                "id": "D",
+                "en": "Unauthorized access to the Bedrock API",
+                "vi": "Truy cập trái phép vào API Bedrock"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Bedrock Guardrails filters content based on configurable policies: denied topics, harmful content categories, word filters, PII redaction, and grounding checks to prevent unsafe or off-topic responses.",
+            "vi": "Bedrock Guardrails lọc nội dung dựa trên các chính sách có thể cấu hình: chủ đề bị từ chối, danh mục nội dung có hại, bộ lọc từ, che giấu PII và kiểm tra grounding để ngăn chặn các phản hồi không an toàn hoặc ngoài chủ đề."
+        }
+    },
+    {
+        "id": "q-034",
+        "domain": 4,
+        "type": "multiple-response",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are key pillars of AWS's responsible AI framework? (Select TWO)",
+            "vi": "Điều nào sau đây là trụ cột chính của khung AI có trách nhiệm của AWS? (Chọn HAI)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Maximum profit optimization",
+                "vi": "Tối ưu hóa lợi nhuận tối đa"
+            },
+            {
+                "id": "B",
+                "en": "Fairness and bias detection",
+                "vi": "Công bằng và phát hiện thiên kiến"
+            },
+            {
+                "id": "C",
+                "en": "Explainability and transparency",
+                "vi": "Khả năng giải thích và minh bạch"
+            },
+            {
+                "id": "D",
+                "en": "Vendor lock-in prevention",
+                "vi": "Ngăn chặn phụ thuộc nhà cung cấp"
+            }
+        ],
+        "correctAnswers": [
+            "B",
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS's responsible AI pillars include: fairness (detecting and mitigating bias), explainability (understanding model decisions), privacy, robustness, governance, and transparency.",
+            "vi": "Các trụ cột AI có trách nhiệm của AWS bao gồm: công bằng (phát hiện và giảm thiểu thiên kiến), khả năng giải thích (hiểu quyết định mô hình), quyền riêng tư, tính mạnh mẽ, quản trị và minh bạch."
+        }
+    },
+    {
+        "id": "q-035",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A medical AI system makes diagnoses that could significantly impact patient treatment. What human oversight mechanism should be implemented?",
+            "vi": "Hệ thống AI y tế đưa ra chẩn đoán có thể ảnh hưởng đáng kể đến điều trị của bệnh nhân. Cơ chế giám sát của con người nào nên được triển khai?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "No oversight needed if accuracy > 90%",
+                "vi": "Không cần giám sát nếu độ chính xác > 90%"
+            },
+            {
+                "id": "B",
+                "en": "Human-in-the-loop review using Amazon A2I",
+                "vi": "Đánh giá human-in-the-loop bằng Amazon A2I"
+            },
+            {
+                "id": "C",
+                "en": "Fully automate using SageMaker pipelines",
+                "vi": "Tự động hóa hoàn toàn bằng SageMaker pipelines"
+            },
+            {
+                "id": "D",
+                "en": "Use higher temperature for more creative diagnoses",
+                "vi": "Sử dụng temperature cao hơn để có chẩn đoán sáng tạo hơn"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "For high-stakes decisions like medical diagnoses, human-in-the-loop review (Amazon A2I) ensures human experts validate AI predictions, especially for low-confidence or edge cases.",
+            "vi": "Đối với các quyết định quan trọng như chẩn đoán y tế, đánh giá human-in-the-loop (Amazon A2I) đảm bảo các chuyên gia xác nhận dự đoán AI, đặc biệt cho các trường hợp có độ tin cậy thấp hoặc trường hợp ngoại lệ."
+        }
+    },
+    {
+        "id": "q-036",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What are AWS AI Service Cards?",
+            "vi": "AWS AI Service Cards là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Credit cards for purchasing AWS AI services",
+                "vi": "Thẻ tín dụng để mua dịch vụ AWS AI"
+            },
+            {
+                "id": "B",
+                "en": "Transparency documentation describing intended uses, limitations, and responsible AI design choices for AWS AI services",
+                "vi": "Tài liệu minh bạch mô tả các trường hợp sử dụng dự kiến, hạn chế và lựa chọn thiết kế AI có trách nhiệm cho các dịch vụ AWS AI"
+            },
+            {
+                "id": "C",
+                "en": "Business cards for AWS AI sales representatives",
+                "vi": "Danh thiếp cho đại diện bán hàng AWS AI"
+            },
+            {
+                "id": "D",
+                "en": "Flash cards for AWS certification study",
+                "vi": "Flashcard để học chứng chỉ AWS"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS AI Service Cards are transparency documentation that describe the intended use cases, limitations, responsible AI design choices, and performance characteristics of AWS AI services.",
+            "vi": "AWS AI Service Cards là tài liệu minh bạch mô tả các trường hợp sử dụng dự kiến, hạn chế, lựa chọn thiết kế AI có trách nhiệm và đặc điểm hiệu suất của các dịch vụ AWS AI."
+        }
+    },
+    {
+        "id": "q-037",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is 'model drift' in the context of deployed ML models?",
+            "vi": "'Model drift' trong bối cảnh các mô hình ML được triển khai là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "When the model's file size increases over time",
+                "vi": "Khi kích thước file của mô hình tăng theo thời gian"
+            },
+            {
+                "id": "B",
+                "en": "When model performance degrades because the statistical properties of the input data change over time",
+                "vi": "Khi hiệu suất mô hình giảm xuống vì các thuộc tính thống kê của dữ liệu đầu vào thay đổi theo thời gian"
+            },
+            {
+                "id": "C",
+                "en": "When the model switches between different algorithms",
+                "vi": "Khi mô hình chuyển đổi giữa các thuật toán khác nhau"
+            },
+            {
+                "id": "D",
+                "en": "When training data is corrupted",
+                "vi": "Khi dữ liệu huấn luyện bị hỏng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Model drift (or data drift) occurs when real-world data distributions change after deployment, causing model accuracy to degrade. Monitored with SageMaker Model Monitor.",
+            "vi": "Model drift (hoặc data drift) xảy ra khi phân phối dữ liệu thực tế thay đổi sau khi triển khai, khiến độ chính xác mô hình giảm xuống. Được theo dõi bằng SageMaker Model Monitor."
+        }
+    },
+    {
+        "id": "q-038",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "According to the Shared Responsibility Model, which of the following is the CUSTOMER'S responsibility when using Amazon Bedrock?",
+            "vi": "Theo Mô hình Trách nhiệm Chung, điều nào sau đây là trách nhiệm của KHÁCH HÀNG khi sử dụng Amazon Bedrock?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Securing the underlying hardware that runs the foundation models",
+                "vi": "Bảo mật phần cứng nền tảng chạy các foundation model"
+            },
+            {
+                "id": "B",
+                "en": "Managing the data sent to foundation models and access controls",
+                "vi": "Quản lý dữ liệu gửi đến foundation model và kiểm soát truy cập"
+            },
+            {
+                "id": "C",
+                "en": "Patching the model inference infrastructure",
+                "vi": "Vá lỗi cơ sở hạ tầng suy luận mô hình"
+            },
+            {
+                "id": "D",
+                "en": "Maintaining the foundation model weights",
+                "vi": "Duy trì trọng số foundation model"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS secures the infrastructure, hardware, and model weights. Customers are responsible for: data they send, IAM access controls, encryption choices, and compliance of their applications.",
+            "vi": "AWS bảo mật cơ sở hạ tầng, phần cứng và trọng số mô hình. Khách hàng chịu trách nhiệm về: dữ liệu họ gửi, kiểm soát truy cập IAM, lựa chọn mã hóa và tuân thủ của ứng dụng của họ."
+        }
+    },
+    {
+        "id": "q-039",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A company wants to detect if any sensitive personally identifiable information (PII) is stored unencrypted in their S3 buckets used for AI training data. Which service should they use?",
+            "vi": "Một công ty muốn phát hiện xem có bất kỳ thông tin nhận dạng cá nhân nhạy cảm (PII) nào được lưu trữ không được mã hóa trong S3 buckets dùng cho dữ liệu huấn luyện AI của họ không. Dịch vụ nào họ nên sử dụng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS CloudTrail",
+                "vi": "AWS CloudTrail"
+            },
+            {
+                "id": "B",
+                "en": "Amazon GuardDuty",
+                "vi": "Amazon GuardDuty"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Macie",
+                "vi": "Amazon Macie"
+            },
+            {
+                "id": "D",
+                "en": "AWS Config",
+                "vi": "AWS Config"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Amazon Macie uses ML to automatically discover and classify sensitive data including PII in S3, alerting on unencrypted buckets, public buckets, and shared external access.",
+            "vi": "Amazon Macie sử dụng ML để tự động khám phá và phân loại dữ liệu nhạy cảm bao gồm PII trong S3, cảnh báo về các bucket không được mã hóa, bucket công khai và chia sẻ truy cập bên ngoài."
+        }
+    },
+    {
+        "id": "q-040",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "An organization wants to audit all API calls made to Amazon Bedrock for compliance purposes. Which AWS service should they enable?",
+            "vi": "Một tổ chức muốn kiểm toán tất cả các lời gọi API đến Amazon Bedrock cho mục đích tuân thủ. Dịch vụ AWS nào họ nên bật?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon CloudWatch",
+                "vi": "Amazon CloudWatch"
+            },
+            {
+                "id": "B",
+                "en": "AWS CloudTrail",
+                "vi": "AWS CloudTrail"
+            },
+            {
+                "id": "C",
+                "en": "Amazon GuardDuty",
+                "vi": "Amazon GuardDuty"
+            },
+            {
+                "id": "D",
+                "en": "AWS Config",
+                "vi": "AWS Config"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS CloudTrail logs all API calls across AWS services including Bedrock, recording who made the call, when, from where, and what was done — essential for compliance auditing.",
+            "vi": "AWS CloudTrail ghi lại tất cả lời gọi API trên các dịch vụ AWS bao gồm Bedrock, ghi lại ai thực hiện lời gọi, khi nào, từ đâu và những gì đã được thực hiện — thiết yếu cho kiểm toán tuân thủ."
+        }
+    },
+    {
+        "id": "q-041",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "To follow the principle of least privilege for a data scientist who needs to run SageMaker training jobs, you should:",
+            "vi": "Để tuân theo nguyên tắc đặc quyền tối thiểu cho data scientist cần chạy training jobs SageMaker, bạn nên:"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Give them AdministratorAccess policy",
+                "vi": "Cấp cho họ chính sách AdministratorAccess"
+            },
+            {
+                "id": "B",
+                "en": "Grant only the specific SageMaker and S3 permissions needed for their tasks",
+                "vi": "Chỉ cấp các quyền SageMaker và S3 cụ thể cần thiết cho tác vụ của họ"
+            },
+            {
+                "id": "C",
+                "en": "Share root account credentials",
+                "vi": "Chia sẻ thông tin đăng nhập tài khoản root"
+            },
+            {
+                "id": "D",
+                "en": "Grant PowerUserAccess policy",
+                "vi": "Cấp chính sách PowerUserAccess"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "The least privilege principle means granting only the minimum permissions necessary. A data scientist should only have SageMaker training, S3 data access, and related permissions — not full admin access.",
+            "vi": "Nguyên tắc đặc quyền tối thiểu có nghĩa là chỉ cấp quyền tối thiểu cần thiết. Data scientist chỉ nên có quyền huấn luyện SageMaker, truy cập dữ liệu S3 và các quyền liên quan — không phải quyền truy cập quản trị đầy đủ."
+        }
+    },
+    {
+        "id": "q-042",
+        "domain": 5,
+        "type": "multiple-response",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "A company must ensure their SageMaker training jobs are network-isolated for compliance. Which TWO configurations should they implement?",
+            "vi": "Một công ty phải đảm bảo training jobs SageMaker của họ được cô lập mạng để tuân thủ. Hai cấu hình nào họ nên triển khai?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Run training jobs inside a VPC",
+                "vi": "Chạy training jobs bên trong VPC"
+            },
+            {
+                "id": "B",
+                "en": "Disable internet access for training containers",
+                "vi": "Vô hiệu hóa truy cập internet cho các container huấn luyện"
+            },
+            {
+                "id": "C",
+                "en": "Use public subnets for all training instances",
+                "vi": "Sử dụng public subnets cho tất cả các instance huấn luyện"
+            },
+            {
+                "id": "D",
+                "en": "Enable public IP for training jobs",
+                "vi": "Bật IP công khai cho training jobs"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "B"
+        ],
+        "explanation": {
+            "en": "Running in a VPC provides network isolation, and disabling internet access prevents data exfiltration and ensures training data stays within the secure network perimeter.",
+            "vi": "Chạy trong VPC cung cấp sự cô lập mạng, và vô hiệu hóa truy cập internet ngăn chặn rò rỉ dữ liệu và đảm bảo dữ liệu huấn luyện ở trong phạm vi mạng bảo mật."
+        }
+    },
+    {
+        "id": "q-043",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service continuously monitors for malicious activity and unusual behavior in AWS accounts, including threats to ML workloads?",
+            "vi": "Dịch vụ AWS nào liên tục theo dõi hoạt động độc hại và hành vi bất thường trong tài khoản AWS, bao gồm các mối đe dọa đối với workload ML?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS CloudTrail",
+                "vi": "AWS CloudTrail"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Macie",
+                "vi": "Amazon Macie"
+            },
+            {
+                "id": "C",
+                "en": "Amazon GuardDuty",
+                "vi": "Amazon GuardDuty"
+            },
+            {
+                "id": "D",
+                "en": "AWS WAF",
+                "vi": "AWS WAF"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Amazon GuardDuty uses ML to continuously analyze CloudTrail logs, VPC flow logs, and DNS logs to detect threats like unusual SageMaker API calls or compromised credentials.",
+            "vi": "Amazon GuardDuty sử dụng ML để liên tục phân tích CloudTrail logs, VPC flow logs và DNS logs để phát hiện các mối đe dọa như lời gọi API SageMaker bất thường hoặc thông tin đăng nhập bị xâm phạm."
+        }
+    },
+    {
+        "id": "q-044",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A company using Amazon Bedrock wants to ensure that data sent to foundation models is encrypted in transit. What should they do?",
+            "vi": "Một công ty sử dụng Amazon Bedrock muốn đảm bảo rằng dữ liệu gửi đến foundation model được mã hóa trong quá trình truyền. Họ nên làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Enable server-side encryption on S3",
+                "vi": "Bật mã hóa phía máy chủ trên S3"
+            },
+            {
+                "id": "B",
+                "en": "Bedrock automatically encrypts all data in transit using TLS; no additional action needed",
+                "vi": "Bedrock tự động mã hóa tất cả dữ liệu trong quá trình truyền bằng TLS; không cần hành động thêm"
+            },
+            {
+                "id": "C",
+                "en": "Manually encrypt data before sending to Bedrock API",
+                "vi": "Mã hóa dữ liệu thủ công trước khi gửi đến Bedrock API"
+            },
+            {
+                "id": "D",
+                "en": "Use AWS Shield for data encryption",
+                "vi": "Sử dụng AWS Shield để mã hóa dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Bedrock automatically encrypts all data in transit using TLS (HTTPS). Customers don't need to implement additional in-transit encryption for Bedrock API calls.",
+            "vi": "Amazon Bedrock tự động mã hóa tất cả dữ liệu trong quá trình truyền bằng TLS (HTTPS). Khách hàng không cần triển khai mã hóa truyền tải bổ sung cho lời gọi API Bedrock."
+        }
+    },
+    {
+        "id": "q-045",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "A company needs to ensure their Amazon Bedrock API calls do not go over the public internet. What should they configure?",
+            "vi": "Một công ty cần đảm bảo rằng lời gọi API Amazon Bedrock của họ không đi qua internet công cộng. Họ nên cấu hình gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Shield Advanced",
+                "vi": "AWS Shield Advanced"
+            },
+            {
+                "id": "B",
+                "en": "A VPC Interface Endpoint for Amazon Bedrock using AWS PrivateLink",
+                "vi": "VPC Interface Endpoint cho Amazon Bedrock sử dụng AWS PrivateLink"
+            },
+            {
+                "id": "C",
+                "en": "AWS WAF rules to block public access",
+                "vi": "AWS WAF rules để chặn truy cập công khai"
+            },
+            {
+                "id": "D",
+                "en": "AWS Direct Connect",
+                "vi": "AWS Direct Connect"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "A VPC Interface Endpoint using AWS PrivateLink allows private connectivity from your VPC to Amazon Bedrock without traffic traversing the public internet, enhancing security.",
+            "vi": "VPC Interface Endpoint sử dụng AWS PrivateLink cho phép kết nối riêng tư từ VPC của bạn đến Amazon Bedrock mà không có lưu lượng đi qua internet công cộng, tăng cường bảo mật."
+        }
+    },
+    {
+        "id": "q-046",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the primary difference between AI and machine learning?",
+            "vi": "Sự khác biệt chính giữa AI và machine learning là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AI and machine learning are the same thing",
+                "vi": "AI và machine learning là cùng một thứ"
+            },
+            {
+                "id": "B",
+                "en": "AI is the broader field of creating intelligent systems; ML is a subset that enables systems to learn from data",
+                "vi": "AI là lĩnh vực rộng hơn về tạo ra hệ thống thông minh; ML là tập hợp con cho phép hệ thống học từ dữ liệu"
+            },
+            {
+                "id": "C",
+                "en": "ML is broader than AI",
+                "vi": "ML rộng hơn AI"
+            },
+            {
+                "id": "D",
+                "en": "AI only works with images; ML works with text",
+                "vi": "AI chỉ hoạt động với hình ảnh; ML hoạt động với văn bản"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AI is the broad discipline of creating intelligent systems. ML is a subset of AI focused on systems that learn from data. Deep Learning is a subset of ML using neural networks.",
+            "vi": "AI là lĩnh vực rộng về tạo ra hệ thống thông minh. ML là tập hợp con của AI tập trung vào hệ thống học từ dữ liệu. Deep Learning là tập hợp con của ML sử dụng mạng nơ-ron."
+        }
+    },
+    {
+        "id": "q-047",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which Amazon Nova model variant is optimized for the lowest latency text-only tasks?",
+            "vi": "Biến thể mô hình Amazon Nova nào được tối ưu hóa cho các tác vụ chỉ văn bản có độ trễ thấp nhất?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Nova Premier",
+                "vi": "Nova Premier"
+            },
+            {
+                "id": "B",
+                "en": "Nova Pro",
+                "vi": "Nova Pro"
+            },
+            {
+                "id": "C",
+                "en": "Nova Lite",
+                "vi": "Nova Lite"
+            },
+            {
+                "id": "D",
+                "en": "Nova Micro",
+                "vi": "Nova Micro"
+            }
+        ],
+        "correctAnswers": [
+            "D"
+        ],
+        "explanation": {
+            "en": "Amazon Nova Micro is the text-only model in the Nova family, optimized for lowest latency and cost-efficiency. Nova Lite and Pro are multimodal; Nova Premier is the most capable.",
+            "vi": "Amazon Nova Micro là mô hình chỉ văn bản trong gia đình Nova, được tối ưu hóa cho độ trễ thấp nhất và hiệu quả chi phí. Nova Lite và Pro là đa phương thức; Nova Premier là mạnh nhất."
+        }
+    },
+    {
+        "id": "q-048",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "A developer wants to use Amazon Q Business for their employees. What is a key feature of Amazon Q Business?",
+            "vi": "Một developer muốn sử dụng Amazon Q Business cho nhân viên của họ. Tính năng chính của Amazon Q Business là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "It can only answer questions about AWS services",
+                "vi": "Nó chỉ có thể trả lời câu hỏi về dịch vụ AWS"
+            },
+            {
+                "id": "B",
+                "en": "An enterprise AI assistant that can answer questions using your company's internal data and documents",
+                "vi": "Trợ lý AI doanh nghiệp có thể trả lời câu hỏi bằng dữ liệu và tài liệu nội bộ của công ty bạn"
+            },
+            {
+                "id": "C",
+                "en": "A code generation service for developers only",
+                "vi": "Dịch vụ tạo code chỉ dành cho developers"
+            },
+            {
+                "id": "D",
+                "en": "A business intelligence and data analytics platform",
+                "vi": "Nền tảng business intelligence và phân tích dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Q Business is an enterprise GenAI assistant that connects to company data sources (SharePoint, Confluence, S3, etc.) and allows employees to ask questions in natural language.",
+            "vi": "Amazon Q Business là trợ lý GenAI doanh nghiệp kết nối với các nguồn dữ liệu công ty (SharePoint, Confluence, S3, v.v.) và cho phép nhân viên đặt câu hỏi bằng ngôn ngữ tự nhiên."
+        }
+    },
+    {
+        "id": "q-049",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Under the EU AI Act, what risk category would a facial recognition system used for mass surveillance fall into?",
+            "vi": "Theo EU AI Act, hệ thống nhận dạng khuôn mặt dùng cho giám sát đại trà sẽ rơi vào danh mục rủi ro nào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Minimal risk",
+                "vi": "Rủi ro tối thiểu"
+            },
+            {
+                "id": "B",
+                "en": "Limited risk",
+                "vi": "Rủi ro hạn chế"
+            },
+            {
+                "id": "C",
+                "en": "High risk",
+                "vi": "Rủi ro cao"
+            },
+            {
+                "id": "D",
+                "en": "Unacceptable risk (prohibited)",
+                "vi": "Rủi ro không thể chấp nhận (bị cấm)"
+            }
+        ],
+        "correctAnswers": [
+            "D"
+        ],
+        "explanation": {
+            "en": "The EU AI Act prohibits AI systems used for mass surveillance, real-time remote biometric identification in public spaces for law enforcement, and social scoring — these fall under 'unacceptable risk'.",
+            "vi": "EU AI Act cấm các hệ thống AI dùng cho giám sát đại trà, nhận dạng sinh trắc học từ xa thời gian thực ở nơi công cộng để thực thi pháp luật và chấm điểm xã hội — đây thuộc 'rủi ro không thể chấp nhận'."
+        }
+    },
+    {
+        "id": "q-050",
+        "domain": 5,
+        "type": "multiple-response",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which AWS services help with compliance and governance for AI solutions? (Select TWO)",
+            "vi": "Dịch vụ AWS nào giúp tuân thủ và quản trị cho các giải pháp AI? (Chọn HAI)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Config (resource compliance rules)",
+                "vi": "AWS Config (quy tắc tuân thủ tài nguyên)"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Route 53",
+                "vi": "Amazon Route 53"
+            },
+            {
+                "id": "C",
+                "en": "AWS CloudTrail (audit logging)",
+                "vi": "AWS CloudTrail (ghi nhật ký kiểm toán)"
+            },
+            {
+                "id": "D",
+                "en": "Amazon CloudFront",
+                "vi": "Amazon CloudFront"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS Config monitors resource configurations against compliance rules (e.g., SageMaker training must use VPC). CloudTrail provides audit trails for all API activity. Both are essential for AI governance.",
+            "vi": "AWS Config theo dõi cấu hình tài nguyên theo các quy tắc tuân thủ (ví dụ: huấn luyện SageMaker phải dùng VPC). CloudTrail cung cấp dấu vết kiểm toán cho tất cả hoạt động API. Cả hai đều thiết yếu cho quản trị AI."
+        }
+    },
+    {
+        "id": "q-051",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "Which type of machine learning is used to train a game-playing AI that learns by receiving rewards for winning moves?",
+            "vi": "Loại machine learning nào được dùng để huấn luyện AI chơi game học bằng cách nhận phần thưởng cho các nước đi thắng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Supervised learning",
+                "vi": "Học có giám sát"
+            },
+            {
+                "id": "B",
+                "en": "Unsupervised learning",
+                "vi": "Học không giám sát"
+            },
+            {
+                "id": "C",
+                "en": "Reinforcement learning",
+                "vi": "Học tăng cường"
+            },
+            {
+                "id": "D",
+                "en": "Semi-supervised learning",
+                "vi": "Học bán giám sát"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Reinforcement learning trains agents through reward/penalty signals from environment interactions. Game-playing AI (like AlphaGo) is a classic reinforcement learning application.",
+            "vi": "Học tăng cường huấn luyện agent thông qua tín hiệu phần thưởng/hình phạt từ tương tác với môi trường. AI chơi game (như AlphaGo) là ứng dụng học tăng cường kinh điển."
+        }
+    },
+    {
+        "id": "q-052",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is 'context window' in the context of LLMs?",
+            "vi": "'Context window' trong bối cảnh LLM là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "The visual interface of the model playground",
+                "vi": "Giao diện trực quan của model playground"
+            },
+            {
+                "id": "B",
+                "en": "The maximum number of tokens (input + output) the model can process in a single request",
+                "vi": "Số token tối đa (đầu vào + đầu ra) mô hình có thể xử lý trong một yêu cầu"
+            },
+            {
+                "id": "C",
+                "en": "The training data window used during pre-training",
+                "vi": "Cửa sổ dữ liệu huấn luyện được sử dụng trong quá trình tiền huấn luyện"
+            },
+            {
+                "id": "D",
+                "en": "The browser window used to access the model",
+                "vi": "Cửa sổ trình duyệt được dùng để truy cập mô hình"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Context window is the maximum number of tokens (including both input prompt and output) that an LLM can process at once. Larger context windows enable longer conversations and document analysis.",
+            "vi": "Context window là số token tối đa (bao gồm cả prompt đầu vào và đầu ra) mà LLM có thể xử lý cùng lúc. Context window lớn hơn cho phép hội thoại dài hơn và phân tích tài liệu."
+        }
+    },
+    {
+        "id": "q-053",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is the primary benefit of using Amazon Bedrock instead of self-hosting open-source LLMs?",
+            "vi": "Lợi ích chính của việc sử dụng Amazon Bedrock thay vì tự host các LLM mã nguồn mở là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Bedrock models are always cheaper",
+                "vi": "Các mô hình Bedrock luôn rẻ hơn"
+            },
+            {
+                "id": "B",
+                "en": "No infrastructure management needed; fully managed, serverless, pay-per-use",
+                "vi": "Không cần quản lý cơ sở hạ tầng; được quản lý hoàn toàn, serverless, thanh toán theo sử dụng"
+            },
+            {
+                "id": "C",
+                "en": "Bedrock gives you full access to model weights",
+                "vi": "Bedrock cho bạn quyền truy cập đầy đủ vào trọng số mô hình"
+            },
+            {
+                "id": "D",
+                "en": "Bedrock only supports AWS-built models",
+                "vi": "Bedrock chỉ hỗ trợ các mô hình do AWS xây dựng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Bedrock is serverless and fully managed — no GPU instances to provision, no model servers to maintain, pay only for tokens processed. Self-hosting requires significant infrastructure expertise and cost.",
+            "vi": "Bedrock là serverless và được quản lý hoàn toàn — không cần cấp phát GPU instances, không cần duy trì model servers, chỉ trả tiền cho các token được xử lý. Tự host đòi hỏi chuyên môn và chi phí cơ sở hạ tầng đáng kể."
+        }
+    },
+    {
+        "id": "q-054",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": false,
+        "question": {
+            "en": "In a RAG pipeline, what happens FIRST before a user query is answered?",
+            "vi": "Trong pipeline RAG, điều gì xảy ra TRƯỚC khi truy vấn người dùng được trả lời?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "The FM generates an answer based on its training data",
+                "vi": "FM tạo câu trả lời dựa trên dữ liệu huấn luyện của nó"
+            },
+            {
+                "id": "B",
+                "en": "The query is converted to a vector embedding and used to retrieve relevant document chunks from the vector store",
+                "vi": "Truy vấn được chuyển đổi thành vector embedding và dùng để truy xuất các đoạn tài liệu liên quan từ vector store"
+            },
+            {
+                "id": "C",
+                "en": "The model is fine-tuned on new data",
+                "vi": "Mô hình được fine-tune trên dữ liệu mới"
+            },
+            {
+                "id": "D",
+                "en": "The user is authenticated via IAM",
+                "vi": "Người dùng được xác thực qua IAM"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "In RAG: 1) Convert query to embedding, 2) Find similar document chunks via vector similarity search, 3) Add retrieved chunks to prompt context, 4) FM generates grounded answer.",
+            "vi": "Trong RAG: 1) Chuyển đổi truy vấn thành embedding, 2) Tìm các đoạn tài liệu tương đồng qua tìm kiếm tương đồng vector, 3) Thêm các đoạn được truy xuất vào ngữ cảnh prompt, 4) FM tạo câu trả lời được gắn kết."
+        }
+    },
+    {
+        "id": "q-055",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is 'differential privacy' in the context of ML?",
+            "vi": "'Differential privacy' trong bối cảnh ML là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "A technique to encrypt model weights",
+                "vi": "Kỹ thuật mã hóa trọng số mô hình"
+            },
+            {
+                "id": "B",
+                "en": "A mathematical privacy framework that adds controlled noise to data or model outputs to prevent individual data point identification",
+                "vi": "Khung quyền riêng tư toán học thêm nhiễu có kiểm soát vào dữ liệu hoặc đầu ra mô hình để ngăn nhận dạng điểm dữ liệu cá nhân"
+            },
+            {
+                "id": "C",
+                "en": "Different privacy policies for different AWS services",
+                "vi": "Các chính sách quyền riêng tư khác nhau cho các dịch vụ AWS khác nhau"
+            },
+            {
+                "id": "D",
+                "en": "A method to keep training and test data separate",
+                "vi": "Phương pháp để tách biệt dữ liệu huấn luyện và kiểm tra"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Differential privacy adds calibrated noise to protect individual privacy in aggregated datasets or model outputs, ensuring individual data points cannot be reverse-engineered from the model.",
+            "vi": "Differential privacy thêm nhiễu được hiệu chỉnh để bảo vệ quyền riêng tư cá nhân trong các tập dữ liệu tổng hợp hoặc đầu ra mô hình, đảm bảo các điểm dữ liệu cá nhân không thể được kỹ thuật đảo ngược từ mô hình."
+        }
+    },
+    {
+        "id": "q-056",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "A healthcare company must ensure their Amazon Bedrock usage is HIPAA compliant. What is required?",
+            "vi": "Một công ty chăm sóc sức khỏe phải đảm bảo việc sử dụng Amazon Bedrock của họ tuân thủ HIPAA. Điều gì là cần thiết?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Bedrock is not HIPAA eligible",
+                "vi": "Bedrock không đủ điều kiện HIPAA"
+            },
+            {
+                "id": "B",
+                "en": "Sign a Business Associate Agreement (BAA) with AWS and use HIPAA-eligible Bedrock features",
+                "vi": "Ký Thỏa thuận Đối tác Kinh doanh (BAA) với AWS và sử dụng các tính năng Bedrock đủ điều kiện HIPAA"
+            },
+            {
+                "id": "C",
+                "en": "Automatically compliant if using AWS services",
+                "vi": "Tự động tuân thủ nếu sử dụng dịch vụ AWS"
+            },
+            {
+                "id": "D",
+                "en": "Only on-premise deployment is HIPAA compliant",
+                "vi": "Chỉ triển khai on-premise mới tuân thủ HIPAA"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "For HIPAA compliance, customers must sign a BAA with AWS. Amazon Bedrock is HIPAA eligible, meaning it can be used with PHI when a BAA is in place.",
+            "vi": "Để tuân thủ HIPAA, khách hàng phải ký BAA với AWS. Amazon Bedrock đủ điều kiện HIPAA, nghĩa là nó có thể được sử dụng với PHI khi BAA được thiết lập."
+        }
+    },
+    {
+        "id": "q-057",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What does SageMaker Autopilot (AutoML) do?",
+            "vi": "SageMaker Autopilot (AutoML) làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Automatically deploys models to production without testing",
+                "vi": "Tự động triển khai mô hình lên sản xuất mà không cần kiểm tra"
+            },
+            {
+                "id": "B",
+                "en": "Automatically explores different ML algorithms and hyperparameters to find the best model for your dataset",
+                "vi": "Tự động khám phá các thuật toán ML và hyperparameter khác nhau để tìm mô hình tốt nhất cho tập dữ liệu của bạn"
+            },
+            {
+                "id": "C",
+                "en": "Automatically backs up ML models to S3",
+                "vi": "Tự động sao lưu mô hình ML vào S3"
+            },
+            {
+                "id": "D",
+                "en": "Automates data collection from external sources",
+                "vi": "Tự động thu thập dữ liệu từ nguồn bên ngoài"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "SageMaker Autopilot is AWS's AutoML solution that automatically tries multiple algorithms and hyperparameter configurations, providing the best model with full visibility into the process.",
+            "vi": "SageMaker Autopilot là giải pháp AutoML của AWS tự động thử nhiều thuật toán và cấu hình hyperparameter, cung cấp mô hình tốt nhất với tầm nhìn đầy đủ vào quá trình."
+        }
+    },
+    {
+        "id": "q-058",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is 'chain-of-thought' prompting?",
+            "vi": "'Chain-of-thought' prompting là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Linking multiple API calls together in sequence",
+                "vi": "Liên kết nhiều lời gọi API với nhau theo thứ tự"
+            },
+            {
+                "id": "B",
+                "en": "A technique that encourages the LLM to explain its reasoning step-by-step before giving the final answer, improving accuracy on complex problems",
+                "vi": "Kỹ thuật khuyến khích LLM giải thích lý luận của mình từng bước trước khi đưa ra câu trả lời cuối cùng, cải thiện độ chính xác cho các bài toán phức tạp"
+            },
+            {
+                "id": "C",
+                "en": "Chaining multiple LLM models together",
+                "vi": "Kết nối nhiều mô hình LLM với nhau"
+            },
+            {
+                "id": "D",
+                "en": "A method to chain training batches together",
+                "vi": "Phương pháp kết nối các lô huấn luyện với nhau"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Chain-of-thought prompting guides the model to reason step-by-step (e.g., 'Let's think step by step...'), significantly improving performance on multi-step math, logic, and reasoning tasks.",
+            "vi": "Chain-of-thought prompting hướng dẫn mô hình lý luận từng bước (ví dụ: 'Hãy nghĩ từng bước...'), cải thiện đáng kể hiệu suất trên các tác vụ toán học, logic và lý luận nhiều bước."
+        }
+    },
+    {
+        "id": "q-059",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": false,
+        "question": {
+            "en": "What is 'continued pre-training' in Amazon Bedrock Model Customization?",
+            "vi": "'Continued pre-training' trong Amazon Bedrock Model Customization là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Resuming a previously interrupted training job",
+                "vi": "Tiếp tục công việc huấn luyện đã bị gián đoạn trước đó"
+            },
+            {
+                "id": "B",
+                "en": "Training the FM on unlabeled domain-specific text data to improve its knowledge base without labeled examples",
+                "vi": "Huấn luyện FM trên dữ liệu văn bản không có nhãn đặc thù cho lĩnh vực để cải thiện cơ sở kiến thức mà không cần ví dụ có nhãn"
+            },
+            {
+                "id": "C",
+                "en": "Fine-tuning with labeled input-output pairs for a specific task",
+                "vi": "Fine-tuning với các cặp đầu vào-đầu ra có nhãn cho tác vụ cụ thể"
+            },
+            {
+                "id": "D",
+                "en": "Updating the model with real-time user feedback",
+                "vi": "Cập nhật mô hình với phản hồi người dùng thời gian thực"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Continued pre-training feeds unlabeled domain-specific text to the FM to improve its understanding of your domain's vocabulary, concepts, and patterns — without needing labeled input-output examples.",
+            "vi": "Continued pre-training cung cấp văn bản không có nhãn đặc thù cho lĩnh vực cho FM để cải thiện sự hiểu biết về từ vựng, khái niệm và mẫu của lĩnh vực bạn — mà không cần ví dụ đầu vào-đầu ra có nhãn."
+        }
+    },
+    {
+        "id": "q-060",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "A company discloses to customers when they are interacting with an AI system rather than a human. This is an example of which responsible AI principle?",
+            "vi": "Một công ty thông báo cho khách hàng khi họ đang tương tác với hệ thống AI thay vì con người. Đây là ví dụ về nguyên tắc AI có trách nhiệm nào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Fairness",
+                "vi": "Công bằng"
+            },
+            {
+                "id": "B",
+                "en": "Transparency",
+                "vi": "Minh bạch"
+            },
+            {
+                "id": "C",
+                "en": "Robustness",
+                "vi": "Tính mạnh mẽ"
+            },
+            {
+                "id": "D",
+                "en": "Privacy",
+                "vi": "Quyền riêng tư"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Transparency means being open about the nature of AI systems, including disclosing when users are interacting with AI. This builds trust and allows users to make informed decisions.",
+            "vi": "Minh bạch có nghĩa là cởi mở về bản chất của hệ thống AI, bao gồm tiết lộ khi người dùng đang tương tác với AI. Điều này xây dựng lòng tin và cho phép người dùng đưa ra quyết định sáng suốt."
+        }
+    },
+    {
+        "id": "q-061",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is the purpose of AWS KMS Customer Managed Keys (CMKs) for Amazon Bedrock?",
+            "vi": "Mục đích của AWS KMS Customer Managed Keys (CMKs) cho Amazon Bedrock là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "To speed up model inference",
+                "vi": "Để tăng tốc suy luận mô hình"
+            },
+            {
+                "id": "B",
+                "en": "To provide customer control over encryption keys for model customization data at rest",
+                "vi": "Để cung cấp quyền kiểm soát của khách hàng đối với khóa mã hóa cho dữ liệu tùy chỉnh mô hình ở trạng thái nghỉ"
+            },
+            {
+                "id": "C",
+                "en": "To authenticate API requests to Bedrock",
+                "vi": "Để xác thực yêu cầu API đến Bedrock"
+            },
+            {
+                "id": "D",
+                "en": "To manage billing for Bedrock usage",
+                "vi": "Để quản lý thanh toán cho việc sử dụng Bedrock"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS KMS CMKs let customers manage their own encryption keys for Bedrock model customization data (fine-tuning data, custom models), providing control and auditability over who can decrypt data.",
+            "vi": "AWS KMS CMKs cho phép khách hàng quản lý khóa mã hóa của riêng họ cho dữ liệu tùy chỉnh mô hình Bedrock (dữ liệu fine-tuning, mô hình tùy chỉnh), cung cấp kiểm soát và khả năng kiểm toán về ai có thể giải mã dữ liệu."
+        }
+    },
+    {
+        "id": "q-062",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": false,
+        "question": {
+            "en": "Amazon Comprehend is used to perform which type of analysis on text?",
+            "vi": "Amazon Comprehend được sử dụng để thực hiện loại phân tích nào trên văn bản?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Image classification",
+                "vi": "Phân loại hình ảnh"
+            },
+            {
+                "id": "B",
+                "en": "Natural language processing including sentiment analysis and entity recognition",
+                "vi": "Xử lý ngôn ngữ tự nhiên bao gồm phân tích cảm xúc và nhận dạng thực thể"
+            },
+            {
+                "id": "C",
+                "en": "Speech recognition",
+                "vi": "Nhận dạng giọng nói"
+            },
+            {
+                "id": "D",
+                "en": "Video content moderation",
+                "vi": "Kiểm duyệt nội dung video"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Comprehend provides NLP capabilities: sentiment analysis (positive/negative/neutral), named entity recognition, key phrase extraction, language detection, and topic modeling.",
+            "vi": "Amazon Comprehend cung cấp khả năng NLP: phân tích cảm xúc (tích cực/tiêu cực/trung lập), nhận dạng thực thể được đặt tên, trích xuất cụm từ khóa, phát hiện ngôn ngữ và mô hình hóa chủ đề."
+        }
+    },
+    {
+        "id": "q-063",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": false,
+        "question": {
+            "en": "Which model parameter controls the maximum number of tokens the model will generate in its response?",
+            "vi": "Tham số mô hình nào kiểm soát số token tối đa mô hình sẽ tạo ra trong phản hồi của nó?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Temperature",
+                "vi": "Temperature"
+            },
+            {
+                "id": "B",
+                "en": "Top-p",
+                "vi": "Top-p"
+            },
+            {
+                "id": "C",
+                "en": "Max tokens (max_gen_len)",
+                "vi": "Max tokens (max_gen_len)"
+            },
+            {
+                "id": "D",
+                "en": "Top-k",
+                "vi": "Top-k"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "The max_tokens (or max_gen_len) parameter limits the length of the model's generated output. Affects cost (billed per token) and prevents overly long responses.",
+            "vi": "Tham số max_tokens (hoặc max_gen_len) giới hạn độ dài đầu ra được tạo ra của mô hình. Ảnh hưởng đến chi phí (tính tiền theo token) và ngăn chặn các phản hồi quá dài."
+        }
+    },
+    {
+        "id": "q-064",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is 'federated learning' in the context of privacy-preserving ML?",
+            "vi": "'Federated learning' trong bối cảnh ML bảo vệ quyền riêng tư là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Training a model in multiple AWS regions simultaneously",
+                "vi": "Huấn luyện mô hình ở nhiều AWS Region cùng lúc"
+            },
+            {
+                "id": "B",
+                "en": "A technique where the model is trained on decentralized data; only model updates (not raw data) are shared",
+                "vi": "Kỹ thuật trong đó mô hình được huấn luyện trên dữ liệu phi tập trung; chỉ các bản cập nhật mô hình (không phải dữ liệu thô) được chia sẻ"
+            },
+            {
+                "id": "C",
+                "en": "Training with multiple foundation models in parallel",
+                "vi": "Huấn luyện với nhiều foundation model song song"
+            },
+            {
+                "id": "D",
+                "en": "Using AWS Organizations to manage ML accounts",
+                "vi": "Sử dụng AWS Organizations để quản lý tài khoản ML"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Federated learning allows training ML models across multiple decentralized devices/servers without transferring raw data, preserving privacy while still improving the model from distributed data.",
+            "vi": "Federated learning cho phép huấn luyện mô hình ML trên nhiều thiết bị/máy chủ phi tập trung mà không chuyển dữ liệu thô, bảo vệ quyền riêng tư trong khi vẫn cải thiện mô hình từ dữ liệu phân tán."
+        }
+    },
+    {
+        "id": "q-065",
+        "domain": 5,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "Which AWS service helps identify security vulnerabilities and compliance violations in AWS resource configurations related to AI workloads?",
+            "vi": "Dịch vụ AWS nào giúp xác định các lỗ hổng bảo mật và vi phạm tuân thủ trong cấu hình tài nguyên AWS liên quan đến workload AI?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon GuardDuty",
+                "vi": "Amazon GuardDuty"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Macie",
+                "vi": "Amazon Macie"
+            },
+            {
+                "id": "C",
+                "en": "AWS Security Hub",
+                "vi": "AWS Security Hub"
+            },
+            {
+                "id": "D",
+                "en": "AWS Config",
+                "vi": "AWS Config"
+            }
+        ],
+        "correctAnswers": [
+            "D"
+        ],
+        "explanation": {
+            "en": "AWS Config continuously monitors resource configurations and evaluates them against compliance rules. For AI workloads: checks that SageMaker uses VPC, encryption is enabled, and security settings are correct.",
+            "vi": "AWS Config liên tục theo dõi cấu hình tài nguyên và đánh giá chúng theo các quy tắc tuân thủ. Cho workload AI: kiểm tra SageMaker dùng VPC, mã hóa được bật và cài đặt bảo mật đúng."
+        }
+    }
+]
