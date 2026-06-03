@@ -23,7 +23,7 @@ export default defineConfig({
                 background_color: '#ffffff',
                 display: 'standalone',
                 orientation: 'any',
-                scope: '/',
+                scope: '/aws-cert-study',
                 start_url: '/aws-cert-study',
                 categories: ['education', 'productivity'],
                 icons: [
