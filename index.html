@@ -11,6 +11,15 @@
             content="Study flashcards and practice exams for AWS certifications"
         />
         <title>AWS Certification Study</title>
+        <script>
+            // Handle 404.html redirect for GitHub Pages
+            const params = new URLSearchParams(window.location.search);
+            const redirect = params.get('redirect');
+            if (redirect) {
+                // Clean up the URL and push the real path into history
+                window.history.replaceState(null, '', redirect);
+            }
+        </script>
     </head>
     <body>
         <div id="root"></div>
