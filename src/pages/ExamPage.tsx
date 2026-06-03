@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import rawQuestions from '../data/certifications/aif-c01/questions.json';
-import type { ExamSession, Question } from '../types';
+import type { ExamSession } from '../types';
+import { getCertMeta, getCertQuestions } from '../utils/certLoader';
 import { shuffleArray } from '../utils/examScoring';
-
-const allQuestions = rawQuestions as Question[];
 
 type Mode = 'config' | 'exam';
 
@@ -14,9 +12,22 @@ export default function ExamPage() {
     const { language } = useApp();
     const navigate = useNavigate();
 
+    const allQuestions = getCertQuestions(certId!);
+    const certMeta = getCertMeta(certId!);
+
     const [mode, setMode] = useState<Mode>('config');
     const [questionCount, setQuestionCount] = useState(65);
     const [session, setSession] = useState<ExamSession | null>(null);
+
+    if (!certMeta) {
+        return (
+            <div className="text-center py-20 text-gray-400">
+                {language === 'en'
+                    ? 'Certification not found.'
+                    : 'Không tìm thấy chứng chỉ.'}
+            </div>
+        );
+    }
 
     const startExam = () => {
         const shuffled = shuffleArray(allQuestions);
@@ -42,6 +53,7 @@ export default function ExamPage() {
         return (
             <ExamConfig
                 language={language}
+                certMeta={certMeta}
                 questionCount={questionCount}
                 setQuestionCount={setQuestionCount}
                 onStart={startExam}
@@ -74,11 +86,13 @@ export default function ExamPage() {
 
 function ExamConfig({
     language,
+    certMeta,
     questionCount,
     setQuestionCount,
     onStart,
 }: {
     language: 'en' | 'vi';
+    certMeta: import('../types').CertMeta | null;
     questionCount: number;
     setQuestionCount: (n: number) => void;
     onStart: () => void;
@@ -124,8 +138,8 @@ function ExamConfig({
                     </h1>
                     <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
                         {language === 'en'
-                            ? 'AIF-C01 · Scaled score 100–1000 · Pass: 700'
-                            : 'AIF-C01 · Thang điểm 100–1000 · Đạt: 700'}
+                            ? `${certMeta?.code} · Scaled score 100–1000 · Pass: ${certMeta?.passingScore}`
+                            : `${certMeta?.code} · Thang điểm 100–1000 · Đạt: ${certMeta?.passingScore}`}
                     </p>
                 </div>
 

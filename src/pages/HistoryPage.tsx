@@ -1,11 +1,23 @@
 import { Link, useParams } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import certMeta from '../data/certifications/aif-c01/meta.json';
 import type { ExamResult } from '../types';
+import { getCertMeta } from '../utils/certLoader';
 
 export default function HistoryPage() {
     const { certId } = useParams<{ certId: string }>();
     const { language, getExamHistory } = useApp();
+
+    const certMeta = getCertMeta(certId!);
+
+    if (!certMeta) {
+        return (
+            <div className="text-center py-20 text-gray-400">
+                {language === 'en'
+                    ? 'Certification not found.'
+                    : 'Không tìm thấy chứng chỉ.'}
+            </div>
+        );
+    }
 
     const history: ExamResult[] = getExamHistory(certId!)
         .slice()

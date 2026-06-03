@@ -1,0 +1,813 @@
+[
+    {
+        "id": "fc-001",
+        "domain": 1,
+        "front": {
+            "en": "What is Cloud Computing?",
+            "vi": "Cloud Computing là gì?"
+        },
+        "back": {
+            "en": "On-demand delivery of IT resources over the Internet with pay-as-you-go pricing. No need to own and maintain physical data centers and servers.",
+            "vi": "Cung cấp tài nguyên IT theo yêu cầu qua Internet với giá trả theo mức sử dụng. Không cần sở hữu và bảo trì trung tâm dữ liệu và máy chủ vật lý."
+        },
+        "tags": [
+            "cloud-concepts",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-002",
+        "domain": 1,
+        "front": {
+            "en": "What are the 6 advantages of cloud computing?",
+            "vi": "6 lợi ích của cloud computing là gì?"
+        },
+        "back": {
+            "en": "1. Trade capital expense for variable expense 2. Benefit from massive economies of scale 3. Stop guessing capacity 4. Increase speed and agility 5. Stop spending money on data centers 6. Go global in minutes",
+            "vi": "1. Đổi chi phí vốn thành chi phí biến đổi 2. Lợi ích từ quy mô lớn 3. Không cần đoán năng lực 4. Tăng tốc độ và sự linh hoạt 5. Ngừng chi tiêu cho data center 6. Mở rộng toàn cầu trong vài phút"
+        },
+        "tags": [
+            "cloud-concepts",
+            "benefits"
+        ]
+    },
+    {
+        "id": "fc-003",
+        "domain": 1,
+        "front": {
+            "en": "What are the 3 cloud deployment models?",
+            "vi": "3 mô hình triển khai cloud là gì?"
+        },
+        "back": {
+            "en": "1. Cloud/Public Cloud: fully on AWS 2. Hybrid: mix of cloud and on-premises 3. On-premises/Private Cloud: resources deployed on-premises using virtualization",
+            "vi": "1. Cloud/Public Cloud: hoàn toàn trên AWS 2. Hybrid: kết hợp cloud và on-premises 3. On-premises/Private Cloud: tài nguyên triển khai tại chỗ sử dụng ảo hóa"
+        },
+        "tags": [
+            "cloud-concepts",
+            "deployment"
+        ]
+    },
+    {
+        "id": "fc-004",
+        "domain": 1,
+        "front": {
+            "en": "What are the 3 types of cloud computing?",
+            "vi": "3 loại cloud computing là gì?"
+        },
+        "back": {
+            "en": "1. IaaS (Infrastructure as a Service): EC2 2. PaaS (Platform as a Service): Elastic Beanstalk 3. SaaS (Software as a Service): Rekognition, Gmail",
+            "vi": "1. IaaS (Hạ tầng dưới dạng Dịch vụ): EC2 2. PaaS (Nền tảng dưới dạng Dịch vụ): Elastic Beanstalk 3. SaaS (Phần mềm dưới dạng Dịch vụ): Rekognition, Gmail"
+        },
+        "tags": [
+            "cloud-concepts",
+            "service-models"
+        ]
+    },
+    {
+        "id": "fc-005",
+        "domain": 1,
+        "front": {
+            "en": "What is the AWS Well-Architected Framework?",
+            "vi": "AWS Well-Architected Framework là gì?"
+        },
+        "back": {
+            "en": "Best practices for building secure, high-performing, resilient, and efficient cloud infrastructure. 6 pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability",
+            "vi": "Thực hành tốt nhất để xây dựng hạ tầng cloud an toàn, hiệu suất cao, bền bỉ và hiệu quả. 6 trụ cột: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability"
+        },
+        "tags": [
+            "well-architected",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-006",
+        "domain": 1,
+        "front": {
+            "en": "What is an AWS Region?",
+            "vi": "AWS Region là gì?"
+        },
+        "back": {
+            "en": "A geographical area containing multiple isolated Availability Zones. Each region is completely independent to achieve fault tolerance and stability.",
+            "vi": "Một khu vực địa lý chứa nhiều Availability Zone độc lập. Mỗi region hoàn toàn độc lập để đạt được khả năng chịu lỗi và ổn định."
+        },
+        "tags": [
+            "global-infrastructure",
+            "regions"
+        ]
+    },
+    {
+        "id": "fc-007",
+        "domain": 1,
+        "front": {
+            "en": "What is an Availability Zone (AZ)?",
+            "vi": "Availability Zone (AZ) là gì?"
+        },
+        "back": {
+            "en": "One or more discrete data centers with redundant power, networking, and connectivity in an AWS Region. Isolated from failures in other AZs.",
+            "vi": "Một hoặc nhiều data center riêng biệt với nguồn điện, mạng và kết nối dự phòng trong một AWS Region. Được cách ly khỏi lỗi ở các AZ khác."
+        },
+        "tags": [
+            "global-infrastructure",
+            "availability-zones"
+        ]
+    },
+    {
+        "id": "fc-008",
+        "domain": 1,
+        "front": {
+            "en": "What is AWS Edge Location?",
+            "vi": "AWS Edge Location là gì?"
+        },
+        "back": {
+            "en": "Data centers used by CloudFront to cache content closer to users for low latency. More Edge Locations than Regions.",
+            "vi": "Data center được CloudFront sử dụng để cache nội dung gần người dùng hơn để giảm độ trễ. Có nhiều Edge Location hơn Region."
+        },
+        "tags": [
+            "global-infrastructure",
+            "edge"
+        ]
+    },
+    {
+        "id": "fc-009",
+        "domain": 1,
+        "front": {
+            "en": "What is High Availability?",
+            "vi": "High Availability là gì?"
+        },
+        "back": {
+            "en": "Running applications across multiple Availability Zones to ensure continuous operation even if one AZ fails. Minimize downtime.",
+            "vi": "Chạy ứng dụng trên nhiều Availability Zone để đảm bảo hoạt động liên tục ngay cả khi một AZ gặp sự cố. Giảm thiểu thời gian downtime."
+        },
+        "tags": [
+            "reliability",
+            "availability"
+        ]
+    },
+    {
+        "id": "fc-010",
+        "domain": 1,
+        "front": {
+            "en": "What is Elasticity in cloud computing?",
+            "vi": "Elasticity trong cloud computing là gì?"
+        },
+        "back": {
+            "en": "Ability to automatically scale resources up or down based on demand. Pay only for what you use.",
+            "vi": "Khả năng tự động mở rộng hoặc thu hẹp tài nguyên dựa trên nhu cầu. Chỉ trả cho những gì bạn sử dụng."
+        },
+        "tags": [
+            "cloud-concepts",
+            "elasticity"
+        ]
+    },
+    {
+        "id": "fc-011",
+        "domain": 1,
+        "front": {
+            "en": "What is Agility in cloud computing?",
+            "vi": "Agility trong cloud computing là gì?"
+        },
+        "back": {
+            "en": "Ability to quickly develop, test, and launch applications. Resources available in minutes instead of weeks.",
+            "vi": "Khả năng phát triển, thử nghiệm và triển khai ứng dụng nhanh chóng. Tài nguyên có sẵn trong vài phút thay vì vài tuần."
+        },
+        "tags": [
+            "cloud-concepts",
+            "agility"
+        ]
+    },
+    {
+        "id": "fc-012",
+        "domain": 1,
+        "front": {
+            "en": "What is the AWS Shared Responsibility Model?",
+            "vi": "AWS Shared Responsibility Model là gì?"
+        },
+        "back": {
+            "en": "AWS is responsible for security OF the cloud (hardware, software, networking, facilities). Customer is responsible for security IN the cloud (customer data, platform, applications, IAM, OS, network, firewall).",
+            "vi": "AWS chịu trách nhiệm về bảo mật CỦA cloud (phần cứng, phần mềm, mạng, cơ sở vật chất). Khách hàng chịu trách nhiệm về bảo mật TRONG cloud (dữ liệu, nền tảng, ứng dụng, IAM, hệ điều hành, mạng, firewall)."
+        },
+        "tags": [
+            "security",
+            "responsibility"
+        ]
+    },
+    {
+        "id": "fc-013",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS IAM?",
+            "vi": "AWS IAM là gì?"
+        },
+        "back": {
+            "en": "Identity and Access Management. Service to manage access to AWS resources securely. Users, Groups, Roles, and Policies.",
+            "vi": "Quản lý Danh tính và Truy cập. Dịch vụ quản lý quyền truy cập vào tài nguyên AWS một cách an toàn. Users, Groups, Roles và Policies."
+        },
+        "tags": [
+            "security",
+            "iam",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-014",
+        "domain": 2,
+        "front": {
+            "en": "What is MFA (Multi-Factor Authentication)?",
+            "vi": "MFA (Multi-Factor Authentication) là gì?"
+        },
+        "back": {
+            "en": "Security mechanism requiring multiple forms of verification. Combines password with a physical device or app-generated token. Highly recommended for root account.",
+            "vi": "Cơ chế bảo mật yêu cầu nhiều hình thức xác minh. Kết hợp mật khẩu với thiết bị vật lý hoặc token do ứng dụng tạo. Được khuyến nghị cao cho tài khoản root."
+        },
+        "tags": [
+            "security",
+            "mfa"
+        ]
+    },
+    {
+        "id": "fc-015",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Security Groups?",
+            "vi": "AWS Security Groups là gì?"
+        },
+        "back": {
+            "en": "Virtual firewall controlling inbound and outbound traffic to EC2 instances. Acts at instance level. Stateful - return traffic automatically allowed.",
+            "vi": "Firewall ảo kiểm soát traffic vào và ra của EC2 instances. Hoạt động ở cấp instance. Stateful - traffic trả về tự động được cho phép."
+        },
+        "tags": [
+            "security",
+            "network",
+            "ec2"
+        ]
+    },
+    {
+        "id": "fc-016",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Shield?",
+            "vi": "AWS Shield là gì?"
+        },
+        "back": {
+            "en": "DDoS protection service. Shield Standard (free, automatic) and Shield Advanced (paid, 24/7 DDoS Response Team).",
+            "vi": "Dịch vụ bảo vệ DDoS. Shield Standard (miễn phí, tự động) và Shield Advanced (trả phí, Đội ứng phó DDoS 24/7)."
+        },
+        "tags": [
+            "security",
+            "ddos"
+        ]
+    },
+    {
+        "id": "fc-017",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS WAF?",
+            "vi": "AWS WAF là gì?"
+        },
+        "back": {
+            "en": "Web Application Firewall. Protects web applications from common exploits (SQL injection, XSS). Works with CloudFront, ALB, API Gateway.",
+            "vi": "Firewall Ứng dụng Web. Bảo vệ ứng dụng web khỏi các khai thác phổ biến (SQL injection, XSS). Hoạt động với CloudFront, ALB, API Gateway."
+        },
+        "tags": [
+            "security",
+            "waf"
+        ]
+    },
+    {
+        "id": "fc-018",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS KMS?",
+            "vi": "AWS KMS là gì?"
+        },
+        "back": {
+            "en": "Key Management Service. Create and manage encryption keys. Integrated with many AWS services for data encryption at rest.",
+            "vi": "Dịch vụ Quản lý Khóa. Tạo và quản lý khóa mã hóa. Tích hợp với nhiều dịch vụ AWS để mã hóa dữ liệu khi lưu trữ."
+        },
+        "tags": [
+            "security",
+            "encryption"
+        ]
+    },
+    {
+        "id": "fc-019",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS CloudTrail?",
+            "vi": "AWS CloudTrail là gì?"
+        },
+        "back": {
+            "en": "Governance, compliance, and audit service. Records all API calls made in your AWS account. Enables security analysis and troubleshooting.",
+            "vi": "Dịch vụ quản trị, tuân thủ và kiểm toán. Ghi lại tất cả API call trong tài khoản AWS. Cho phép phân tích bảo mật và khắc phục sự cố."
+        },
+        "tags": [
+            "security",
+            "compliance",
+            "audit"
+        ]
+    },
+    {
+        "id": "fc-020",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Inspector?",
+            "vi": "AWS Inspector là gì?"
+        },
+        "back": {
+            "en": "Automated security assessment service. Scans EC2 instances and container images for vulnerabilities and deviations from best practices.",
+            "vi": "Dịch vụ đánh giá bảo mật tự động. Quét EC2 instances và container images để tìm lỗ hổng và sai lệch khỏi thực hành tốt nhất."
+        },
+        "tags": [
+            "security",
+            "vulnerability"
+        ]
+    },
+    {
+        "id": "fc-021",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS GuardDuty?",
+            "vi": "AWS GuardDuty là gì?"
+        },
+        "back": {
+            "en": "Intelligent threat detection service. Uses ML to analyze CloudTrail, VPC Flow Logs, DNS logs to identify malicious activity.",
+            "vi": "Dịch vụ phát hiện mối đe dọa thông minh. Sử dụng ML để phân tích CloudTrail, VPC Flow Logs, DNS logs nhằm xác định hoạt động độc hại."
+        },
+        "tags": [
+            "security",
+            "threat-detection"
+        ]
+    },
+    {
+        "id": "fc-022",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Certificate Manager (ACM)?",
+            "vi": "AWS Certificate Manager (ACM) là gì?"
+        },
+        "back": {
+            "en": "Provision, manage, and deploy SSL/TLS certificates. Free public certificates for use with AWS services. Automatic renewal.",
+            "vi": "Cung cấp, quản lý và triển khai chứng chỉ SSL/TLS. Chứng chỉ public miễn phí để sử dụng với dịch vụ AWS. Tự động gia hạn."
+        },
+        "tags": [
+            "security",
+            "certificates"
+        ]
+    },
+    {
+        "id": "fc-023",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Secrets Manager?",
+            "vi": "AWS Secrets Manager là gì?"
+        },
+        "back": {
+            "en": "Store and rotate secrets (database credentials, API keys). Automatic rotation for RDS databases. Encrypted using KMS.",
+            "vi": "Lưu trữ và xoay vòng secrets (thông tin xác thực database, API keys). Tự động xoay vòng cho RDS databases. Mã hóa bằng KMS."
+        },
+        "tags": [
+            "security",
+            "secrets"
+        ]
+    },
+    {
+        "id": "fc-024",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Artifact?",
+            "vi": "AWS Artifact là gì?"
+        },
+        "back": {
+            "en": "Portal for accessing AWS compliance reports and agreements. Download SOC, PCI, ISO certifications. No cost.",
+            "vi": "Cổng truy cập báo cáo tuân thủ và thỏa thuận của AWS. Tải xuống chứng nhận SOC, PCI, ISO. Không tốn phí."
+        },
+        "tags": [
+            "compliance",
+            "reports"
+        ]
+    },
+    {
+        "id": "fc-025",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Config?",
+            "vi": "AWS Config là gì?"
+        },
+        "back": {
+            "en": "Records and evaluates configurations of AWS resources. Audit changes over time. Check compliance against rules. Can remediate non-compliant resources.",
+            "vi": "Ghi lại và đánh giá cấu hình của tài nguyên AWS. Kiểm toán thay đổi theo thời gian. Kiểm tra tuân thủ theo quy tắc. Có thể khắc phục tài nguyên không tuân thủ."
+        },
+        "tags": [
+            "compliance",
+            "configuration"
+        ]
+    },
+    {
+        "id": "fc-026",
+        "domain": 2,
+        "front": {
+            "en": "What is the principle of Least Privilege?",
+            "vi": "Nguyên tắc Least Privilege là gì?"
+        },
+        "back": {
+            "en": "Grant only the minimum permissions necessary to perform a task. Best practice for IAM policies. Reduces security risk.",
+            "vi": "Chỉ cấp quyền tối thiểu cần thiết để thực hiện tác vụ. Thực hành tốt nhất cho IAM policies. Giảm rủi ro bảo mật."
+        },
+        "tags": [
+            "security",
+            "iam",
+            "best-practices"
+        ]
+    },
+    {
+        "id": "fc-027",
+        "domain": 2,
+        "front": {
+            "en": "What is AWS Organizations?",
+            "vi": "AWS Organizations là gì?"
+        },
+        "back": {
+            "en": "Centrally manage multiple AWS accounts. Consolidated billing, Service Control Policies (SCPs) to restrict actions across accounts.",
+            "vi": "Quản lý tập trung nhiều tài khoản AWS. Thanh toán hợp nhất, Service Control Policies (SCPs) để hạn chế hành động trên các tài khoản."
+        },
+        "tags": [
+            "management",
+            "multi-account"
+        ]
+    },
+    {
+        "id": "fc-028",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon EC2?",
+            "vi": "Amazon EC2 là gì?"
+        },
+        "back": {
+            "en": "Elastic Compute Cloud. Virtual servers in the cloud. Choose instance type, OS, storage, network. Pay per use (On-Demand, Reserved, Spot).",
+            "vi": "Elastic Compute Cloud. Máy chủ ảo trên cloud. Chọn loại instance, hệ điều hành, lưu trữ, mạng. Trả theo mức sử dụng (On-Demand, Reserved, Spot)."
+        },
+        "tags": [
+            "compute",
+            "ec2",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-029",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon S3?",
+            "vi": "Amazon S3 là gì?"
+        },
+        "back": {
+            "en": "Simple Storage Service. Object storage with unlimited scalability. Store any type of data. 11 9's durability. Storage classes: Standard, IA, Glacier.",
+            "vi": "Simple Storage Service. Lưu trữ object với khả năng mở rộng không giới hạn. Lưu trữ mọi loại dữ liệu. Độ bền 11 số 9. Các lớp lưu trữ: Standard, IA, Glacier."
+        },
+        "tags": [
+            "storage",
+            "s3",
+            "foundational"
+        ]
+    },
+    {
+        "id": "fc-030",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon RDS?",
+            "vi": "Amazon RDS là gì?"
+        },
+        "back": {
+            "en": "Relational Database Service. Managed database service. Supports PostgreSQL, MySQL, MariaDB, Oracle, SQL Server, Aurora. Automated backups, patching, scaling.",
+            "vi": "Dịch vụ Cơ sở dữ liệu Quan hệ. Dịch vụ database được quản lý. Hỗ trợ PostgreSQL, MySQL, MariaDB, Oracle, SQL Server, Aurora. Tự động backup, vá lỗi, mở rộng."
+        },
+        "tags": [
+            "database",
+            "rds"
+        ]
+    },
+    {
+        "id": "fc-031",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon DynamoDB?",
+            "vi": "Amazon DynamoDB là gì?"
+        },
+        "back": {
+            "en": "Fully managed NoSQL database. Single-digit millisecond performance at any scale. Serverless, auto-scaling. Key-value and document database.",
+            "vi": "Cơ sở dữ liệu NoSQL được quản lý hoàn toàn. Hiệu suất mili giây ở mọi quy mô. Serverless, tự động mở rộng. Database dạng key-value và document."
+        },
+        "tags": [
+            "database",
+            "dynamodb",
+            "nosql"
+        ]
+    },
+    {
+        "id": "fc-032",
+        "domain": 3,
+        "front": {
+            "en": "What is AWS Lambda?",
+            "vi": "AWS Lambda là gì?"
+        },
+        "back": {
+            "en": "Serverless compute service. Run code without managing servers. Pay only for compute time consumed. Auto-scales. Event-driven.",
+            "vi": "Dịch vụ compute serverless. Chạy code mà không cần quản lý máy chủ. Chỉ trả cho thời gian tính toán sử dụng. Tự động mở rộng. Hướng sự kiện."
+        },
+        "tags": [
+            "compute",
+            "serverless",
+            "lambda"
+        ]
+    },
+    {
+        "id": "fc-033",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon VPC?",
+            "vi": "Amazon VPC là gì?"
+        },
+        "back": {
+            "en": "Virtual Private Cloud. Isolated virtual network in AWS. Define IP address range, subnets, route tables, network gateways. Control inbound/outbound traffic.",
+            "vi": "Virtual Private Cloud. Mạng ảo riêng biệt trong AWS. Định nghĩa dải IP, subnets, route tables, network gateways. Kiểm soát traffic vào/ra."
+        },
+        "tags": [
+            "networking",
+            "vpc"
+        ]
+    },
+    {
+        "id": "fc-034",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon CloudFront?",
+            "vi": "Amazon CloudFront là gì?"
+        },
+        "back": {
+            "en": "Content Delivery Network (CDN). Caches content at edge locations worldwide. Low latency, high transfer speeds. Integrates with S3, EC2, ELB.",
+            "vi": "Mạng Phân phối Nội dung (CDN). Cache nội dung tại các edge locations trên toàn cầu. Độ trễ thấp, tốc độ truyền tải cao. Tích hợp với S3, EC2, ELB."
+        },
+        "tags": [
+            "networking",
+            "cdn",
+            "cloudfront"
+        ]
+    },
+    {
+        "id": "fc-035",
+        "domain": 3,
+        "front": {
+            "en": "What is Elastic Load Balancing (ELB)?",
+            "vi": "Elastic Load Balancing (ELB) là gì?"
+        },
+        "back": {
+            "en": "Distributes incoming traffic across multiple targets (EC2, containers, IPs). Types: Application (ALB), Network (NLB), Gateway (GWLB). High availability and fault tolerance.",
+            "vi": "Phân phối traffic đến trên nhiều targets (EC2, containers, IPs). Các loại: Application (ALB), Network (NLB), Gateway (GWLB). High availability và fault tolerance."
+        },
+        "tags": [
+            "networking",
+            "load-balancing"
+        ]
+    },
+    {
+        "id": "fc-036",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Route 53?",
+            "vi": "Amazon Route 53 là gì?"
+        },
+        "back": {
+            "en": "Scalable DNS service. Domain registration, DNS routing, health checking. Routes users to applications with low latency.",
+            "vi": "Dịch vụ DNS có khả năng mở rộng. Đăng ký tên miền, định tuyến DNS, kiểm tra sức khỏe. Định tuyến người dùng đến ứng dụng với độ trễ thấp."
+        },
+        "tags": [
+            "networking",
+            "dns"
+        ]
+    },
+    {
+        "id": "fc-037",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon SNS?",
+            "vi": "Amazon SNS là gì?"
+        },
+        "back": {
+            "en": "Simple Notification Service. Pub/sub messaging. Send messages to multiple subscribers (email, SMS, HTTP, Lambda, SQS). Topic-based.",
+            "vi": "Simple Notification Service. Messaging dạng Pub/sub. Gửi tin nhắn đến nhiều subscribers (email, SMS, HTTP, Lambda, SQS). Dựa trên topic."
+        },
+        "tags": [
+            "messaging",
+            "sns"
+        ]
+    },
+    {
+        "id": "fc-038",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon SQS?",
+            "vi": "Amazon SQS là gì?"
+        },
+        "back": {
+            "en": "Simple Queue Service. Fully managed message queue. Decouple microservices. Standard (best-effort ordering) and FIFO queues (exactly-once processing).",
+            "vi": "Simple Queue Service. Hàng đợi tin nhắn được quản lý hoàn toàn. Tách rời microservices. Standard (thứ tự gần đúng) và FIFO queues (xử lý đúng một lần)."
+        },
+        "tags": [
+            "messaging",
+            "sqs"
+        ]
+    },
+    {
+        "id": "fc-039",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon CloudWatch?",
+            "vi": "Amazon CloudWatch là gì?"
+        },
+        "back": {
+            "en": "Monitoring and observability service. Collect metrics, logs, events from AWS resources. Set alarms, create dashboards. Application and infrastructure monitoring.",
+            "vi": "Dịch vụ giám sát và khả năng quan sát. Thu thập metrics, logs, events từ tài nguyên AWS. Đặt cảnh báo, tạo dashboard. Giám sát ứng dụng và hạ tầng."
+        },
+        "tags": [
+            "monitoring",
+            "cloudwatch"
+        ]
+    },
+    {
+        "id": "fc-040",
+        "domain": 3,
+        "front": {
+            "en": "What is AWS Auto Scaling?",
+            "vi": "AWS Auto Scaling là gì?"
+        },
+        "back": {
+            "en": "Automatically adjust capacity to maintain steady performance. Scale EC2, ECS, DynamoDB based on demand. Optimize costs and availability.",
+            "vi": "Tự động điều chỉnh công suất để duy trì hiệu suất ổn định. Mở rộng EC2, ECS, DynamoDB dựa trên nhu cầu. Tối ưu hóa chi phí và khả dụng."
+        },
+        "tags": [
+            "compute",
+            "auto-scaling"
+        ]
+    },
+    {
+        "id": "fc-041",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon EBS?",
+            "vi": "Amazon EBS là gì?"
+        },
+        "back": {
+            "en": "Elastic Block Store. Block storage volumes for EC2 instances. Persistent storage, snapshots for backup. Types: gp3, io2, st1, sc1.",
+            "vi": "Elastic Block Store. Volumes lưu trữ dạng block cho EC2 instances. Lưu trữ bền vững, snapshots để backup. Các loại: gp3, io2, st1, sc1."
+        },
+        "tags": [
+            "storage",
+            "ebs"
+        ]
+    },
+    {
+        "id": "fc-042",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon EFS?",
+            "vi": "Amazon EFS là gì?"
+        },
+        "back": {
+            "en": "Elastic File System. Managed NFS file system. Shared storage for multiple EC2 instances. Automatically scales, pay for what you use.",
+            "vi": "Elastic File System. Hệ thống file NFS được quản lý. Lưu trữ chia sẻ cho nhiều EC2 instances. Tự động mở rộng, trả cho những gì bạn dùng."
+        },
+        "tags": [
+            "storage",
+            "efs"
+        ]
+    },
+    {
+        "id": "fc-043",
+        "domain": 3,
+        "front": {
+            "en": "What is AWS Elastic Beanstalk?",
+            "vi": "AWS Elastic Beanstalk là gì?"
+        },
+        "back": {
+            "en": "PaaS for deploying web applications. Upload code and Beanstalk handles deployment, capacity, load balancing, scaling, monitoring. Supports Java, .NET, PHP, Node.js, Python, Ruby, Go, Docker.",
+            "vi": "PaaS để triển khai ứng dụng web. Upload code và Beanstalk xử lý triển khai, công suất, load balancing, mở rộng, giám sát. Hỗ trợ Java, .NET, PHP, Node.js, Python, Ruby, Go, Docker."
+        },
+        "tags": [
+            "compute",
+            "paas",
+            "deployment"
+        ]
+    },
+    {
+        "id": "fc-044",
+        "domain": 3,
+        "front": {
+            "en": "What is Amazon Rekognition?",
+            "vi": "Amazon Rekognition là gì?"
+        },
+        "back": {
+            "en": "AI service for image and video analysis. Detect objects, people, text, scenes, activities. Facial analysis and recognition. No ML expertise required.",
+            "vi": "Dịch vụ AI để phân tích hình ảnh và video. Phát hiện đối tượng, người, văn bản, cảnh, hoạt động. Phân tích và nhận dạng khuôn mặt. Không cần chuyên môn ML."
+        },
+        "tags": [
+            "ai-ml",
+            "computer-vision"
+        ]
+    },
+    {
+        "id": "fc-045",
+        "domain": 4,
+        "front": {
+            "en": "What are the AWS pricing models?",
+            "vi": "Các mô hình giá của AWS là gì?"
+        },
+        "back": {
+            "en": "Pay-as-you-go, Save when you reserve, Pay less by using more (volume discounts), Pay less as AWS grows (economy of scale).",
+            "vi": "Trả theo mức sử dụng, Tiết kiệm khi đặt trước, Trả ít hơn khi dùng nhiều (giảm giá theo số lượng), Trả ít hơn khi AWS phát triển (lợi ích quy mô)."
+        },
+        "tags": [
+            "billing",
+            "pricing"
+        ]
+    },
+    {
+        "id": "fc-046",
+        "domain": 4,
+        "front": {
+            "en": "What is AWS Free Tier?",
+            "vi": "AWS Free Tier là gì?"
+        },
+        "back": {
+            "en": "Free usage limits for new AWS accounts. Types: Always Free (DynamoDB 25GB, Lambda 1M requests/month), 12 Months Free (EC2 750hrs/month, S3 5GB), Trials (Amazon Inspector 90 days).",
+            "vi": "Giới hạn sử dụng miễn phí cho tài khoản AWS mới. Các loại: Always Free (DynamoDB 25GB, Lambda 1M requests/tháng), 12 Tháng Free (EC2 750giờ/tháng, S3 5GB), Trials (Amazon Inspector 90 ngày)."
+        },
+        "tags": [
+            "billing",
+            "free-tier"
+        ]
+    },
+    {
+        "id": "fc-047",
+        "domain": 4,
+        "front": {
+            "en": "What is AWS Cost Explorer?",
+            "vi": "AWS Cost Explorer là gì?"
+        },
+        "back": {
+            "en": "Visualize and manage AWS costs and usage over time. View data up to 12 months. Forecast spending. Filter by service, region, tag.",
+            "vi": "Trực quan hóa và quản lý chi phí và mức sử dụng AWS theo thời gian. Xem dữ liệu đến 12 tháng. Dự báo chi tiêu. Lọc theo dịch vụ, region, tag."
+        },
+        "tags": [
+            "billing",
+            "cost-management"
+        ]
+    },
+    {
+        "id": "fc-048",
+        "domain": 4,
+        "front": {
+            "en": "What is AWS Budgets?",
+            "vi": "AWS Budgets là gì?"
+        },
+        "back": {
+            "en": "Set custom budgets for AWS costs and usage. Alert when exceeding budget. Track Reserved Instance utilization. Free for first 2 budgets.",
+            "vi": "Đặt ngân sách tùy chỉnh cho chi phí và mức sử dụng AWS. Cảnh báo khi vượt ngân sách. Theo dõi mức sử dụng Reserved Instance. Miễn phí cho 2 budgets đầu tiên."
+        },
+        "tags": [
+            "billing",
+            "budgets"
+        ]
+    },
+    {
+        "id": "fc-049",
+        "domain": 4,
+        "front": {
+            "en": "What are AWS Support Plans?",
+            "vi": "Các gói AWS Support là gì?"
+        },
+        "back": {
+            "en": "Basic (free), Developer ($29+/month), Business ($100+/month - 24/7 phone/chat), Enterprise ($15,000+/month - TAM, concierge). Different response times and access levels.",
+            "vi": "Basic (miễn phí), Developer ($29+/tháng), Business ($100+/tháng - điện thoại/chat 24/7), Enterprise ($15,000+/tháng - TAM, concierge). Thời gian phản hồi và mức truy cập khác nhau."
+        },
+        "tags": [
+            "support",
+            "plans"
+        ]
+    },
+    {
+        "id": "fc-050",
+        "domain": 4,
+        "front": {
+            "en": "What is AWS Trusted Advisor?",
+            "vi": "AWS Trusted Advisor là gì?"
+        },
+        "back": {
+            "en": "Provides best practice recommendations. 5 categories: Cost Optimization, Performance, Security, Fault Tolerance, Service Limits. Full checks with Business/Enterprise support.",
+            "vi": "Cung cấp đề xuất thực hành tốt nhất. 5 danh mục: Tối ưu Chi phí, Hiệu suất, Bảo mật, Fault Tolerance, Giới hạn Dịch vụ. Kiểm tra đầy đủ với gói Business/Enterprise."
+        },
+        "tags": [
+            "support",
+            "optimization",
+            "trusted-advisor"
+        ]
+    }
+]

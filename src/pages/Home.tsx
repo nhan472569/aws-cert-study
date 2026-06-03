@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import flashcards from '../data/certifications/aif-c01/flashcards.json';
-import certMeta from '../data/certifications/aif-c01/meta.json';
+import { getAllCertMeta, getCertFlashcards } from '../utils/certLoader';
 
-const certs = [certMeta];
+const certs = getAllCertMeta();
 
 export default function Home() {
     const { language, getExamHistory, getFlashcardProgress } = useApp();
@@ -37,6 +36,7 @@ export default function Home() {
                 {certs.map((cert) => {
                     const history = getExamHistory(cert.id);
                     const progress = getFlashcardProgress(cert.id);
+                    const flashcards = getCertFlashcards(cert.id);
                     const bestScore =
                         history.length > 0
                             ? Math.max(...history.map((r) => r.scaledScore))

@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import certMeta from '../data/certifications/aif-c01/meta.json';
 import type { Question } from '../types';
+import { getCertMeta } from '../utils/certLoader';
 import { buildExamResult, domainPerformanceLabel } from '../utils/examScoring';
 
 export default function ResultsPage() {
@@ -11,6 +11,8 @@ export default function ResultsPage() {
     const navigate = useNavigate();
     const { language, addExamResult } = useApp();
 
+    const certMeta = getCertMeta(certId!);
+
     const state = location.state as {
         questions: Question[];
         answers: Record<string, string[]>;
@@ -18,23 +20,25 @@ export default function ResultsPage() {
         certId: string;
     } | null;
 
+    const result = state
+        ? buildExamResult(
+              state.certId,
+              state.questions,
+              state.answers,
+              state.durationSeconds,
+          )
+        : null;
+
     useEffect(() => {
         if (!state) navigate('/');
     }, []);
 
-    if (!state) return null;
-
-    const result = buildExamResult(
-        state.certId,
-        state.questions,
-        state.answers,
-        state.durationSeconds,
-    );
-
     // Save once using a ref pattern via useEffect with mount guard
     useEffect(() => {
-        addExamResult(result);
+        if (result) addExamResult(result);
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+    if (!state || !certMeta || !result) return null;
 
     const passed = result.passed;
     const domainMap = Object.fromEntries(

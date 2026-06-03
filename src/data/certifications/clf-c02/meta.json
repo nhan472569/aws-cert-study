@@ -1,0 +1,37 @@
+{
+    "id": "clf-c02",
+    "name": "AWS Certified Cloud Practitioner",
+    "code": "CLF-C02",
+    "description": "Chứng chỉ nền tảng về AWS Cloud",
+    "passingScore": 700,
+    "totalQuestions": 65,
+    "scoredQuestions": 50,
+    "unscoredQuestions": 15,
+    "duration": 90,
+    "domains": [
+        {
+            "id": 1,
+            "name": "Cloud Concepts",
+            "nameVi": "Khái niệm Cloud",
+            "weight": 24
+        },
+        {
+            "id": 2,
+            "name": "Security and Compliance",
+            "nameVi": "Bảo mật và Tuân thủ",
+            "weight": 30
+        },
+        {
+            "id": 3,
+            "name": "Cloud Technology and Services",
+            "nameVi": "Công nghệ và Dịch vụ Cloud",
+            "weight": 34
+        },
+        {
+            "id": 4,
+            "name": "Billing, Pricing, and Support",
+            "nameVi": "Thanh toán, Giá cả và Hỗ trợ",
+            "weight": 12
+        }
+    ]
+}

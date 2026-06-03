@@ -1,17 +1,16 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import rawFlashcards from '../data/certifications/aif-c01/flashcards.json';
-import certMeta from '../data/certifications/aif-c01/meta.json';
 import type { Flashcard } from '../types';
+import { getCertFlashcards, getCertMeta } from '../utils/certLoader';
 import { shuffleArray } from '../utils/examScoring';
-
-const allFlashcards = rawFlashcards as Flashcard[];
 
 export default function FlashcardPage() {
     const { certId } = useParams<{ certId: string }>();
     const { language, getFlashcardProgress, setFlashcardProgress } = useApp();
 
+    const allFlashcards = getCertFlashcards(certId!);
+    const certMeta = getCertMeta(certId!);
     const progress = getFlashcardProgress(certId!);
 
     const [selectedDomain, setSelectedDomain] = useState<number | 'all'>('all');
@@ -86,6 +85,16 @@ export default function FlashcardPage() {
                 : [...progress.mastered, currentCard.id],
         });
     };
+
+    if (!certMeta) {
+        return (
+            <div className="text-center py-20 text-gray-400">
+                {language === 'en'
+                    ? 'Certification not found.'
+                    : 'Không tìm thấy chứng chỉ.'}
+            </div>
+        );
+    }
 
     if (!cards.length) {
         return (

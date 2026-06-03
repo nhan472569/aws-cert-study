@@ -1,0 +1,2612 @@
+[
+    {
+        "id": "q-001",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What is a key advantage of cloud computing over on-premises infrastructure?",
+            "vi": "Lợi thế chính của cloud computing so với cơ sở hạ tầng tại chỗ là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Reduced capital expenditure and pay-as-you-go model",
+                "vi": "Giảm chi phí vốn và mô hình trả tiền khi sử dụng"
+            },
+            {
+                "id": "B",
+                "en": "Guaranteed 100% availability for all applications",
+                "vi": "Đảm bảo 100% tính khả dụng cho tất cả các ứng dụng"
+            },
+            {
+                "id": "C",
+                "en": "Elimination of the need for any security measures",
+                "vi": "Loại bỏ nhu cầu về các biện pháp bảo mật"
+            },
+            {
+                "id": "D",
+                "en": "Complete elimination of IT staff requirements",
+                "vi": "Loại bỏ hoàn toàn nhu cầu về nhân viên IT"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Cloud computing allows businesses to shift from capital expenditure (CapEx) to operational expenditure (OpEx), paying only for resources consumed.",
+            "vi": "Cloud computing cho phép các doanh nghiệp chuyển từ chi phí vốn (CapEx) sang chi phí hoạt động (OpEx), chỉ trả tiền cho tài nguyên được sử dụng."
+        }
+    },
+    {
+        "id": "q-002",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which cloud deployment model provides the most control over infrastructure and data?",
+            "vi": "Mô hình triển khai đám mây nào cung cấp quyền kiểm soát tối đa đối với cơ sở hạ tầng và dữ liệu?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Public cloud",
+                "vi": "Đám mây công cộng"
+            },
+            {
+                "id": "B",
+                "en": "Private cloud",
+                "vi": "Đám mây riêng tư"
+            },
+            {
+                "id": "C",
+                "en": "Hybrid cloud",
+                "vi": "Đám mây lai"
+            },
+            {
+                "id": "D",
+                "en": "Community cloud",
+                "vi": "Đám mây cộng đồng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Private cloud deployment provides the most control as infrastructure is used exclusively by one organization, offering customization and direct control.",
+            "vi": "Triển khai đám mây riêng tư cung cấp quyền kiểm soát tối đa vì cơ sở hạ tầng được sử dụng độc quyền bởi một tổ chức, mang lại tùy chỉnh và kiểm soát trực tiếp."
+        }
+    },
+    {
+        "id": "q-003",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service region is closest to your current location?",
+            "vi": "Khu vực dịch vụ AWS nào gần nhất với vị trí hiện tại của bạn?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Availability Zones",
+                "vi": "Vùng Khả dụng"
+            },
+            {
+                "id": "B",
+                "en": "Regions",
+                "vi": "Khu vực"
+            },
+            {
+                "id": "C",
+                "en": "Edge Locations",
+                "vi": "Vị trí Edge"
+            },
+            {
+                "id": "D",
+                "en": "Local Zones",
+                "vi": "Vùng Cục bộ"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Regions are geographic areas containing multiple Availability Zones, allowing you to choose the region closest to your users for low latency.",
+            "vi": "Các khu vực AWS là các khu vực địa lý chứa nhiều Vùng Khả dụng, cho phép bạn chọn khu vực gần nhất với người dùng của mình để giảm độ trễ."
+        }
+    },
+    {
+        "id": "q-004",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What are AWS Availability Zones primarily designed to provide?",
+            "vi": "Các Vùng Khả dụng AWS được thiết kế chủ yếu để cung cấp gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "High availability and disaster recovery within a region",
+                "vi": "Tính khả dụng cao và khôi phục sau thảm họa trong một khu vực"
+            },
+            {
+                "id": "B",
+                "en": "Cost reduction through shared resources",
+                "vi": "Giảm chi phí thông qua tài nguyên dùng chung"
+            },
+            {
+                "id": "C",
+                "en": "Content delivery to end users",
+                "vi": "Phân phối nội dung cho người dùng cuối"
+            },
+            {
+                "id": "D",
+                "en": "Data encryption for security",
+                "vi": "Mã hóa dữ liệu cho bảo mật"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Availability Zones are isolated locations within AWS Regions with independent power, cooling, and networking to provide fault tolerance and high availability.",
+            "vi": "Vùng Khả dụng là các vị trí cô lập trong Khu vực AWS với điện, làm mát và mạng độc lập để cung cấp khả năng chịu lỗi và tính khả dụng cao."
+        }
+    },
+    {
+        "id": "q-005",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which pillar of the AWS Well-Architected Framework focuses on using the minimum resources needed to meet business requirements?",
+            "vi": "Trụ cột nào của Framework Well-Architected của AWS tập trung vào việc sử dụng tối thiểu các tài nguyên cần thiết để đáp ứng yêu cầu kinh doanh?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Reliability",
+                "vi": "Độ tin cậy"
+            },
+            {
+                "id": "B",
+                "en": "Performance Efficiency",
+                "vi": "Hiệu suất Hiệu quả"
+            },
+            {
+                "id": "C",
+                "en": "Cost Optimization",
+                "vi": "Tối ưu hóa Chi phí"
+            },
+            {
+                "id": "D",
+                "en": "Security",
+                "vi": "Bảo mật"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Cost Optimization pillar focuses on running systems to deliver business value at the lowest price point, including right-sizing and resource utilization.",
+            "vi": "Trụ cột Tối ưu hóa Chi phí tập trung vào việc vận hành các hệ thống để cung cấp giá trị kinh doanh với mức giá thấp nhất, bao gồm định kích thước phù hợp và sử dụng tài nguyên."
+        }
+    },
+    {
+        "id": "q-006",
+        "domain": 1,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are characteristics of cloud computing? (Choose 2)",
+            "vi": "Những điều sau đây là đặc điểm của cloud computing? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "On-demand resource availability",
+                "vi": "Tính khả dụng tài nguyên theo nhu cầu"
+            },
+            {
+                "id": "B",
+                "en": "Fixed capacity planning",
+                "vi": "Lập kế hoạch dung lượng cố định"
+            },
+            {
+                "id": "C",
+                "en": "Measured service with pay-as-you-go pricing",
+                "vi": "Dịch vụ được đo lường với mô hình trả tiền khi sử dụng"
+            },
+            {
+                "id": "D",
+                "en": "Requirement for specialized IT staff on-site",
+                "vi": "Yêu cầu nhân viên IT chuyên biệt tại chỗ"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "Cloud computing provides on-demand resource provisioning and measured services with pay-as-you-go pricing. It does not require fixed capacity planning or necessarily specialized on-site staff.",
+            "vi": "Cloud computing cung cấp cấp phát tài nguyên theo nhu cầu và dịch vụ được đo lường với mô hình trả tiền khi sử dụng. Nó không yêu cầu lập kế hoạch dung lượng cố định hoặc nhân viên chuyên biệt tại chỗ."
+        }
+    },
+    {
+        "id": "q-007",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What does elasticity mean in the context of AWS?",
+            "vi": "Tính co dãn có nghĩa là gì trong bối cảnh AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "The ability to scale resources up or down automatically based on demand",
+                "vi": "Khả năng mở rộng hoặc thu nhỏ tài nguyên một cách tự động dựa trên nhu cầu"
+            },
+            {
+                "id": "B",
+                "en": "Physical flexibility of data center hardware",
+                "vi": "Tính linh hoạt vật lý của phần cứng trung tâm dữ liệu"
+            },
+            {
+                "id": "C",
+                "en": "The ability to encrypt data",
+                "vi": "Khả năng mã hóa dữ liệu"
+            },
+            {
+                "id": "D",
+                "en": "Distributing content to multiple regions",
+                "vi": "Phân phối nội dung đến nhiều khu vực"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Elasticity is the ability of AWS services to automatically scale resources up or down to meet changing demand, providing cost efficiency.",
+            "vi": "Tính co dãn là khả năng của các dịch vụ AWS tự động mở rộng hoặc thu nhỏ tài nguyên để đáp ứng nhu cầu thay đổi, cung cấp hiệu quả chi phí."
+        }
+    },
+    {
+        "id": "q-008",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which AWS Well-Architected Framework principle emphasizes stopping guessing capacity needs and using auto-scaling?",
+            "vi": "Nguyên tắc Framework Well-Architected của AWS nào nhấn mạnh dừng đoán nhu cầu dung lượng và sử dụng auto-scaling?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Think global, act local",
+                "vi": "Suy nghĩ toàn cầu, hành động cục bộ"
+            },
+            {
+                "id": "B",
+                "en": "Go serverless",
+                "vi": "Sử dụng serverless"
+            },
+            {
+                "id": "C",
+                "en": "Stop guessing capacity",
+                "vi": "Dừng đoán dung lượng"
+            },
+            {
+                "id": "D",
+                "en": "Use managed services",
+                "vi": "Sử dụng dịch vụ được quản lý"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "The 'Stop guessing capacity' principle encourages using AWS monitoring and auto-scaling to match capacity to actual demand, improving cost optimization.",
+            "vi": "Nguyên tắc 'Dừng đoán dung lượng' khuyến khích sử dụng giám sát AWS và auto-scaling để phù hợp dung lượng với nhu cầu thực tế, cải thiện tối ưu hóa chi phí."
+        }
+    },
+    {
+        "id": "q-009",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What does the AWS shared responsibility model mean?",
+            "vi": "Mô hình trách nhiệm dùng chung AWS có nghĩa là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS is responsible for all security",
+                "vi": "AWS chịu trách nhiệm về tất cả bảo mật"
+            },
+            {
+                "id": "B",
+                "en": "The customer is responsible for all infrastructure",
+                "vi": "Khách hàng chịu trách nhiệm về tất cả cơ sở hạ tầng"
+            },
+            {
+                "id": "C",
+                "en": "AWS and customers share responsibility for security based on services used",
+                "vi": "AWS và khách hàng chia sẻ trách nhiệm bảo mật dựa trên các dịch vụ được sử dụng"
+            },
+            {
+                "id": "D",
+                "en": "Customers share responsibility with each other",
+                "vi": "Khách hàng chia sẻ trách nhiệm với nhau"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "The shared responsibility model defines that AWS manages security OF the cloud (infrastructure), while customers manage security IN the cloud (application, data, access controls).",
+            "vi": "Mô hình trách nhiệm dùng chung định nghĩa rằng AWS quản lý bảo mật CỦA đám mây (cơ sở hạ tầng), trong khi khách hàng quản lý bảo mật TRONG đám mây (ứng dụng, dữ liệu, kiểm soát truy cập)."
+        }
+    },
+    {
+        "id": "q-010",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which term describes the practice of moving applications and data to the cloud?",
+            "vi": "Thuật ngữ nào mô tả thực hành di chuyển ứng dụng và dữ liệu đến đám mây?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Cloud adoption",
+                "vi": "Áp dụng đám mây"
+            },
+            {
+                "id": "B",
+                "en": "Cloud migration",
+                "vi": "Di chuyển đám mây"
+            },
+            {
+                "id": "C",
+                "en": "Cloud deployment",
+                "vi": "Triển khai đám mây"
+            },
+            {
+                "id": "D",
+                "en": "Cloud transformation",
+                "vi": "Chuyển đổi đám mây"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Cloud migration specifically refers to the process of moving existing applications, data, and infrastructure from on-premises or other clouds to AWS.",
+            "vi": "Di chuyển đám mây đặc biệt dùng để chỉ quá trình di chuyển các ứng dụng, dữ liệu và cơ sở hạ tầng hiện có từ tại chỗ hoặc các đám mây khác đến AWS."
+        }
+    },
+    {
+        "id": "q-011",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service provides global content delivery with edge locations?",
+            "vi": "Dịch vụ AWS nào cung cấp phân phối nội dung toàn cầu với các vị trí edge?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon Route 53",
+                "vi": "Amazon Route 53"
+            },
+            {
+                "id": "B",
+                "en": "Amazon CloudFront",
+                "vi": "Amazon CloudFront"
+            },
+            {
+                "id": "C",
+                "en": "AWS Global Accelerator",
+                "vi": "AWS Global Accelerator"
+            },
+            {
+                "id": "D",
+                "en": "Amazon S3 Transfer Acceleration",
+                "vi": "Amazon S3 Transfer Acceleration"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon CloudFront is AWS's Content Delivery Network (CDN) that caches content at edge locations worldwide to reduce latency and improve performance.",
+            "vi": "Amazon CloudFront là Mạng Phân phối Nội dung (CDN) của AWS lưu cache nội dung tại các vị trí edge trên toàn thế giới để giảm độ trễ và cải thiện hiệu suất."
+        }
+    },
+    {
+        "id": "q-012",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "How many AWS Regions are currently available for deployment?",
+            "vi": "Hiện tại có bao nhiêu Khu vực AWS có sẵn để triển khai?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Fewer than 10",
+                "vi": "Ít hơn 10"
+            },
+            {
+                "id": "B",
+                "en": "Between 10 and 20",
+                "vi": "Từ 10 đến 20"
+            },
+            {
+                "id": "C",
+                "en": "Between 20 and 40",
+                "vi": "Từ 20 đến 40"
+            },
+            {
+                "id": "D",
+                "en": "More than 40",
+                "vi": "Hơn 40"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS has over 30 Regions globally, providing geographic redundancy and allowing organizations to place resources close to their users.",
+            "vi": "AWS có hơn 30 Khu vực trên toàn cầu, cung cấp sự dư thừa địa lý và cho phép các tổ chức đặt tài nguyên gần với người dùng của họ."
+        }
+    },
+    {
+        "id": "q-013",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which AWS Well-Architected Framework pillar is primarily concerned with minimizing the impact of system failures?",
+            "vi": "Trụ cột Framework Well-Architected của AWS nào chủ yếu liên quan đến việc giảm thiểu tác động của lỗi hệ thống?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Performance Efficiency",
+                "vi": "Hiệu suất Hiệu quả"
+            },
+            {
+                "id": "B",
+                "en": "Operational Excellence",
+                "vi": "Sự Xuất sắc Hoạt động"
+            },
+            {
+                "id": "C",
+                "en": "Reliability",
+                "vi": "Độ tin cậy"
+            },
+            {
+                "id": "D",
+                "en": "Security",
+                "vi": "Bảo mật"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "The Reliability pillar ensures systems can recover from failures and continue operating. It includes designing for resilience, auto-scaling, and multi-AZ deployments.",
+            "vi": "Trụ cột Độ tin cậy đảm bảo các hệ thống có thể phục hồi từ lỗi và tiếp tục hoạt động. Nó bao gồm thiết kế cho khả năng phục hồi, auto-scaling và triển khai multi-AZ."
+        }
+    },
+    {
+        "id": "q-014",
+        "domain": 1,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are benefits of the AWS Well-Architected Framework? (Choose 2)",
+            "vi": "Những lợi ích nào của Framework Well-Architected của AWS? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Guaranteed elimination of all operational risks",
+                "vi": "Đảm bảo loại bỏ tất cả các rủi ro hoạt động"
+            },
+            {
+                "id": "B",
+                "en": "Consistent approach to evaluating architectures",
+                "vi": "Cách tiếp cận nhất quán để đánh giá kiến trúc"
+            },
+            {
+                "id": "C",
+                "en": "Provides architectural best practices and design principles",
+                "vi": "Cung cấp các phương pháp hay nhất và nguyên tắc thiết kế kiến trúc"
+            },
+            {
+                "id": "D",
+                "en": "Automatic infrastructure provisioning without human input",
+                "vi": "Cấp phát cơ sở hạ tầng tự động mà không cần can thiệp của con người"
+            }
+        ],
+        "correctAnswers": [
+            "B",
+            "C"
+        ],
+        "explanation": {
+            "en": "The Well-Architected Framework provides architectural best practices, design principles, and a consistent methodology for evaluating and improving architectures.",
+            "vi": "Framework Well-Architected cung cấp các phương pháp hay nhất kiến trúc, nguyên tắc thiết kế và phương pháp nhất quán để đánh giá và cải thiện kiến trúc."
+        }
+    },
+    {
+        "id": "q-015",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the primary benefit of deploying resources across multiple Availability Zones?",
+            "vi": "Lợi ích chính của việc triển khai tài nguyên trên nhiều Vùng Khả dụng là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Reduced licensing costs",
+                "vi": "Giảm chi phí cấp phép"
+            },
+            {
+                "id": "B",
+                "en": "Increased application availability and fault tolerance",
+                "vi": "Tăng tính khả dụng ứng dụng và khả năng chịu lỗi"
+            },
+            {
+                "id": "C",
+                "en": "Simplified database management",
+                "vi": "Quản lý cơ sở dữ liệu đơn giản hóa"
+            },
+            {
+                "id": "D",
+                "en": "Guaranteed data encryption",
+                "vi": "Mã hóa dữ liệu được đảm bảo"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Deploying across multiple AZs ensures that if one AZ experiences an outage, applications can continue running in other AZs, providing high availability.",
+            "vi": "Triển khai trên nhiều AZ đảm bảo rằng nếu một AZ gặp sự cố, ứng dụng vẫn có thể chạy trong các AZ khác, cung cấp tính khả dụng cao."
+        }
+    },
+    {
+        "id": "q-016",
+        "domain": 1,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which concept describes building systems that can automatically recover from partial or total component failures without human intervention?",
+            "vi": "Khái niệm nào mô tả việc xây dựng các hệ thống có thể tự động phục hồi từ các lỗi thành phần một phần hoặc toàn bộ mà không cần can thiệp của con người?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Elasticity",
+                "vi": "Tính co dãn"
+            },
+            {
+                "id": "B",
+                "en": "Scalability",
+                "vi": "Khả năng mở rộng"
+            },
+            {
+                "id": "C",
+                "en": "Resilience",
+                "vi": "Khả năng phục hồi"
+            },
+            {
+                "id": "D",
+                "en": "Availability",
+                "vi": "Tính khả dụng"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Resilience refers to the ability of a system to withstand and recover from failures automatically. This is a key principle in the Reliability pillar.",
+            "vi": "Khả năng phục hồi dùng để chỉ khả năng của hệ thống chịu đựng và phục hồi từ lỗi một cách tự động. Đây là một nguyên tắc chính trong trụ cột Độ tin cậy."
+        }
+    },
+    {
+        "id": "q-017",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service is used to manage user authentication and authorization?",
+            "vi": "Dịch vụ AWS nào được sử dụng để quản lý xác thực và ủy quyền người dùng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Key Management Service (KMS)",
+                "vi": "AWS Key Management Service (KMS)"
+            },
+            {
+                "id": "B",
+                "en": "AWS Identity and Access Management (IAM)",
+                "vi": "AWS Identity and Access Management (IAM)"
+            },
+            {
+                "id": "C",
+                "en": "AWS Secrets Manager",
+                "vi": "AWS Secrets Manager"
+            },
+            {
+                "id": "D",
+                "en": "AWS CloudTrail",
+                "vi": "AWS CloudTrail"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS IAM manages user identities and their permissions to access AWS resources. It provides centralized access control and is foundational to AWS security.",
+            "vi": "AWS IAM quản lý danh tính người dùng và quyền truy cập vào tài nguyên AWS. Nó cung cấp kiểm soát truy cập tập trung và là nền tảng của bảo mật AWS."
+        }
+    },
+    {
+        "id": "q-018",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What does Multi-Factor Authentication (MFA) add to an AWS account?",
+            "vi": "Xác thực Đa yếu tố (MFA) thêm gì vào tài khoản AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Encryption of data at rest",
+                "vi": "Mã hóa dữ liệu khi lưu trữ"
+            },
+            {
+                "id": "B",
+                "en": "An additional layer of security by requiring a second authentication factor",
+                "vi": "Một lớp bảo mật bổ sung bằng cách yêu cầu một yếu tố xác thực thứ hai"
+            },
+            {
+                "id": "C",
+                "en": "Automatic backup of user credentials",
+                "vi": "Sao lưu tự động thông tin xác thực người dùng"
+            },
+            {
+                "id": "D",
+                "en": "Role-based access control",
+                "vi": "Kiểm soát truy cập dựa trên vai trò"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "MFA requires users to provide a second form of authentication (such as a time-based code from an authenticator app) in addition to their password.",
+            "vi": "MFA yêu cầu người dùng cung cấp một hình thức xác thực thứ hai (chẳng hạn như mã dựa trên thời gian từ ứng dụng xác thực) bên cạnh mật khẩu của họ."
+        }
+    },
+    {
+        "id": "q-019",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which encryption approach encrypts data in transit between the client and AWS services?",
+            "vi": "Phương pháp mã hóa nào mã hóa dữ liệu khi truyền tải giữa máy khách và các dịch vụ AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Encryption at rest",
+                "vi": "Mã hóa khi lưu trữ"
+            },
+            {
+                "id": "B",
+                "en": "Encryption in transit",
+                "vi": "Mã hóa khi truyền tải"
+            },
+            {
+                "id": "C",
+                "en": "End-to-end encryption",
+                "vi": "Mã hóa từ đầu đến cuối"
+            },
+            {
+                "id": "D",
+                "en": "Application-level encryption",
+                "vi": "Mã hóa cấp ứng dụng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Encryption in transit (also called encryption in flight) protects data as it moves over networks using protocols like HTTPS and TLS/SSL.",
+            "vi": "Mã hóa khi truyền tải (cũng được gọi là mã hóa khi bay) bảo vệ dữ liệu khi nó di chuyển qua mạng bằng cách sử dụng các giao thức như HTTPS và TLS/SSL."
+        }
+    },
+    {
+        "id": "q-020",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the primary purpose of AWS CloudTrail?",
+            "vi": "Mục đích chính của AWS CloudTrail là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Monitor real-time application performance",
+                "vi": "Giám sát hiệu suất ứng dụng theo thời gian thực"
+            },
+            {
+                "id": "B",
+                "en": "Log and track all API calls made to AWS services",
+                "vi": "Ghi nhật ký và theo dõi tất cả các cuộc gọi API được thực hiện để sử dụng các dịch vụ AWS"
+            },
+            {
+                "id": "C",
+                "en": "Automatically patch all AWS resources",
+                "vi": "Tự động vá tất cả các tài nguyên AWS"
+            },
+            {
+                "id": "D",
+                "en": "Manage user passwords and credentials",
+                "vi": "Quản lý mật khẩu và thông tin xác thực của người dùng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS CloudTrail logs all API calls and user activities, providing an audit trail for security and compliance purposes, helping detect unauthorized access.",
+            "vi": "AWS CloudTrail ghi nhật ký tất cả các cuộc gọi API và hoạt động của người dùng, cung cấp dấu vết kiểm toán cho mục đích bảo mật và tuân thủ, giúp phát hiện truy cập trái phép."
+        }
+    },
+    {
+        "id": "q-021",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which security group configuration allows all inbound traffic from any IP address on port 80?",
+            "vi": "Cấu hình nhóm bảo mật nào cho phép tất cả lưu lượng vào từ bất kỳ địa chỉ IP nào trên cổng 80?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Inbound rule: Protocol HTTP, Port 80, Source 10.0.0.0/8",
+                "vi": "Quy tắc vào: Giao thức HTTP, Cổng 80, Nguồn 10.0.0.0/8"
+            },
+            {
+                "id": "B",
+                "en": "Inbound rule: Protocol HTTP, Port 80, Source 0.0.0.0/0",
+                "vi": "Quy tắc vào: Giao thức HTTP, Cổng 80, Nguồn 0.0.0.0/0"
+            },
+            {
+                "id": "C",
+                "en": "Outbound rule: Protocol HTTP, Port 80, Destination 0.0.0.0/0",
+                "vi": "Quy tắc ra: Giao thức HTTP, Cổng 80, Đích 0.0.0.0/0"
+            },
+            {
+                "id": "D",
+                "en": "Inbound rule: Protocol TCP, Port 80, Source 192.168.1.0/24",
+                "vi": "Quy tắc vào: Giao thức TCP, Cổng 80, Nguồn 192.168.1.0/24"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "The CIDR notation 0.0.0.0/0 represents any IP address (0.0.0.0 to 255.255.255.255), so this rule allows HTTP traffic from anywhere.",
+            "vi": "Ký hiệu CIDR 0.0.0.0/0 đại diện cho bất kỳ địa chỉ IP nào (0.0.0.0 đến 255.255.255.255), vì vậy quy tắc này cho phép lưu lượng HTTP từ bất kỳ nơi đâu."
+        }
+    },
+    {
+        "id": "q-022",
+        "domain": 2,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are AWS compliance and auditing services? (Choose 2)",
+            "vi": "Những dịch vụ tuân thủ và kiểm toán AWS nào sau đây? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Config",
+                "vi": "AWS Config"
+            },
+            {
+                "id": "B",
+                "en": "AWS Lambda",
+                "vi": "AWS Lambda"
+            },
+            {
+                "id": "C",
+                "en": "AWS Artifact",
+                "vi": "AWS Artifact"
+            },
+            {
+                "id": "D",
+                "en": "Amazon EC2",
+                "vi": "Amazon EC2"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS Config tracks resource configuration changes for compliance, and AWS Artifact provides access to compliance reports and certifications (ISO, SOC, etc.).",
+            "vi": "AWS Config theo dõi các thay đổi cấu hình tài nguyên cho tuân thủ, và AWS Artifact cung cấp quyền truy cập vào các báo cáo tuân thủ và chứng chỉ (ISO, SOC, v.v.)."
+        }
+    },
+    {
+        "id": "q-023",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What does AWS KMS primarily protect?",
+            "vi": "AWS KMS chủ yếu bảo vệ cái gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Network traffic",
+                "vi": "Lưu lượng mạng"
+            },
+            {
+                "id": "B",
+                "en": "Encryption keys used to encrypt data",
+                "vi": "Các khóa mã hóa được sử dụng để mã hóa dữ liệu"
+            },
+            {
+                "id": "C",
+                "en": "User login credentials",
+                "vi": "Thông tin xác thực đăng nhập của người dùng"
+            },
+            {
+                "id": "D",
+                "en": "Physical data center security",
+                "vi": "Bảo mật trung tâm dữ liệu vật lý"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Key Management Service manages and protects encryption keys that are used to encrypt data, ensuring only authorized parties can decrypt information.",
+            "vi": "AWS Key Management Service quản lý và bảo vệ các khóa mã hóa được sử dụng để mã hóa dữ liệu, đảm bảo chỉ các bên được phép mới có thể giải mã thông tin."
+        }
+    },
+    {
+        "id": "q-024",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Under the AWS shared responsibility model, who is responsible for patching the guest operating system on EC2 instances?",
+            "vi": "Theo mô hình trách nhiệm dùng chung AWS, ai chịu trách nhiệm vá hệ điều hành khách trên các phiên bản EC2?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS automatically patches all instances",
+                "vi": "AWS tự động vá tất cả các phiên bản"
+            },
+            {
+                "id": "B",
+                "en": "The customer is responsible for patching their EC2 instances",
+                "vi": "Khách hàng chịu trách nhiệm vá các phiên bản EC2 của họ"
+            },
+            {
+                "id": "C",
+                "en": "AWS provides patches but customers choose when to apply them",
+                "vi": "AWS cung cấp các bản vá nhưng khách hàng chọn khi nào để áp dụng chúng"
+            },
+            {
+                "id": "D",
+                "en": "Patching is not required for cloud instances",
+                "vi": "Vá không cần thiết cho các phiên bản đám mây"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS manages the infrastructure, but customers are responsible for patching their guest OS. AWS provides security bulletins and customers must apply patches.",
+            "vi": "AWS quản lý cơ sở hạ tầng, nhưng khách hàng chịu trách nhiệm vá OS khách. AWS cung cấp các bản tin bảo mật và khách hàng phải áp dụng các bản vá."
+        }
+    },
+    {
+        "id": "q-025",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service helps identify and protect sensitive data like credit card numbers or personally identifiable information?",
+            "vi": "Dịch vụ AWS nào giúp xác định và bảo vệ dữ liệu nhạy cảm như số thẻ tín dụng hoặc thông tin nhân dạng cá nhân?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Macie",
+                "vi": "AWS Macie"
+            },
+            {
+                "id": "B",
+                "en": "AWS Shield",
+                "vi": "AWS Shield"
+            },
+            {
+                "id": "C",
+                "en": "AWS WAF",
+                "vi": "AWS WAF"
+            },
+            {
+                "id": "D",
+                "en": "AWS Inspector",
+                "vi": "AWS Inspector"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Amazon Macie uses machine learning to discover and protect sensitive data in AWS services like S3, automatically detecting PII, credit cards, and other sensitive information.",
+            "vi": "Amazon Macie sử dụng machine learning để khám phá và bảo vệ dữ liệu nhạy cảm trong các dịch vụ AWS như S3, tự động phát hiện PII, thẻ tín dụng và các thông tin nhạy cảm khác."
+        }
+    },
+    {
+        "id": "q-026",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What does AWS Artifact provide access to?",
+            "vi": "AWS Artifact cung cấp quyền truy cập vào cái gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Real-time application performance metrics",
+                "vi": "Các chỉ số hiệu suất ứng dụng theo thời gian thực"
+            },
+            {
+                "id": "B",
+                "en": "Compliance documentation and certifications",
+                "vi": "Tài liệu tuân thủ và chứng chỉ"
+            },
+            {
+                "id": "C",
+                "en": "Source code for AWS services",
+                "vi": "Mã nguồn cho các dịch vụ AWS"
+            },
+            {
+                "id": "D",
+                "en": "Machine learning pre-trained models",
+                "vi": "Các mô hình đã được đào tạo trước về machine learning"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Artifact provides on-demand access to compliance reports, agreements, and certifications (SOC reports, ISO certifications) to help organizations meet regulatory requirements.",
+            "vi": "AWS Artifact cung cấp quyền truy cập theo yêu cầu vào các báo cáo tuân thủ, thỏa thuận và chứng chỉ (báo cáo SOC, chứng chỉ ISO) để giúp các tổ chức đáp ứng các yêu cầu quy định."
+        }
+    },
+    {
+        "id": "q-027",
+        "domain": 2,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are responsibilities of customers in the AWS shared responsibility model? (Choose 2)",
+            "vi": "Những điều sau đây là trách nhiệm của khách hàng trong mô hình trách nhiệm dùng chung AWS? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Maintaining physical security of data centers",
+                "vi": "Duy trì bảo mật vật lý của trung tâm dữ liệu"
+            },
+            {
+                "id": "B",
+                "en": "Managing user access and permissions through IAM",
+                "vi": "Quản lý quyền truy cập và quyền của người dùng thông qua IAM"
+            },
+            {
+                "id": "C",
+                "en": "Encrypting data at the application level",
+                "vi": "Mã hóa dữ liệu ở cấp ứng dụng"
+            },
+            {
+                "id": "D",
+                "en": "Maintaining the physical AWS infrastructure",
+                "vi": "Duy trì cơ sở hạ tầng AWS vật lý"
+            }
+        ],
+        "correctAnswers": [
+            "B",
+            "C"
+        ],
+        "explanation": {
+            "en": "Customers manage IAM access control and must implement application-level encryption. AWS is responsible for physical infrastructure and data center security.",
+            "vi": "Khách hàng quản lý kiểm soát truy cập IAM và phải triển khai mã hóa cấp ứng dụng. AWS chịu trách nhiệm về cơ sở hạ tầng vật lý và bảo mật trung tâm dữ liệu."
+        }
+    },
+    {
+        "id": "q-028",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which principle of security should guide decisions about granting permissions in AWS?",
+            "vi": "Nguyên tắc bảo mật nào nên hướng dẫn các quyết định về cấp quyền trong AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Grant all permissions and revoke later if needed",
+                "vi": "Cấp tất cả quyền và hủy sau nếu cần"
+            },
+            {
+                "id": "B",
+                "en": "Principle of least privilege",
+                "vi": "Nguyên tắc đặc quyền tối thiểu"
+            },
+            {
+                "id": "C",
+                "en": "Grant permissions based on department",
+                "vi": "Cấp quyền dựa trên bộ phận"
+            },
+            {
+                "id": "D",
+                "en": "All users should have administrator access",
+                "vi": "Tất cả người dùng phải có quyền truy cập quản trị viên"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "The principle of least privilege grants users only the minimum permissions necessary to perform their job functions, reducing the risk of unauthorized access or data breaches.",
+            "vi": "Nguyên tắc đặc quyền tối thiểu cấp cho người dùng chỉ những quyền tối thiểu cần thiết để thực hiện các chức năng công việc của họ, giảm nguy hiểm truy cập trái phép hoặc vi phạm dữ liệu."
+        }
+    },
+    {
+        "id": "q-029",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the purpose of AWS Shield Standard?",
+            "vi": "Mục đích của AWS Shield Standard là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Protects against DDoS attacks up to a certain capacity at no additional cost",
+                "vi": "Bảo vệ chống các cuộc tấn công DDoS lên đến một dung lượng nhất định mà không có chi phí bổ sung"
+            },
+            {
+                "id": "B",
+                "en": "Encrypts all AWS infrastructure",
+                "vi": "Mã hóa tất cả cơ sở hạ tầng AWS"
+            },
+            {
+                "id": "C",
+                "en": "Monitors application performance metrics",
+                "vi": "Giám sát các chỉ số hiệu suất ứng dụng"
+            },
+            {
+                "id": "D",
+                "en": "Manages database backups",
+                "vi": "Quản lý sao lưu cơ sở dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "AWS Shield Standard is included for free with all AWS customers and provides protection against common DDoS attacks at Layer 3 and Layer 4.",
+            "vi": "AWS Shield Standard được bao gồm miễn phí cho tất cả các khách hàng AWS và cung cấp bảo vệ chống các cuộc tấn công DDoS phổ biến ở Lớp 3 và Lớp 4."
+        }
+    },
+    {
+        "id": "q-030",
+        "domain": 2,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which IAM entity can you attach an inline policy to?",
+            "vi": "Thực thể IAM nào bạn có thể đính kèm một chính sách nội tuyến vào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Only IAM Users",
+                "vi": "Chỉ Người dùng IAM"
+            },
+            {
+                "id": "B",
+                "en": "Only IAM Roles",
+                "vi": "Chỉ Vai trò IAM"
+            },
+            {
+                "id": "C",
+                "en": "IAM Users, Roles, and Groups",
+                "vi": "Người dùng IAM, Vai trò và Nhóm"
+            },
+            {
+                "id": "D",
+                "en": "Only IAM Groups",
+                "vi": "Chỉ Nhóm IAM"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Inline policies can be attached directly to users, roles, and groups, though it's generally recommended to use managed policies for easier management.",
+            "vi": "Các chính sách nội tuyến có thể được đính kèm trực tiếp vào người dùng, vai trò và nhóm, mặc dù nói chung khuyến cáo sử dụng các chính sách được quản lý để quản lý dễ dàng hơn."
+        }
+    },
+    {
+        "id": "q-031",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service provides scalable compute capacity in the cloud?",
+            "vi": "Dịch vụ AWS nào cung cấp dung lượng tính toán có thể mở rộng trong đám mây?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon S3",
+                "vi": "Amazon S3"
+            },
+            {
+                "id": "B",
+                "en": "Amazon EC2",
+                "vi": "Amazon EC2"
+            },
+            {
+                "id": "C",
+                "en": "Amazon RDS",
+                "vi": "Amazon RDS"
+            },
+            {
+                "id": "D",
+                "en": "Amazon DynamoDB",
+                "vi": "Amazon DynamoDB"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon EC2 provides resizable compute capacity in the cloud, allowing users to launch virtual servers with various configurations and scale as needed.",
+            "vi": "Amazon EC2 cung cấp dung lượng tính toán có thể thay đổi kích thước trong đám mây, cho phép người dùng khởi chạy máy chủ ảo với các cấu hình khác nhau và mở rộng khi cần."
+        }
+    },
+    {
+        "id": "q-032",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What is the primary use case for Amazon S3?",
+            "vi": "Trường hợp sử dụng chính của Amazon S3 là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Running relational databases",
+                "vi": "Chạy các cơ sở dữ liệu quan hệ"
+            },
+            {
+                "id": "B",
+                "en": "Object storage for files and data",
+                "vi": "Lưu trữ đối tượng cho tệp và dữ liệu"
+            },
+            {
+                "id": "C",
+                "en": "Running distributed computing jobs",
+                "vi": "Chạy các công việc tính toán phân tán"
+            },
+            {
+                "id": "D",
+                "en": "Processing real-time streaming data",
+                "vi": "Xử lý dữ liệu truyền phát thời gian thực"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon S3 is an object storage service that stores files and data as objects in buckets, offering high durability, availability, and scalability.",
+            "vi": "Amazon S3 là một dịch vụ lưu trữ đối tượng lưu trữ tệp và dữ liệu dưới dạng đối tượng trong nhóm, mang lại độ bền, tính khả dụng và khả năng mở rộng cao."
+        }
+    },
+    {
+        "id": "q-033",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS database service is suitable for unstructured data and provides flexible schema?",
+            "vi": "Dịch vụ cơ sở dữ liệu AWS nào phù hợp với dữ liệu không có cấu trúc và cung cấp lược đồ linh hoạt?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon RDS",
+                "vi": "Amazon RDS"
+            },
+            {
+                "id": "B",
+                "en": "Amazon DynamoDB",
+                "vi": "Amazon DynamoDB"
+            },
+            {
+                "id": "C",
+                "en": "Amazon Redshift",
+                "vi": "Amazon Redshift"
+            },
+            {
+                "id": "D",
+                "en": "Amazon ElastiCache",
+                "vi": "Amazon ElastiCache"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon DynamoDB is a NoSQL database that supports flexible schemas, allowing you to store unstructured or semi-structured data with rapid scalability.",
+            "vi": "Amazon DynamoDB là một cơ sở dữ liệu NoSQL hỗ trợ các lược đồ linh hoạt, cho phép bạn lưu trữ dữ liệu không có cấu trúc hoặc bán cấu trúc với khả năng mở rộng nhanh chóng."
+        }
+    },
+    {
+        "id": "q-034",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which service allows you to run code without provisioning or managing servers?",
+            "vi": "Dịch vụ nào cho phép bạn chạy mã mà không cần cấp phát hoặc quản lý máy chủ?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon EC2",
+                "vi": "Amazon EC2"
+            },
+            {
+                "id": "B",
+                "en": "AWS Lambda",
+                "vi": "AWS Lambda"
+            },
+            {
+                "id": "C",
+                "en": "AWS Batch",
+                "vi": "AWS Batch"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Elastic Beanstalk",
+                "vi": "Amazon Elastic Beanstalk"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Lambda is a serverless compute service that runs your code in response to events without requiring you to manage underlying compute resources.",
+            "vi": "AWS Lambda là một dịch vụ tính toán serverless chạy mã của bạn để phản hồi các sự kiện mà không yêu cầu bạn quản lý các tài nguyên tính toán cơ bản."
+        }
+    },
+    {
+        "id": "q-035",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service is best suited for relational database workloads?",
+            "vi": "Dịch vụ AWS nào phù hợp nhất cho các khối lượng công việc cơ sở dữ liệu quan hệ?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon DynamoDB",
+                "vi": "Amazon DynamoDB"
+            },
+            {
+                "id": "B",
+                "en": "Amazon RDS",
+                "vi": "Amazon RDS"
+            },
+            {
+                "id": "C",
+                "en": "Amazon S3",
+                "vi": "Amazon S3"
+            },
+            {
+                "id": "D",
+                "en": "Amazon ElastiCache",
+                "vi": "Amazon ElastiCache"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon RDS is a managed relational database service supporting MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB, handling backups and patching automatically.",
+            "vi": "Amazon RDS là một dịch vụ cơ sở dữ liệu quan hệ được quản lý hỗ trợ MySQL, PostgreSQL, Oracle, SQL Server và MariaDB, tự động xử lý sao lưu và vá."
+        }
+    },
+    {
+        "id": "q-036",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What does Amazon VPC allow you to do?",
+            "vi": "Amazon VPC cho phép bạn làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Create multiple AWS accounts",
+                "vi": "Tạo nhiều tài khoản AWS"
+            },
+            {
+                "id": "B",
+                "en": "Launch AWS resources in an isolated network environment",
+                "vi": "Khởi chạy tài nguyên AWS trong một môi trường mạng cô lập"
+            },
+            {
+                "id": "C",
+                "en": "Manage global resource tagging",
+                "vi": "Quản lý ghi nhãn tài nguyên toàn cầu"
+            },
+            {
+                "id": "D",
+                "en": "Automatically backup all data",
+                "vi": "Tự động sao lưu tất cả dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon VPC (Virtual Private Cloud) lets you provision an isolated network section of AWS where you can launch resources with control over IP ranges, subnets, and routing.",
+            "vi": "Amazon VPC (Virtual Private Cloud) cho phép bạn cấp phát một phần mạng cô lập của AWS nơi bạn có thể khởi chạy các tài nguyên với quyền kiểm soát các phạm vi IP, mạng con và định tuyến."
+        }
+    },
+    {
+        "id": "q-037",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which service provides DNS management and routing for AWS resources?",
+            "vi": "Dịch vụ nào cung cấp quản lý DNS và định tuyến cho các tài nguyên AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon CloudFront",
+                "vi": "Amazon CloudFront"
+            },
+            {
+                "id": "B",
+                "en": "Amazon Route 53",
+                "vi": "Amazon Route 53"
+            },
+            {
+                "id": "C",
+                "en": "AWS Elastic Load Balancing",
+                "vi": "AWS Elastic Load Balancing"
+            },
+            {
+                "id": "D",
+                "en": "Amazon VPC",
+                "vi": "Amazon VPC"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon Route 53 is AWS's DNS service that registers domain names, routes user traffic to AWS resources, and provides health checks for high availability.",
+            "vi": "Amazon Route 53 là dịch vụ DNS của AWS đăng ký tên miền, định tuyến lưu lượng người dùng đến tài nguyên AWS và cung cấp kiểm tra sức khỏe cho tính khả dụng cao."
+        }
+    },
+    {
+        "id": "q-038",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is the primary purpose of AWS Auto Scaling?",
+            "vi": "Mục đích chính của AWS Auto Scaling là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Automatically backup databases",
+                "vi": "Tự động sao lưu cơ sở dữ liệu"
+            },
+            {
+                "id": "B",
+                "en": "Automatically adjust the number of EC2 instances based on demand",
+                "vi": "Tự động điều chỉnh số lượng phiên bản EC2 dựa trên nhu cầu"
+            },
+            {
+                "id": "C",
+                "en": "Automatically encrypt all data",
+                "vi": "Tự động mã hóa tất cả dữ liệu"
+            },
+            {
+                "id": "D",
+                "en": "Automatically apply security patches",
+                "vi": "Tự động áp dụng các bản vá bảo mật"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain performance while optimizing costs based on defined policies.",
+            "vi": "AWS Auto Scaling giám sát các ứng dụng của bạn và tự động điều chỉnh dung lượng để duy trì hiệu suất đồng thời tối ưu hóa chi phí dựa trên các chính sách được định nghĩa."
+        }
+    },
+    {
+        "id": "q-039",
+        "domain": 3,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are load balancing services provided by AWS? (Choose 2)",
+            "vi": "Những dịch vụ cân bằng tải nào sau đây được cung cấp bởi AWS? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Application Load Balancer (ALB)",
+                "vi": "Application Load Balancer (ALB)"
+            },
+            {
+                "id": "B",
+                "en": "AWS Lambda",
+                "vi": "AWS Lambda"
+            },
+            {
+                "id": "C",
+                "en": "Network Load Balancer (NLB)",
+                "vi": "Network Load Balancer (NLB)"
+            },
+            {
+                "id": "D",
+                "en": "Amazon S3",
+                "vi": "Amazon S3"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS offers Application Load Balancer (for Layer 7) and Network Load Balancer (for Layer 4) as part of Elastic Load Balancing to distribute traffic.",
+            "vi": "AWS cung cấp Application Load Balancer (cho Lớp 7) và Network Load Balancer (cho Lớp 4) như một phần của Elastic Load Balancing để phân phối lưu lượng."
+        }
+    },
+    {
+        "id": "q-040",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which monitoring service tracks metrics and logs for AWS resources?",
+            "vi": "Dịch vụ giám sát nào theo dõi các chỉ số và nhật ký cho các tài nguyên AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Amazon CloudWatch",
+                "vi": "Amazon CloudWatch"
+            },
+            {
+                "id": "B",
+                "en": "AWS CloudTrail",
+                "vi": "AWS CloudTrail"
+            },
+            {
+                "id": "C",
+                "en": "Amazon EventBridge",
+                "vi": "Amazon EventBridge"
+            },
+            {
+                "id": "D",
+                "en": "AWS Config",
+                "vi": "AWS Config"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Amazon CloudWatch collects and tracks metrics, logs, and events from AWS resources and applications, enabling monitoring and alerting.",
+            "vi": "Amazon CloudWatch thu thập và theo dõi các chỉ số, nhật ký và sự kiện từ các tài nguyên AWS và ứng dụng, cho phép giám sát và cảnh báo."
+        }
+    },
+    {
+        "id": "q-041",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which EC2 purchasing option provides the lowest cost but no guarantee of availability?",
+            "vi": "Lựa chọn mua EC2 nào cung cấp chi phí thấp nhất nhưng không có bảo đảm tính khả dụng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "On-Demand Instances",
+                "vi": "Phiên bản On-Demand"
+            },
+            {
+                "id": "B",
+                "en": "Reserved Instances",
+                "vi": "Phiên bản Dự trữ"
+            },
+            {
+                "id": "C",
+                "en": "Spot Instances",
+                "vi": "Phiên bản Spot"
+            },
+            {
+                "id": "D",
+                "en": "Dedicated Hosts",
+                "vi": "Host Chuyên dụng"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "Spot Instances offer up to 90% discount compared to On-Demand but AWS can interrupt them at any time when capacity is needed, so they're best for fault-tolerant workloads.",
+            "vi": "Spot Instances cung cấp giảm giá lên tới 90% so với On-Demand nhưng AWS có thể ngắt chúng bất kỳ lúc nào khi cần dung lượng, vì vậy chúng phù hợp nhất cho các khối lượng công việc chịu lỗi."
+        }
+    },
+    {
+        "id": "q-042",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What does S3 versioning allow you to do?",
+            "vi": "Tính năng quản lý phiên bản S3 cho phép bạn làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Encrypt objects with different encryption methods",
+                "vi": "Mã hóa các đối tượng bằng các phương pháp mã hóa khác nhau"
+            },
+            {
+                "id": "B",
+                "en": "Retrieve previous versions of objects",
+                "vi": "Truy xuất các phiên bản trước của các đối tượng"
+            },
+            {
+                "id": "C",
+                "en": "Distribute content globally",
+                "vi": "Phân phối nội dung trên toàn cầu"
+            },
+            {
+                "id": "D",
+                "en": "Control access to specific objects",
+                "vi": "Kiểm soát quyền truy cập vào các đối tượng cụ thể"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "S3 versioning enables you to keep multiple versions of an object, allowing you to retrieve or restore previous versions if needed for data protection.",
+            "vi": "Quản lý phiên bản S3 cho phép bạn giữ nhiều phiên bản của một đối tượng, cho phép bạn truy xuất hoặc khôi phục các phiên bản trước nếu cần để bảo vệ dữ liệu."
+        }
+    },
+    {
+        "id": "q-043",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS service provides temporary security credentials for accessing AWS resources?",
+            "vi": "Dịch vụ AWS nào cung cấp thông tin xác thực bảo mật tạm thời để truy cập các tài nguyên AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Secrets Manager",
+                "vi": "AWS Secrets Manager"
+            },
+            {
+                "id": "B",
+                "en": "AWS Security Token Service (STS)",
+                "vi": "AWS Security Token Service (STS)"
+            },
+            {
+                "id": "C",
+                "en": "AWS IAM",
+                "vi": "AWS IAM"
+            },
+            {
+                "id": "D",
+                "en": "Amazon Cognito",
+                "vi": "Amazon Cognito"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Security Token Service generates temporary credentials with limited permissions, useful for cross-account access, federated users, and EC2 instance roles.",
+            "vi": "AWS Security Token Service tạo ra thông tin xác thực tạm thời với quyền giới hạn, hữu ích cho quyền truy cập đa tài khoản, người dùng liên kết và vai trò phiên bản EC2."
+        }
+    },
+    {
+        "id": "q-044",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which storage class in S3 is designed for infrequently accessed data with retrieval times measured in hours?",
+            "vi": "Lớp lưu trữ nào trong S3 được thiết kế cho dữ liệu được truy cập không thường xuyên với thời gian truy xuất tính bằng giờ?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "S3 Standard",
+                "vi": "S3 Standard"
+            },
+            {
+                "id": "B",
+                "en": "S3 Intelligent-Tiering",
+                "vi": "S3 Intelligent-Tiering"
+            },
+            {
+                "id": "C",
+                "en": "S3 Glacier Deep Archive",
+                "vi": "S3 Glacier Deep Archive"
+            },
+            {
+                "id": "D",
+                "en": "S3 One Zone-IA",
+                "vi": "S3 One Zone-IA"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "S3 Glacier Deep Archive is the lowest-cost S3 storage class for archival data, offering retrieval times of 12 hours or more and designed for compliance/audit purposes.",
+            "vi": "S3 Glacier Deep Archive là lớp lưu trữ S3 chi phí thấp nhất cho dữ liệu lưu trữ, cung cấp thời gian truy xuất 12 giờ trở lên và được thiết kế cho mục đích tuân thủ/kiểm toán."
+        }
+    },
+    {
+        "id": "q-045",
+        "domain": 3,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following AWS services are serverless? (Choose 2)",
+            "vi": "Những dịch vụ AWS nào sau đây là serverless? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Lambda",
+                "vi": "AWS Lambda"
+            },
+            {
+                "id": "B",
+                "en": "Amazon EC2",
+                "vi": "Amazon EC2"
+            },
+            {
+                "id": "C",
+                "en": "Amazon DynamoDB",
+                "vi": "Amazon DynamoDB"
+            },
+            {
+                "id": "D",
+                "en": "Amazon RDS",
+                "vi": "Amazon RDS"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS Lambda and Amazon DynamoDB are fully serverless services. Lambda runs code without managing servers, and DynamoDB is a managed NoSQL database.",
+            "vi": "AWS Lambda và Amazon DynamoDB là các dịch vụ hoàn toàn serverless. Lambda chạy mã mà không cần quản lý máy chủ, và DynamoDB là một cơ sở dữ liệu NoSQL được quản lý."
+        }
+    },
+    {
+        "id": "q-046",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "What is the primary advantage of using Reserved Instances over On-Demand Instances?",
+            "vi": "Lợi thế chính của việc sử dụng Reserved Instances so với On-Demand Instances là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Higher performance",
+                "vi": "Hiệu suất cao hơn"
+            },
+            {
+                "id": "B",
+                "en": "Significant cost savings and capacity reservation",
+                "vi": "Tiết kiệm chi phí đáng kể và dự trữ dung lượng"
+            },
+            {
+                "id": "C",
+                "en": "Flexibility to change instance types anytime",
+                "vi": "Tính linh hoạt để thay đổi loại phiên bản bất kỳ lúc nào"
+            },
+            {
+                "id": "D",
+                "en": "No need to pay for storage",
+                "vi": "Không cần phải trả tiền cho lưu trữ"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Reserved Instances offer up to 72% savings compared to On-Demand, and also guarantee capacity availability during the reservation period.",
+            "vi": "Reserved Instances cung cấp tiết kiệm lên tới 72% so với On-Demand, và cũng đảm bảo tính khả dụng dung lượng trong suốt thời kỳ dự trữ."
+        }
+    },
+    {
+        "id": "q-047",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What is Amazon ElastiCache used for?",
+            "vi": "Amazon ElastiCache được sử dụng để làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Relational database operations",
+                "vi": "Các hoạt động cơ sở dữ liệu quan hệ"
+            },
+            {
+                "id": "B",
+                "en": "In-memory caching to improve application performance",
+                "vi": "Caching trong bộ nhớ để cải thiện hiệu suất ứng dụng"
+            },
+            {
+                "id": "C",
+                "en": "Machine learning model training",
+                "vi": "Đào tạo mô hình machine learning"
+            },
+            {
+                "id": "D",
+                "en": "Content delivery to users",
+                "vi": "Phân phối nội dung cho người dùng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon ElastiCache is a managed in-memory cache service supporting Redis and Memcached, used to reduce database load and improve application response times.",
+            "vi": "Amazon ElastiCache là một dịch vụ cache trong bộ nhớ được quản lý hỗ trợ Redis và Memcached, được sử dụng để giảm tải cơ sở dữ liệu và cải thiện thời gian phản hồi ứng dụng."
+        }
+    },
+    {
+        "id": "q-048",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which service manages containerized applications using container orchestration?",
+            "vi": "Dịch vụ nào quản lý các ứng dụng được container hóa bằng cách sắp xếp container?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Batch",
+                "vi": "AWS Batch"
+            },
+            {
+                "id": "B",
+                "en": "Amazon ECS",
+                "vi": "Amazon ECS"
+            },
+            {
+                "id": "C",
+                "en": "AWS AppConfig",
+                "vi": "AWS AppConfig"
+            },
+            {
+                "id": "D",
+                "en": "AWS CodeDeploy",
+                "vi": "AWS CodeDeploy"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Amazon ECS (Elastic Container Service) is a managed container orchestration service that runs, scales, and manages Docker containers on AWS infrastructure.",
+            "vi": "Amazon ECS (Elastic Container Service) là một dịch vụ sắp xếp container được quản lý chạy, mở rộng và quản lý các container Docker trên cơ sở hạ tầng AWS."
+        }
+    },
+    {
+        "id": "q-049",
+        "domain": 3,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are valid use cases for AWS Lambda? (Choose 2)",
+            "vi": "Những trường hợp sử dụng nào sau đây là hợp lệ cho AWS Lambda? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Processing files uploaded to S3",
+                "vi": "Xử lý các tệp được tải lên S3"
+            },
+            {
+                "id": "B",
+                "en": "Long-running batch processes",
+                "vi": "Các quy trình hàng loạt chạy lâu dài"
+            },
+            {
+                "id": "C",
+                "en": "Responding to API Gateway requests",
+                "vi": "Phản hồi các yêu cầu API Gateway"
+            },
+            {
+                "id": "D",
+                "en": "Running database servers",
+                "vi": "Chạy máy chủ cơ sở dữ liệu"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "Lambda is ideal for event-driven tasks like S3 file processing and API requests. Long-running processes and databases are better suited to EC2 or RDS.",
+            "vi": "Lambda lý tưởng cho các tác vụ được kích hoạt bởi sự kiện như xử lý tệp S3 và yêu cầu API. Các quá trình chạy lâu dài và cơ sở dữ liệu phù hợp hơn với EC2 hoặc RDS."
+        }
+    },
+    {
+        "id": "q-050",
+        "domain": 3,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": true,
+        "question": {
+            "en": "Which RDS deployment option provides the highest availability with automatic failover?",
+            "vi": "Tùy chọn triển khai RDS nào cung cấp tính khả dụng cao nhất với failover tự động?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Single-AZ",
+                "vi": "Single-AZ"
+            },
+            {
+                "id": "B",
+                "en": "Multi-AZ",
+                "vi": "Multi-AZ"
+            },
+            {
+                "id": "C",
+                "en": "Read Replicas",
+                "vi": "Bản sao đọc"
+            },
+            {
+                "id": "D",
+                "en": "Aurora",
+                "vi": "Aurora"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "RDS Multi-AZ creates a synchronous standby database in a different AZ with automatic failover, providing high availability and fault tolerance.",
+            "vi": "RDS Multi-AZ tạo một cơ sở dữ liệu chờ đợi đồng bộ trong một AZ khác với failover tự động, cung cấp tính khả dụng cao và khả năng chịu lỗi."
+        }
+    },
+    {
+        "id": "q-051",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "Which AWS pricing model charges you only for what you use, paying on an hourly or per-second basis?",
+            "vi": "Mô hình định giá AWS nào tính phí chỉ cho những gì bạn sử dụng, trả tiền theo giờ hoặc theo giây?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Subscription pricing",
+                "vi": "Định giá theo đăng ký"
+            },
+            {
+                "id": "B",
+                "en": "On-Demand pricing",
+                "vi": "Định giá theo nhu cầu"
+            },
+            {
+                "id": "C",
+                "en": "Enterprise pricing",
+                "vi": "Định giá doanh nghiệp"
+            },
+            {
+                "id": "D",
+                "en": "Reserved pricing",
+                "vi": "Định giá dự trữ"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "On-Demand pricing is the standard AWS pricing model where you pay only for the resources you use, without long-term commitments or upfront payments.",
+            "vi": "Định giá theo nhu cầu là mô hình định giá tiêu chuẩn của AWS nơi bạn chỉ trả tiền cho các tài nguyên bạn sử dụng, không có cam kết dài hạn hoặc thanh toán trước."
+        }
+    },
+    {
+        "id": "q-052",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What is the AWS Free Tier?",
+            "vi": "AWS Free Tier là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "A limited-time promotional discount for all AWS services",
+                "vi": "Chiết khấu quảng cáo có thời hạn cho tất cả các dịch vụ AWS"
+            },
+            {
+                "id": "B",
+                "en": "Free usage of specific AWS services for the first 12 months",
+                "vi": "Sử dụng miễn phí các dịch vụ AWS cụ thể trong 12 tháng đầu"
+            },
+            {
+                "id": "C",
+                "en": "A permanent, always-free trial for developers",
+                "vi": "Một bản dùng thử vĩnh viễn, luôn miễn phí cho các nhà phát triển"
+            },
+            {
+                "id": "D",
+                "en": "AWS services that have no cost at all",
+                "vi": "Các dịch vụ AWS không có chi phí nào cả"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Free Tier offers 12 months of free access to many AWS services (EC2, RDS, S3, etc.) up to certain usage limits, plus always-free services.",
+            "vi": "AWS Free Tier cung cấp 12 tháng truy cập miễn phí vào nhiều dịch vụ AWS (EC2, RDS, S3, v.v.) lên đến các giới hạn sử dụng nhất định, cộng thêm các dịch vụ luôn miễn phí."
+        }
+    },
+    {
+        "id": "q-053",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which tool helps you visualize and analyze your AWS spending?",
+            "vi": "Công cụ nào giúp bạn trực quan hóa và phân tích chi tiêu AWS của mình?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Budgets",
+                "vi": "AWS Budgets"
+            },
+            {
+                "id": "B",
+                "en": "AWS Cost Explorer",
+                "vi": "AWS Cost Explorer"
+            },
+            {
+                "id": "C",
+                "en": "AWS Trusted Advisor",
+                "vi": "AWS Trusted Advisor"
+            },
+            {
+                "id": "D",
+                "en": "AWS Personal Health Dashboard",
+                "vi": "AWS Personal Health Dashboard"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Cost Explorer provides visualizations and analysis of your AWS spending patterns, helping identify cost-saving opportunities and trends.",
+            "vi": "AWS Cost Explorer cung cấp hình ảnh trực quan và phân tích mẫu chi tiêu AWS của bạn, giúp xác định cơ hội tiết kiệm chi phí và xu hướng."
+        }
+    },
+    {
+        "id": "q-054",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "What does AWS Budgets allow you to do?",
+            "vi": "AWS Budgets cho phép bạn làm gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Set up cost alerts and track spending against planned budgets",
+                "vi": "Thiết lập cảnh báo chi phí và theo dõi chi tiêu so với ngân sách có kế hoạch"
+            },
+            {
+                "id": "B",
+                "en": "Automatically disable resources when budget is exceeded",
+                "vi": "Tự động vô hiệu hóa tài nguyên khi vượt quá ngân sách"
+            },
+            {
+                "id": "C",
+                "en": "Modify AWS service pricing",
+                "vi": "Sửa đổi giá dịch vụ AWS"
+            },
+            {
+                "id": "D",
+                "en": "Directly access AWS cost data files",
+                "vi": "Truy cập trực tiếp vào các tệp dữ liệu chi phí AWS"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "AWS Budgets helps you set spending limits and receive alerts when spending approaches or exceeds your set budget, enabling cost control.",
+            "vi": "AWS Budgets giúp bạn đặt giới hạn chi tiêu và nhận cảnh báo khi chi tiêu gần đến hoặc vượt quá ngân sách được đặt, cho phép kiểm soát chi phí."
+        }
+    },
+    {
+        "id": "q-055",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which AWS support plan provides access to Infrastructure Event Management?",
+            "vi": "Kế hoạch hỗ trợ AWS nào cung cấp quyền truy cập vào Infrastructure Event Management?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Basic Support",
+                "vi": "Hỗ trợ Cơ bản"
+            },
+            {
+                "id": "B",
+                "en": "Developer Support",
+                "vi": "Hỗ trợ Nhà phát triển"
+            },
+            {
+                "id": "C",
+                "en": "Business Support",
+                "vi": "Hỗ trợ Kinh doanh"
+            },
+            {
+                "id": "D",
+                "en": "Enterprise Support",
+                "vi": "Hỗ trợ Doanh nghiệp"
+            }
+        ],
+        "correctAnswers": [
+            "D"
+        ],
+        "explanation": {
+            "en": "AWS Enterprise Support is the highest tier offering Infrastructure Event Management, concierge support, and priority access to AWS technical expertise.",
+            "vi": "AWS Enterprise Support là cấp độ cao nhất cung cấp Infrastructure Event Management, hỗ trợ concierge và quyền truy cập ưu tiên vào chuyên môn kỹ thuật AWS."
+        }
+    },
+    {
+        "id": "q-056",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "easy",
+        "scored": true,
+        "question": {
+            "en": "What is AWS Trusted Advisor?",
+            "vi": "AWS Trusted Advisor là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "A service that provides real-time security threat alerts",
+                "vi": "Một dịch vụ cung cấp cảnh báo đe dọa bảo mật theo thời gian thực"
+            },
+            {
+                "id": "B",
+                "en": "A tool that checks AWS resources for cost optimization, security, reliability, and performance recommendations",
+                "vi": "Một công cụ kiểm tra tài nguyên AWS để tối ưu hóa chi phí, bảo mật, độ tin cậy và các khuyến nghị hiệu suất"
+            },
+            {
+                "id": "C",
+                "en": "A database migration tool",
+                "vi": "Một công cụ di chuyển cơ sở dữ liệu"
+            },
+            {
+                "id": "D",
+                "en": "A service for managing SSL certificates",
+                "vi": "Một dịch vụ để quản lý chứng chỉ SSL"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Trusted Advisor provides recommendations across five categories: cost optimization, security, reliability, performance, and service limits.",
+            "vi": "AWS Trusted Advisor cung cấp các khuyến nghị trên năm danh mục: tối ưu hóa chi phí, bảo mật, độ tin cậy, hiệu suất và giới hạn dịch vụ."
+        }
+    },
+    {
+        "id": "q-057",
+        "domain": 4,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": true,
+        "question": {
+            "en": "Which of the following are included in the AWS Free Tier? (Choose 2)",
+            "vi": "Những điều sau đây được bao gồm trong AWS Free Tier? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "750 hours of EC2 t2.micro usage per month for 12 months",
+                "vi": "750 giờ sử dụng EC2 t2.micro mỗi tháng trong 12 tháng"
+            },
+            {
+                "id": "B",
+                "en": "Unlimited storage on Amazon S3 for 12 months",
+                "vi": "Lưu trữ không giới hạn trên Amazon S3 trong 12 tháng"
+            },
+            {
+                "id": "C",
+                "en": "5GB of free data transfer out per month always",
+                "vi": "5GB truyền dữ liệu ra ngoài miễn phí mỗi tháng luôn"
+            },
+            {
+                "id": "D",
+                "en": "Free access to all premium AWS support services",
+                "vi": "Truy cập miễn phí vào tất cả các dịch vụ hỗ trợ AWS cao cấp"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS Free Tier includes 750 hours EC2 t2.micro monthly for 12 months and always-free 5GB monthly data transfer. S3 and premium support are not unlimited/free.",
+            "vi": "AWS Free Tier bao gồm 750 giờ EC2 t2.micro hàng tháng trong 12 tháng và luôn có 5GB truyền dữ liệu miễn phí hàng tháng. S3 và hỗ trợ cao cấp không miễn phí/không giới hạn."
+        }
+    },
+    {
+        "id": "q-058",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "Which pricing factor applies when data is transferred between AWS regions?",
+            "vi": "Yếu tố định giá nào áp dụng khi dữ liệu được chuyển giữa các khu vực AWS?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Free for all data transfers between regions",
+                "vi": "Miễn phí cho tất cả việc chuyển dữ liệu giữa các khu vực"
+            },
+            {
+                "id": "B",
+                "en": "Charged per GB of data transferred out to another region",
+                "vi": "Tính phí theo GB dữ liệu được chuyển ra khu vực khác"
+            },
+            {
+                "id": "C",
+                "en": "Only charged for inbound transfers",
+                "vi": "Chỉ tính phí cho các chuyển tiếp vào"
+            },
+            {
+                "id": "D",
+                "en": "Fixed monthly fee regardless of volume",
+                "vi": "Phí hàng tháng cố định bất kể khối lượng"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "Data transferred out to another AWS region incurs a charge per GB. Inbound data transfer is free, and within-region transfers are typically free.",
+            "vi": "Dữ liệu được chuyển ra khu vực AWS khác sẽ bị tính phí theo GB. Chuyển dữ liệu vào là miễn phí, và chuyển trong khu vực thường miễn phí."
+        }
+    },
+    {
+        "id": "q-059",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": false,
+        "question": {
+            "en": "Which AWS support plan provides a response time of less than 15 minutes for critical issues?",
+            "vi": "Kế hoạch hỗ trợ AWS nào cung cấp thời gian phản hồi dưới 15 phút cho các vấn đề quan trọng?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Developer Support",
+                "vi": "Hỗ trợ Nhà phát triển"
+            },
+            {
+                "id": "B",
+                "en": "Business Support",
+                "vi": "Hỗ trợ Kinh doanh"
+            },
+            {
+                "id": "C",
+                "en": "Enterprise Support",
+                "vi": "Hỗ trợ Doanh nghiệp"
+            },
+            {
+                "id": "D",
+                "en": "Basic Support",
+                "vi": "Hỗ trợ Cơ bản"
+            }
+        ],
+        "correctAnswers": [
+            "C"
+        ],
+        "explanation": {
+            "en": "AWS Enterprise Support offers the fastest response times, including less than 15 minutes for critical issues, along with dedicated technical account managers.",
+            "vi": "AWS Enterprise Support cung cấp thời gian phản hồi nhanh nhất, bao gồm dưới 15 phút cho các vấn đề quan trọng, cùng với các trình quản lý tài khoản kỹ thuật chuyên dụng."
+        }
+    },
+    {
+        "id": "q-060",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "What is the main benefit of AWS Organizations?",
+            "vi": "Lợi ích chính của AWS Organizations là gì?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Centralized management of multiple AWS accounts and consolidated billing",
+                "vi": "Quản lý tập trung của nhiều tài khoản AWS và hóa đơn hợp nhất"
+            },
+            {
+                "id": "B",
+                "en": "Provides free AWS services to organizations",
+                "vi": "Cung cấp các dịch vụ AWS miễn phí cho các tổ chức"
+            },
+            {
+                "id": "C",
+                "en": "Encrypts all organizational data",
+                "vi": "Mã hóa tất cả dữ liệu tổ chức"
+            },
+            {
+                "id": "D",
+                "en": "Automatically patches all systems",
+                "vi": "Tự động vá tất cả các hệ thống"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "AWS Organizations enables centralized management of multiple AWS accounts, consolidated billing for better pricing, and policy-based controls across accounts.",
+            "vi": "AWS Organizations cho phép quản lý tập trung của nhiều tài khoản AWS, hóa đơn hợp nhất để định giá tốt hơn và kiểm soát dựa trên chính sách trên các tài khoản."
+        }
+    },
+    {
+        "id": "q-061",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "Which AWS tool helps estimate costs before deploying resources?",
+            "vi": "Công cụ AWS nào giúp ước tính chi phí trước khi triển khai tài nguyên?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "AWS Total Cost of Ownership (TCO) Calculator",
+                "vi": "Máy tính AWS Total Cost of Ownership (TCO)"
+            },
+            {
+                "id": "B",
+                "en": "AWS Pricing Calculator",
+                "vi": "Máy tính Định giá AWS"
+            },
+            {
+                "id": "C",
+                "en": "AWS Cost Explorer",
+                "vi": "AWS Cost Explorer"
+            },
+            {
+                "id": "D",
+                "en": "AWS CloudTrail",
+                "vi": "AWS CloudTrail"
+            }
+        ],
+        "correctAnswers": [
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS Pricing Calculator allows you to build cost estimates for services before deployment. TCO Calculator compares on-premises vs AWS costs.",
+            "vi": "Máy tính Định giá AWS cho phép bạn xây dựng ước tính chi phí cho các dịch vụ trước khi triển khai. Máy tính TCO so sánh chi phí tại chỗ với AWS."
+        }
+    },
+    {
+        "id": "q-062",
+        "domain": 4,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "Which of the following are AWS cost optimization strategies? (Choose 2)",
+            "vi": "Những chiến lược tối ưu hóa chi phí AWS nào sau đây? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Using Reserved Instances for predictable workloads",
+                "vi": "Sử dụng Reserved Instances cho các khối lượng công việc có thể dự đoán"
+            },
+            {
+                "id": "B",
+                "en": "Running all workloads on the most powerful instance types",
+                "vi": "Chạy tất cả các khối lượng công việc trên các loại phiên bản mạnh nhất"
+            },
+            {
+                "id": "C",
+                "en": "Right-sizing instances to match actual usage requirements",
+                "vi": "Định kích thước phù hợp các phiên bản để phù hợp với yêu cầu sử dụng thực tế"
+            },
+            {
+                "id": "D",
+                "en": "Storing all data in the highest-tier storage classes",
+                "vi": "Lưu trữ tất cả dữ liệu trong các lớp lưu trữ cao cấp nhất"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ],
+        "explanation": {
+            "en": "Reserved Instances and right-sizing reduce costs. Using only powerful instances and highest-tier storage increases rather than optimizes costs.",
+            "vi": "Reserved Instances và định kích thước phù hợp giảm chi phí. Chỉ sử dụng các phiên bản mạnh mẽ và lưu trữ cao cấp sẽ tăng thay vì tối ưu hóa chi phí."
+        }
+    },
+    {
+        "id": "q-063",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "hard",
+        "scored": false,
+        "question": {
+            "en": "What is included in the Business Support plan but not in Developer Support?",
+            "vi": "Những gì được bao gồm trong kế hoạch Business Support nhưng không có trong Developer Support?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "24/7 phone support and faster issue response times",
+                "vi": "Hỗ trợ điện thoại 24/7 và thời gian phản hồi vấn đề nhanh hơn"
+            },
+            {
+                "id": "B",
+                "en": "Access to AWS documentation",
+                "vi": "Quyền truy cập vào tài liệu AWS"
+            },
+            {
+                "id": "C",
+                "en": "Limited to email support only",
+                "vi": "Giới hạn chỉ hỗ trợ qua email"
+            },
+            {
+                "id": "D",
+                "en": "Free access to all AWS services",
+                "vi": "Truy cập miễn phí vào tất cả các dịch vụ AWS"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Business Support includes 24/7 phone support, faster response times (1-hour for urgent issues), and infrastructure event management compared to Developer Support.",
+            "vi": "Business Support bao gồm hỗ trợ điện thoại 24/7, thời gian phản hồi nhanh hơn (1 giờ cho các vấn đề khẩn cấp) và quản lý sự kiện cơ sở hạ tầng so với Developer Support."
+        }
+    },
+    {
+        "id": "q-064",
+        "domain": 4,
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "How does consolidating bills in AWS Organizations help reduce costs?",
+            "vi": "Cách hợp nhất hóa đơn trong AWS Organizations giúp giảm chi phí như thế nào?"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "It allows volume-based pricing discounts across all member accounts",
+                "vi": "Nó cho phép giảm giá dựa trên khối lượng trên tất cả các tài khoản thành viên"
+            },
+            {
+                "id": "B",
+                "en": "It automatically deletes unused resources",
+                "vi": "Nó tự động xóa các tài nguyên không sử dụng"
+            },
+            {
+                "id": "C",
+                "en": "It prevents resource creation",
+                "vi": "Nó ngăn chặn việc tạo tài nguyên"
+            },
+            {
+                "id": "D",
+                "en": "It doubles the free tier allowance",
+                "vi": "Nó nhân đôi hạn mức miễn phí"
+            }
+        ],
+        "correctAnswers": [
+            "A"
+        ],
+        "explanation": {
+            "en": "Consolidated billing in AWS Organizations combines usage across member accounts to qualify for higher volume-based discounts, reducing overall costs.",
+            "vi": "Hóa đơn hợp nhất trong AWS Organizations kết hợp sử dụng trên các tài khoản thành viên để đủ điều kiện nhận các mức giảm giá cao hơn dựa trên khối lượng, giảm chi phí tổng thể."
+        }
+    },
+    {
+        "id": "q-065",
+        "domain": 4,
+        "type": "multiple-response",
+        "difficulty": "medium",
+        "scored": false,
+        "question": {
+            "en": "Which of the following are components of the AWS pricing model? (Choose 2)",
+            "vi": "Những thành phần nào của mô hình định giá AWS? (Chọn 2)"
+        },
+        "options": [
+            {
+                "id": "A",
+                "en": "Compute capacity (EC2, Lambda)",
+                "vi": "Dung lượng tính toán (EC2, Lambda)"
+            },
+            {
+                "id": "B",
+                "en": "Network bandwidth and data transfer",
+                "vi": "Băng thông mạng và chuyển dữ liệu"
+            },
+            {
+                "id": "C",
+                "en": "Annual equipment maintenance fees",
+                "vi": "Phí bảo trì thiết bị hàng năm"
+            },
+            {
+                "id": "D",
+                "en": "Facility rent for office buildings",
+                "vi": "Tiền thuê nhà cho các tòa nhà văn phòng"
+            }
+        ],
+        "correctAnswers": [
+            "A",
+            "B"
+        ],
+        "explanation": {
+            "en": "AWS pricing includes compute resources, storage, and data transfer. It does not include equipment maintenance or office facility costs, which are operational expenses.",
+            "vi": "Định giá AWS bao gồm tài nguyên tính toán, lưu trữ và chuyển dữ liệu. Nó không bao gồm chi phí bảo trì thiết bị hoặc chi phí cơ sở vật chất văn phòng, đây là chi phí hoạt động."
+        }
+    }
+]
