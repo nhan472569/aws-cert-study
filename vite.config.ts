@@ -24,7 +24,7 @@ export default defineConfig({
                 display: 'standalone',
                 orientation: 'any',
                 scope: '/',
-                start_url: '/',
+                start_url: '/aws-cert-study',
                 categories: ['education', 'productivity'],
                 icons: [
                     {
