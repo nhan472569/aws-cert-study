@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import type { ExamSession } from '../types';
@@ -97,6 +97,21 @@ function ExamConfig({
     setQuestionCount: (n: number) => void;
     onStart: () => void;
 }) {
+    const [isOffline, setIsOffline] = useState(!navigator.onLine);
+
+    useEffect(() => {
+        const handleOnline = () => setIsOffline(false);
+        const handleOffline = () => setIsOffline(true);
+
+        window.addEventListener('online', handleOnline);
+        window.addEventListener('offline', handleOffline);
+
+        return () => {
+            window.removeEventListener('online', handleOnline);
+            window.removeEventListener('offline', handleOffline);
+        };
+    }, []);
+
     const presets = [
         {
             label:
@@ -131,6 +146,25 @@ function ExamConfig({
                     ← {language === 'en' ? 'Back' : 'Quay lại'}
                 </Link>
             </div>
+            {isOffline && (
+                <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl p-4">
+                    <div className="flex items-start gap-3">
+                        <span className="text-xl">⚠️</span>
+                        <div className="flex-1">
+                            <h3 className="font-semibold text-amber-900 dark:text-amber-200">
+                                {language === 'en'
+                                    ? 'You are offline'
+                                    : 'Bạn đang offline'}
+                            </h3>
+                            <p className="text-sm text-amber-700 dark:text-amber-300 mt-1">
+                                {language === 'en'
+                                    ? 'You can still take the exam using cached questions, but your results may not sync until you are back online.'
+                                    : 'Bạn vẫn có thể làm bài thi với các câu hỏi đã lưu, nhưng kết quả có thể không đồng bộ cho đến khi bạn online trở lại.'}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            )}
             <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 space-y-5">
                 <div>
                     <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
