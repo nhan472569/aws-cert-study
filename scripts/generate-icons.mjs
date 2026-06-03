@@ -14,10 +14,10 @@ const sizes = [
 ];
 
 // Read the SVG
-const svgPath = path.join(publicDir, 'favicon.svg');
+const svgPath = path.join(publicDir, 'icon.png');
 
 async function generateIcons() {
-    console.log('🎨 Generating PWA icons from favicon.svg...\n');
+    console.log('🎨 Generating PWA icons from icon.png...\n');
 
     for (const { size, name } of sizes) {
         try {
