@@ -2,6 +2,12 @@ import React, { createContext, useContext } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { ExamResult, FlashcardProgress, Language, Theme } from '../types';
 
+interface FlashcardState {
+    currentIndex: number;
+    selectedDomain: number | 'all';
+    shuffled: boolean;
+}
+
 interface AppContextType {
     language: Language;
     setLanguage: (l: Language) => void;
@@ -11,6 +17,8 @@ interface AppContextType {
     setFlashcardProgress: (certId: string, p: FlashcardProgress) => void;
     getExamHistory: (certId: string) => ExamResult[];
     addExamResult: (result: ExamResult) => void;
+    getFlashcardState: (certId: string) => FlashcardState;
+    setFlashcardState: (certId: string, state: FlashcardState) => void;
 }
 
 const AppContext = createContext<AppContextType | null>(null);
@@ -30,6 +38,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     const [examHistoryMap, setExamHistoryMap] = useLocalStorage<
         Record<string, ExamResult[]>
     >('aws-study:progress:exams', {});
+    const [flashcardStateMap, setFlashcardStateMap] = useLocalStorage<
+        Record<string, FlashcardState>
+    >('aws-study:flashcard:state', {});
 
     const getFlashcardProgress = (certId: string): FlashcardProgress =>
         flashcardProgressMap[certId] ?? { seen: [], mastered: [] };
@@ -48,6 +59,17 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         }));
     };
 
+    const getFlashcardState = (certId: string): FlashcardState =>
+        flashcardStateMap[certId] ?? {
+            currentIndex: 0,
+            selectedDomain: 'all',
+            shuffled: false,
+        };
+
+    const setFlashcardState = (certId: string, state: FlashcardState) => {
+        setFlashcardStateMap((prev) => ({ ...prev, [certId]: state }));
+    };
+
     // Apply theme class to document root
     React.useEffect(() => {
         document.documentElement.classList.toggle('dark', theme === 'dark');
@@ -64,6 +86,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
                 setFlashcardProgress,
                 getExamHistory,
                 addExamResult,
+                getFlashcardState,
+                setFlashcardState,
             }}
         >
             {children}

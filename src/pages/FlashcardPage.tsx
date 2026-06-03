@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import type { Flashcard } from '../types';
@@ -7,18 +7,28 @@ import { shuffleArray } from '../utils/examScoring';
 
 export default function FlashcardPage() {
     const { certId } = useParams<{ certId: string }>();
-    const { language, getFlashcardProgress, setFlashcardProgress } = useApp();
+    const {
+        language,
+        getFlashcardProgress,
+        setFlashcardProgress,
+        getFlashcardState,
+        setFlashcardState,
+    } = useApp();
 
     const allFlashcards = getCertFlashcards(certId!);
     const certMeta = getCertMeta(certId!);
     const progress = getFlashcardProgress(certId!);
+    const savedState = getFlashcardState(certId!);
 
-    const [selectedDomain, setSelectedDomain] = useState<number | 'all'>('all');
-    const [shuffled, setShuffled] = useState(false);
+    const [selectedDomain, setSelectedDomain] = useState<number | 'all'>(
+        savedState.selectedDomain,
+    );
+    const [shuffled, setShuffled] = useState(savedState.shuffled);
     const [cards, setCards] = useState<Flashcard[]>([]);
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(savedState.currentIndex);
     const [flipped, setFlipped] = useState(false);
     const [showBothLangs, setShowBothLangs] = useState(true);
+    const isInitialMountRef = useRef(true);
 
     // Build card list
     useEffect(() => {
@@ -28,9 +38,24 @@ export default function FlashcardPage() {
                 : allFlashcards.filter((c) => c.domain === selectedDomain);
         if (shuffled) filtered = shuffleArray(filtered);
         setCards(filtered);
-        setCurrentIndex(0);
+
+        // Only reset to 0 if not the initial mount (i.e., user changed filters)
+        if (!isInitialMountRef.current) {
+            setCurrentIndex(0);
+        }
+        isInitialMountRef.current = false;
+
         setFlipped(false);
     }, [selectedDomain, shuffled]);
+
+    // Save state to localStorage
+    useEffect(() => {
+        setFlashcardState(certId!, {
+            currentIndex,
+            selectedDomain,
+            shuffled,
+        });
+    }, [currentIndex, selectedDomain, shuffled, certId, setFlashcardState]);
 
     const currentCard = cards[currentIndex];
 
